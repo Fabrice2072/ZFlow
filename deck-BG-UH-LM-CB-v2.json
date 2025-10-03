@@ -8329,7 +8329,7 @@
             "objectives": [
                 {
                     "id": "0cea5c20-68cd-4a16-ac10-c1a9752e805c",
-                    "label": "Renforcer votre immunite (2)",
+                    "label": "Renforcer votre immunite",
                     "description": "Votre systeme immunitaire joue un role cle dans votre energie et votre vitalite au quotidien. En le renforcant, vous pouvez mieux controler la reactivation de certains virus latents, qui fragilisent l’organisme lorsqu’ils s’activent en silence. Cela permet aussi de reduire l’inflammation chronique et de soutenir vos defenses naturelles face aux agressions exterieures.\n\nA plus long terme, un microbiote equilibre et un systeme immunitaire solide travaillent ensemble pour proteger votre organisme. Cette synergie ameliore votre resistance aux infections, limite le vieillissement immunitaire et contribue a maintenir un etat de sante global plus stable et plus durable.",
                     "domains": [
                         "DigestiveFunction",
