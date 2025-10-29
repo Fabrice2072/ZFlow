@@ -89,7 +89,7 @@
     "reco_CU2_slide1": "#dexa4",
     "reco_CU2_slide2": "#dexa3"
   },
-  "visualAcuityCorrectionStatus": {
+  "clinical_finding_eye_correction": {
     "deck_CU1_slide1": "#acuitevisu",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#acuitevisu",
@@ -99,7 +99,7 @@
     "reco_CU2_slide1": "#acuitevisu",
     "reco_CU2_slide2": null
   },
-  "visualAcuityLeftEyeAcuity": {
+  "clinical_finding_visual_acuity_left_eye_acuity": {
     "deck_CU1_slide1": "#acuitevisu",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#acuitevisu",
@@ -109,7 +109,7 @@
     "reco_CU2_slide1": "#acuitevisu",
     "reco_CU2_slide2": null
   },
-  "visualAcuityLeftEyeNearAcuity": {
+  "clinical_finding_visual_acuity_left_eye_near_acuity": {
     "deck_CU1_slide1": "#acuitevisu",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#acuitevisu",
@@ -119,7 +119,7 @@
     "reco_CU2_slide1": "#acuitevisu",
     "reco_CU2_slide2": null
   },
-  "visualAcuityRightEyeAcuity": {
+  "clinical_finding_visual_acuity_right_eye_acuity": {
     "deck_CU1_slide1": "#acuitevisu",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#acuitevisu",
@@ -129,7 +129,7 @@
     "reco_CU2_slide1": "#acuitevisu",
     "reco_CU2_slide2": null
   },
-  "visualAcuityRightEyeNearAcuity": {
+  "clinical_finding_visual_acuity_right_eye_near_acuity": {
     "deck_CU1_slide1": "#acuitevisu",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#acuitevisu",
@@ -149,7 +149,7 @@
     "reco_CU2_slide1": "#age",
     "reco_CU2_slide2": null
   },
-  "audiometryLeftEar100": {
+  "biomarker_hearing_left_ear_1000_hz": {
     "deck_CU1_slide1": "#audiometrie",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#audiometrie_yearb",
@@ -159,7 +159,7 @@
     "reco_CU2_slide1": "#audiometrie_yearb",
     "reco_CU2_slide2": null
   },
-  "audiometryLeftEar200": {
+  "biomarker_hearing_left_ear_2000_hz": {
     "deck_CU1_slide1": "#audiometrie",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#audiometrie_yearb",
@@ -169,7 +169,7 @@
     "reco_CU2_slide1": "#audiometrie_yearb",
     "reco_CU2_slide2": null
   },
-  "audiometryLeftEar400": {
+  "biomarker_hearing_left_ear_4000_hz": {
     "deck_CU1_slide1": "#audiometrie",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#audiometrie_yearb",
@@ -179,7 +179,7 @@
     "reco_CU2_slide1": "#audiometrie_yearb",
     "reco_CU2_slide2": null
   },
-  "audiometryLeftEar50": {
+  "biomarker_hearing_left_ear_500_hz": {
     "deck_CU1_slide1": "#audiometrie",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#audiometrie_yearb",
@@ -189,7 +189,7 @@
     "reco_CU2_slide1": "#audiometrie_yearb",
     "reco_CU2_slide2": null
   },
-  "audiometryRightEar100": {
+  "biomarker_hearing_right_ear_1000_hz": {
     "deck_CU1_slide1": "#audiometrie",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#audiometrie_yearb",
@@ -199,7 +199,7 @@
     "reco_CU2_slide1": "#audiometrie_yearb",
     "reco_CU2_slide2": null
   },
-  "audiometryRightEar200": {
+  "biomarker_hearing_right_ear_2000_hz": {
     "deck_CU1_slide1": "#audiometrie",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#audiometrie_yearb",
@@ -209,7 +209,7 @@
     "reco_CU2_slide1": "#audiometrie_yearb",
     "reco_CU2_slide2": null
   },
-  "audiometryRightEar400": {
+  "biomarker_hearing_right_ear_4000_hz": {
     "deck_CU1_slide1": "#audiometrie",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#audiometrie_yearb",
@@ -219,7 +219,7 @@
     "reco_CU2_slide1": "#audiometrie_yearb",
     "reco_CU2_slide2": null
   },
-  "audiometryRightEar50": {
+  "biomarker_hearing_right_ear_500_hz": {
     "deck_CU1_slide1": "#audiometrie",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#audiometrie_yearb",
@@ -269,7 +269,7 @@
     "reco_CU2_slide1": "#bandelettes",
     "reco_CU2_slide2": null
   },
-  "balbum": {
+  "biomarker_albumin_bcp_serum": {
     "deck_CU1_slide1": "#bioantiox1",
     "deck_CU1_slide2": "#bioimmuno1",
     "deck_CU2_slide1": "#bioantiox1",
@@ -279,7 +279,7 @@
     "reco_CU2_slide1": "#bioantiox1",
     "reco_CU2_slide2": "#bioimmuno1"
   },
-  "bcoenz": {
+  "biomarker_coenzyme_q10_serum": {
     "deck_CU1_slide1": "#bioantiox1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox1",
@@ -289,7 +289,7 @@
     "reco_CU2_slide1": "#bioantiox1",
     "reco_CU2_slide2": null
   },
-  "bure": {
+  "biomarker_urate_serum": {
     "deck_CU1_slide1": "#bioantiox1",
     "deck_CU1_slide2": "#biorein",
     "deck_CU2_slide1": "#bioantiox1",
@@ -299,7 +299,7 @@
     "reco_CU2_slide1": "#bioantiox1",
     "reco_CU2_slide2": "#biorein"
   },
-  "bvita": {
+  "biomarker_vitamin_a_serum": {
     "deck_CU1_slide1": "#bioantiox1",
     "deck_CU1_slide2": "#bioimmuno1",
     "deck_CU2_slide1": "#bioantiox1",
@@ -309,7 +309,7 @@
     "reco_CU2_slide1": "#bioantiox1",
     "reco_CU2_slide2": "#bioimmuno1"
   },
-  "bvite": {
+  "biomarker_vitamin_e_serum": {
     "deck_CU1_slide1": "#bioantiox1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox1",
@@ -319,7 +319,7 @@
     "reco_CU2_slide1": "#bioantiox1",
     "reco_CU2_slide2": null
   },
-  "paot": {
+  "biomarker_total_antioxidant_power_serum": {
     "deck_CU1_slide1": "#bioantiox1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox1",
@@ -329,7 +329,7 @@
     "reco_CU2_slide1": "#bioantiox1",
     "reco_CU2_slide2": null
   },
-  "bcrpultra": {
+  "biomarker_high_sensitivity_c_reactive_protein_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": "#bioimmuno3",
     "deck_CU2_slide1": "#bioantiox2",
@@ -339,7 +339,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": "#bioimmuno3"
   },
-  "bcu": {
+  "biomarker_copper_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox2",
@@ -349,7 +349,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": null
   },
-  "bcuOverZn": {
+  "biomarker_copper_zinc_ratio_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox2",
@@ -359,7 +359,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": null
   },
-  "bferrit": {
+  "biomarker_ferritin_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox2",
@@ -369,7 +369,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": null
   },
-  "bgluperox": {
+  "biomarker_glutathione_peroxidase_red_blood_cells": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox2",
@@ -379,7 +379,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": null
   },
-  "bhba1": {
+  "biomarker_hba1c_ngsp_blood": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": "#bioendo1",
     "deck_CU2_slide1": "#bioantiox2",
@@ -389,7 +389,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": "#bioendo1"
   },
-  "bhoma": {
+  "biomarker_homa_index_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": "#bioendo1",
     "deck_CU2_slide1": "#bioantiox2",
@@ -409,7 +409,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": "#bioimmuno3"
   },
-  "biomarkerSolubleUrokinasePlasminogenActivatorReceptorSerum": {
+  "biomarker_soluble_urokinase_plasminogen_activator_receptor_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": "#bioimmuno3",
     "deck_CU2_slide1": "#bioantiox2",
@@ -419,7 +419,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": "#bioimmuno3"
   },
-  "bse": {
+  "biomarker_selenium_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox2",
@@ -429,7 +429,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": null
   },
-  "bsod": {
+  "biomarker_superoxide_dismutase_red_blood_cells": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox2",
@@ -449,7 +449,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": "#bioimmuno3"
   },
-  "btransfer": {
+  "biomarker_transferrin_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox2",
@@ -459,7 +459,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": null
   },
-  "bznsg": {
+  "biomarker_zinc_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": "#bioimmuno1",
     "deck_CU2_slide1": "#bioantiox2",
@@ -469,7 +469,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": "#bioimmuno1"
   },
-  "b8oh": {
+  "biomarker_hydroxydeoxyguanosine_serum": {
     "deck_CU1_slide1": "#bioantiox3",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox3",
@@ -479,7 +479,7 @@
     "reco_CU2_slide1": "#bioantiox3",
     "reco_CU2_slide2": null
   },
-  "bldlox": {
+  "biomarker_ldl_oxidized_antibody_serum": {
     "deck_CU1_slide1": "#bioantiox3",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox3",
@@ -489,7 +489,7 @@
     "reco_CU2_slide1": "#bioantiox3",
     "reco_CU2_slide2": null
   },
-  "bapoa1": {
+  "biomarker_apolipoprotein_a1_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -499,7 +499,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "bapoab": {
+  "biomarker_serum_apolipoprotein_b_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -509,7 +509,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "bapolp": {
+  "biomarker_apolipoprotein_a1_b_ratio_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -519,7 +519,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "bct": {
+  "biomarker_total_cholesterol_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -529,7 +529,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "bhdl": {
+  "biomarker_hdl_cholesterol_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -539,7 +539,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "biomarkerSerumLipoprotein": {
+  "biomarker_lipoprotein_a_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -549,7 +549,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "bldl": {
+  "biomarker_ldl_cholesterol_calculated_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -559,7 +559,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "btg": {
+  "biomarker_triglyceride_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -569,7 +569,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "fBtgOverBhdl": {
+  "biomarker_triglyceride_hdl_cholesterol_ratio_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -579,7 +579,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "bhomoc": {
+  "biomarker_homocysteine_serum": {
     "deck_CU1_slide1": "#biocardio2",
     "deck_CU1_slide2": "#bioantiox2",
     "deck_CU2_slide1": "#biocardio1",
@@ -589,7 +589,7 @@
     "reco_CU2_slide1": "#biocardio2",
     "reco_CU2_slide2": "#bioantiox2"
   },
-  "bvitb12": {
+  "biomarker_vitamin_b12_serum": {
     "deck_CU1_slide1": "#biocardio2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -599,7 +599,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "bvitb9ery": {
+  "biomarker_folate_red_blood_cells": {
     "deck_CU1_slide1": "#biocardio2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -609,7 +609,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "bah": {
+  "biomarker_hyaluronate_serum": {
     "deck_CU1_slide1": "#biodig",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biodig",
@@ -619,7 +619,7 @@
     "reco_CU2_slide1": "#biodig",
     "reco_CU2_slide2": null
   },
-  "balat": {
+  "biomarker_alanine_aminotransferase_serum": {
     "deck_CU1_slide1": "#biodig",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biodig",
@@ -629,7 +629,7 @@
     "reco_CU2_slide1": "#biodig",
     "reco_CU2_slide2": null
   },
-  "basat": {
+  "biomarker_aspartate_aminotransferase_serum": {
     "deck_CU1_slide1": "#biodig",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biodig",
@@ -639,7 +639,7 @@
     "reco_CU2_slide1": "#biodig",
     "reco_CU2_slide2": null
   },
-  "bbilt": {
+  "biomarker_total_bilirubin_serum": {
     "deck_CU1_slide1": "#biodig",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biodig",
@@ -649,7 +649,7 @@
     "reco_CU2_slide1": "#biodig",
     "reco_CU2_slide2": null
   },
-  "bggt": {
+  "biomarker_gamma_glutamyl_transferase_serum": {
     "deck_CU1_slide1": "#biodig",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biodig",
@@ -669,7 +669,7 @@
     "reco_CU2_slide1": "#biodig",
     "reco_CU2_slide2": null
   },
-  "bpalcalines": {
+  "biomarker_alkaline_phosphatase_serum": {
     "deck_CU1_slide1": "#biodig",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biodig",
@@ -679,7 +679,7 @@
     "reco_CU2_slide1": "#biodig",
     "reco_CU2_slide2": null
   },
-  "bglunu": {
+  "biomarker_glucose_fasting_serum": {
     "deck_CU1_slide1": "#bioendo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo1",
@@ -689,7 +689,7 @@
     "reco_CU2_slide1": "#bioendo1",
     "reco_CU2_slide2": null
   },
-  "binsul": {
+  "biomarker_insulin_serum": {
     "deck_CU1_slide1": "#bioendo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo1",
@@ -699,7 +699,7 @@
     "reco_CU2_slide1": "#bioendo1",
     "reco_CU2_slide2": null
   },
-  "bdhea": {
+  "biomarker_dhea_sulfate_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": "#biostress2",
     "deck_CU2_slide1": "#bioendo2",
@@ -709,7 +709,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": "#biostress2"
   },
-  "bft3": {
+  "biomarker_free_triiodothyronine_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -719,7 +719,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": null
   },
-  "bft4": {
+  "biomarker_free_thyroxine_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -729,7 +729,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": null
   },
-  "biodurie": {
+  "biomarker_iodine_mass_time_24_hour_urine": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": "#bioimmuno1",
     "deck_CU2_slide1": "#bioendo2",
@@ -739,7 +739,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": "#bioimmuno1"
   },
-  "bpreg": {
+  "biomarker_pregnenolone_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -749,7 +749,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": null
   },
-  "bpsa": {
+  "biomarker_psa_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -759,7 +759,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": null
   },
-  "bt3ur": {
+  "biomarker_triiodothyronine_24_hour_urine": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -769,7 +769,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": null
   },
-  "btestobiodispo": {
+  "biomarker_bioavailable_testosterone_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -779,7 +779,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": null
   },
-  "btestolibre": {
+  "biomarker_free_testosterone_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -789,7 +789,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": null
   },
-  "btestotot": {
+  "biomarker_total_testosterone_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -799,7 +799,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": null
   },
-  "btsh": {
+  "biomarker_tsh_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -849,7 +849,7 @@
     "reco_CU2_slide1": "#bioimmuno1",
     "reco_CU2_slide2": null
   },
-  "balpha1glob": {
+  "biomarker_alpha_1_globulin_electrophoresis_serum": {
     "deck_CU1_slide1": "#bioimmuno1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno1",
@@ -859,7 +859,7 @@
     "reco_CU2_slide1": "#bioimmuno1",
     "reco_CU2_slide2": null
   },
-  "balpha2glob": {
+  "biomarker_alpha_2_globulin_electrophoresis_serum": {
     "deck_CU1_slide1": "#bioimmuno1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno1",
@@ -869,7 +869,7 @@
     "reco_CU2_slide1": "#bioimmuno1",
     "reco_CU2_slide2": null
   },
-  "biomarkerUrineGammaGlobulin": {
+  "biomarker_gamma_globulin_electrophoresis_serum": {
     "deck_CU1_slide1": "#bioimmuno1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno1",
@@ -879,7 +879,7 @@
     "reco_CU2_slide1": "#bioimmuno1",
     "reco_CU2_slide2": null
   },
-  "bprottotal": {
+  "biomarker_total_protein_serum": {
     "deck_CU1_slide1": "#bioimmuno1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno1",
@@ -889,7 +889,7 @@
     "reco_CU2_slide1": "#bioimmuno1",
     "reco_CU2_slide2": null
   },
-  "bvitd": {
+  "biomarker_25_hydroxyvitamin_d3_and_d2_serum": {
     "deck_CU1_slide1": "#bioimmuno1",
     "deck_CU1_slide2": "#dexa1",
     "deck_CU2_slide1": "#bioimmuno1",
@@ -909,7 +909,7 @@
     "reco_CU2_slide1": "#bioimmuno1",
     "reco_CU2_slide2": null
   },
-  "bbaso": {
+  "biomarker_basophils_automated_count_blood": {
     "deck_CU1_slide1": "#bioimmuno2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno2",
@@ -919,7 +919,7 @@
     "reco_CU2_slide1": "#bioimmuno2",
     "reco_CU2_slide2": null
   },
-  "beosino": {
+  "biomarker_eosinophils_automated_count_blood": {
     "deck_CU1_slide1": "#bioimmuno2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno2",
@@ -929,7 +929,7 @@
     "reco_CU2_slide1": "#bioimmuno2",
     "reco_CU2_slide2": null
   },
-  "bhb": {
+  "biomarker_hemoglobin_blood": {
     "deck_CU1_slide1": "#bioimmuno2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno2",
@@ -949,7 +949,7 @@
     "reco_CU2_slide1": "#bioimmuno2",
     "reco_CU2_slide2": null
   },
-  "biomarkerBetaGlobulinElectrophoresisSerum": {
+  "biomarker_beta_globulin_electrophoresis_serum": {
     "deck_CU1_slide1": "#bioimmuno2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno2",
@@ -959,7 +959,7 @@
     "reco_CU2_slide1": "#bioimmuno2",
     "reco_CU2_slide2": null
   },
-  "bleuco": {
+  "biomarker_leucocytes_automated_count_blood": {
     "deck_CU1_slide1": "#bioimmuno2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno2",
@@ -969,7 +969,7 @@
     "reco_CU2_slide1": "#bioimmuno2",
     "reco_CU2_slide2": null
   },
-  "blympho": {
+  "biomarker_lymphocyte_automated_count_blood": {
     "deck_CU1_slide1": "#bioimmuno2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno2",
@@ -979,7 +979,7 @@
     "reco_CU2_slide1": "#bioimmuno2",
     "reco_CU2_slide2": null
   },
-  "bmono": {
+  "biomarker_monocytes_automated_count_blood": {
     "deck_CU1_slide1": "#bioimmuno2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno2",
@@ -989,7 +989,7 @@
     "reco_CU2_slide1": "#bioimmuno2",
     "reco_CU2_slide2": null
   },
-  "bneutro": {
+  "biomarker_neutrophils_automated_count_blood": {
     "deck_CU1_slide1": "#bioimmuno2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno2",
@@ -999,7 +999,7 @@
     "reco_CU2_slide1": "#bioimmuno2",
     "reco_CU2_slide2": null
   },
-  "bplaq": {
+  "biomarker_platelets_automated_count_blood": {
     "deck_CU1_slide1": "#bioimmuno2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno2",
@@ -1019,7 +1019,7 @@
     "reco_CU2_slide1": "#bioimmuno2",
     "reco_CU2_slide2": null
   },
-  "bcmv": {
+  "biomarker_cytomegalovirus_immunoglobulines_g_serum": {
     "deck_CU1_slide1": "#bioimmuno3",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno3",
@@ -1029,7 +1029,7 @@
     "reco_CU2_slide1": "#bioimmuno3",
     "reco_CU2_slide2": null
   },
-  "bebvvca": {
+  "biomarker_epstein_barr_virus_capsid_immunoglobulines_g_serum": {
     "deck_CU1_slide1": "#bioimmuno3",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno3",
@@ -1039,7 +1039,7 @@
     "reco_CU2_slide1": "#bioimmuno3",
     "reco_CU2_slide2": null
   },
-  "bherp": {
+  "biomarker_herpes_simplex_virus_1_and_2_immunoglobulines_g_serum": {
     "deck_CU1_slide1": "#bioimmuno3",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno3",
@@ -1049,7 +1049,7 @@
     "reco_CU2_slide1": "#bioimmuno3",
     "reco_CU2_slide2": null
   },
-  "biomarkerHepatitisBVirusCoreAntibodyPresenceSerum": {
+  "biomarker_hepatitis_b_virus_core_antibody_presence_serum": {
     "deck_CU1_slide1": "#bioimmuno4",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno4",
@@ -1059,7 +1059,7 @@
     "reco_CU2_slide1": "#bioimmuno4",
     "reco_CU2_slide2": null
   },
-  "biomarkerHepatitisBVirusSurfaceAntibodySerum": {
+  "biomarker_hepatitis_b_virus_surface_antibody_serum": {
     "deck_CU1_slide1": "#bioimmuno4",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno4",
@@ -1069,7 +1069,7 @@
     "reco_CU2_slide1": "#bioimmuno4",
     "reco_CU2_slide2": null
   },
-  "biomarkerHepatitisBVirusSurfaceAntigenSerum": {
+  "biomarker_hepatitis_b_virus_surface_antigen_serum": {
     "deck_CU1_slide1": "#bioimmuno4",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno4",
@@ -1079,7 +1079,7 @@
     "reco_CU2_slide1": "#bioimmuno4",
     "reco_CU2_slide2": null
   },
-  "biomarkerHepatitisCVirusAntibodySerum": {
+  "biomarker_hepatitis_c_virus_antibody_serum": {
     "deck_CU1_slide1": "#bioimmuno4",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno4",
@@ -1089,7 +1089,7 @@
     "reco_CU2_slide1": "#bioimmuno4",
     "reco_CU2_slide2": null
   },
-  "biomarkerHumanImmunodeficiencyViruses1And2PresenceSerum": {
+  "biomarker_human_immunodeficiency_viruses_1_and_2_presence_serum": {
     "deck_CU1_slide1": "#bioimmuno4",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno4",
@@ -1099,7 +1099,7 @@
     "reco_CU2_slide1": "#bioimmuno4",
     "reco_CU2_slide2": null
   },
-  "biomarkerImmunoglobulinesGAntibodyChlamydiaTrachomatisSerum": {
+  "biomarker_immunoglobulines_g_antibody_chlamydia_trachomatis_serum": {
     "deck_CU1_slide1": "#bioimmuno4",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno4",
@@ -1109,7 +1109,7 @@
     "reco_CU2_slide1": "#bioimmuno4",
     "reco_CU2_slide2": null
   },
-  "beico": {
+  "biomarker_eicosatrienoic_acid_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1119,7 +1119,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "belai": {
+  "biomarker_elaidic_acid": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1129,7 +1129,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "bmyr": {
+  "biomarker_myristate_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1139,7 +1139,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "bolei": {
+  "biomarker_oleate_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1149,7 +1149,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "bpalmiti": {
+  "biomarker_palmitate_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1159,7 +1159,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "bpalmito": {
+  "biomarker_palmitoleate_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1169,7 +1169,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "brum": {
+  "biomarker_rumenate_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1179,7 +1179,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "bstear": {
+  "biomarker_stearic_acid_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1189,7 +1189,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "btransvac": {
+  "biomarker_trans_vaccenate_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1199,7 +1199,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "btrol": {
+  "biomarker_trans_palmitoleate_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1209,7 +1209,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "bvace": {
+  "biomarker_vaccenate_serum": {
     "deck_CU1_slide1": "#biometabo1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo1",
@@ -1219,7 +1219,7 @@
     "reco_CU2_slide1": "#biometabo1",
     "reco_CU2_slide2": null
   },
-  "ball": {
+  "biomarker_alpha_linolenate_serum": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1229,7 +1229,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "barachido": {
+  "biomarker_arachidonate_serum": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1239,7 +1239,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "bdgla": {
+  "biomarker_dihomo_gamma_linolenate_serum": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1249,7 +1249,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "bdha": {
+  "biomarker_docosahexaenoate_serum": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1259,7 +1259,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "bepa": {
+  "biomarker_eicosapentaenoate_serum": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1269,7 +1269,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "bgln": {
+  "biomarker_gamma_linolenate_serum": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1279,7 +1279,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "binw3": {
+  "biomarker_omega_3_index_serum": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1289,7 +1289,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "blino": {
+  "biomarker_linoleate_serum": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1299,7 +1299,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "bratioAa_Epa": {
+  "biomarker_arachidonate_eicosapentaenoate_ratio_serum": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1309,7 +1309,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "bw6_w3": {
+  "biomarker_omega_6_omega_3_ratio_blood": {
     "deck_CU1_slide1": "#biometabo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biometabo2",
@@ -1319,7 +1319,7 @@
     "reco_CU2_slide1": "#biometabo2",
     "reco_CU2_slide2": null
   },
-  "bchlore": {
+  "biomarker_chloride_serum": {
     "deck_CU1_slide1": "#biorein",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biorein",
@@ -1329,7 +1329,7 @@
     "reco_CU2_slide1": "#biorein",
     "reco_CU2_slide2": null
   },
-  "bcreat": {
+  "biomarker_creatinine_serum": {
     "deck_CU1_slide1": "#biorein",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biorein",
@@ -1339,7 +1339,7 @@
     "reco_CU2_slide1": "#biorein",
     "reco_CU2_slide2": null
   },
-  "bcystatinec": {
+  "biomarker_cystatin_c_serum": {
     "deck_CU1_slide1": "#biorein",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biorein",
@@ -1349,7 +1349,7 @@
     "reco_CU2_slide1": "#biorein",
     "reco_CU2_slide2": null
   },
-  "bdfg": {
+  "biomarker_glomerular_filtration_rate_cdk_epi_serum": {
     "deck_CU1_slide1": "#biorein",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biorein",
@@ -1359,7 +1359,7 @@
     "reco_CU2_slide1": "#biorein",
     "reco_CU2_slide2": null
   },
-  "bsodium": {
+  "biomarker_sodium_serum": {
     "deck_CU1_slide1": "#biorein",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biorein",
@@ -1389,7 +1389,7 @@
     "reco_CU2_slide1": "#biorein",
     "reco_CU2_slide2": null
   },
-  "b5hiia": {
+  "biomarker_5_hydroxyindoleacetate_creatinine_ratio_urine": {
     "deck_CU1_slide1": "#biostress1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress1",
@@ -1399,7 +1399,7 @@
     "reco_CU2_slide1": "#biostress1",
     "reco_CU2_slide2": null
   },
-  "badre": {
+  "biomarker_epinephrine_creatinine_ratio_urine": {
     "deck_CU1_slide1": "#biostress1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress1",
@@ -1409,7 +1409,7 @@
     "reco_CU2_slide1": "#biostress1",
     "reco_CU2_slide2": null
   },
-  "bdopac": {
+  "biomarker_dopac_creatinine_ratio_urine": {
     "deck_CU1_slide1": "#biostress1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress1",
@@ -1419,7 +1419,7 @@
     "reco_CU2_slide1": "#biostress1",
     "reco_CU2_slide2": null
   },
-  "bdopam": {
+  "biomarker_dopamine_creatinine_ratio_urine": {
     "deck_CU1_slide1": "#biostress1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress1",
@@ -1429,7 +1429,7 @@
     "reco_CU2_slide1": "#biostress1",
     "reco_CU2_slide2": null
   },
-  "bhva": {
+  "biomarker_homovanillate_creatinine_ratio_urine": {
     "deck_CU1_slide1": "#biostress1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress1",
@@ -1439,7 +1439,7 @@
     "reco_CU2_slide1": "#biostress1",
     "reco_CU2_slide2": null
   },
-  "bmhpg": {
+  "biomarker_mhpg_creatinine_ratio_urine": {
     "deck_CU1_slide1": "#biostress1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress1",
@@ -1449,7 +1449,7 @@
     "reco_CU2_slide1": "#biostress1",
     "reco_CU2_slide2": null
   },
-  "bnoradre": {
+  "biomarker_norepinephrine_creatinine_ratio_urine": {
     "deck_CU1_slide1": "#biostress1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress1",
@@ -1459,7 +1459,7 @@
     "reco_CU2_slide1": "#biostress1",
     "reco_CU2_slide2": null
   },
-  "bserot": {
+  "biomarker_serotonin_creatinine_ratio_urine": {
     "deck_CU1_slide1": "#biostress1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress1",
@@ -1469,7 +1469,7 @@
     "reco_CU2_slide1": "#biostress1",
     "reco_CU2_slide2": null
   },
-  "bvma": {
+  "biomarker_vanillylmandelate_creatinine_ratio_urine": {
     "deck_CU1_slide1": "#biostress1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress1",
@@ -1479,7 +1479,7 @@
     "reco_CU2_slide1": "#biostress1",
     "reco_CU2_slide2": null
   },
-  "bcar": {
+  "biomarker_cortisol_awakening_response_saliva": {
     "deck_CU1_slide1": "#biostress2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress2",
@@ -1489,7 +1489,7 @@
     "reco_CU2_slide1": "#biostress2",
     "reco_CU2_slide2": null
   },
-  "bcort20": {
+  "biomarker_cortisol_evening_saliva": {
     "deck_CU1_slide1": "#biostress2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress2",
@@ -1499,7 +1499,7 @@
     "reco_CU2_slide1": "#biostress2",
     "reco_CU2_slide2": null
   },
-  "bcortawak": {
+  "biomarker_cortisol_awakening_saliva": {
     "deck_CU1_slide1": "#biostress2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress2",
@@ -1509,7 +1509,7 @@
     "reco_CU2_slide1": "#biostress2",
     "reco_CU2_slide2": null
   },
-  "bcortawak30": {
+  "biomarker_cortisol_awakening_plus_30min_saliva": {
     "deck_CU1_slide1": "#biostress2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress2",
@@ -1519,7 +1519,7 @@
     "reco_CU2_slide1": "#biostress2",
     "reco_CU2_slide2": null
   },
-  "bcortawakOverCort20": {
+  "biomarker_cortisol_awakening_cortisol_evening_ratio_saliva": {
     "deck_CU1_slide1": "#biostress2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress2",
@@ -1529,7 +1529,7 @@
     "reco_CU2_slide1": "#biostress2",
     "reco_CU2_slide2": null
   },
-  "bcortOverDhea": {
+  "biomarker_cortisol_dhea_ratio_evening_saliva": {
     "deck_CU1_slide1": "#biostress2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress2",
@@ -1539,7 +1539,7 @@
     "reco_CU2_slide1": "#biostress2",
     "reco_CU2_slide2": null
   },
-  "bdhea20": {
+  "biomarker_dhea_evening_saliva": {
     "deck_CU1_slide1": "#biostress2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biostress2",
@@ -1549,7 +1549,7 @@
     "reco_CU2_slide1": "#biostress2",
     "reco_CU2_slide2": null
   },
-  "lungs": {
+  "clinical_finding_lungs_status": {
     "deck_CU1_slide1": "#cbct1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#cbct1",
@@ -1559,7 +1559,7 @@
     "reco_CU2_slide1": "#cbct1",
     "reco_CU2_slide2": null
   },
-  "mediastinum": {
+  "clinical_finding_mediastinum_status": {
     "deck_CU1_slide1": "#cbct1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#cbct1",
@@ -1569,7 +1569,7 @@
     "reco_CU2_slide1": "#cbct1",
     "reco_CU2_slide2": null
   },
-  "boneAndThoracicStructure": {
+  "clinical_finding_thoracic_bones_structures_status": {
     "deck_CU1_slide1": "#cbct1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#cbct1",
@@ -1579,7 +1579,7 @@
     "reco_CU2_slide1": "#cbct1",
     "reco_CU2_slide2": null
   },
-  "mandibular": {
+  "clinical_finding_mandibular_status": {
     "deck_CU1_slide1": "#cbct2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#cbct2",
@@ -1589,7 +1589,7 @@
     "reco_CU2_slide1": "#cbct2",
     "reco_CU2_slide2": null
   },
-  "maxillaArch": {
+  "clinical_finding_upper_jaw_status": {
     "deck_CU1_slide1": "#cbct2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#cbct2",
@@ -1599,7 +1599,7 @@
     "reco_CU2_slide1": "#cbct2",
     "reco_CU2_slide2": null
   },
-  "temporoMandibularJoint": {
+  "clinical_finding_temporomandibular_joint_status": {
     "deck_CU1_slide1": "#cbct2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#cbct2",
@@ -1609,7 +1609,7 @@
     "reco_CU2_slide1": "#cbct2",
     "reco_CU2_slide2": null
   },
-  "petrousApex": {
+  "clinical_finding_petrous_apex_status": {
     "deck_CU1_slide1": "#cbct3",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#cbct3",
@@ -1619,7 +1619,7 @@
     "reco_CU2_slide1": "#cbct3",
     "reco_CU2_slide2": null
   },
-  "sinus": {
+  "clinical_finding_sinus_status": {
     "deck_CU1_slide1": "#cbct3",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#cbct3",
@@ -1649,7 +1649,7 @@
     "reco_CU2_slide1": "#dexa2",
     "reco_CU2_slide2": null
   },
-  "dexaTScore": {
+  "biomarker_bone_density_t_score": {
     "deck_CU1_slide1": "#dexa2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#dexa2",
@@ -1669,7 +1669,7 @@
     "reco_CU2_slide1": "#dexa3",
     "reco_CU2_slide2": "#dexa4"
   },
-  "dexaAndroidMass": {
+  "biomarker_android_fat_mass_body_tissue_mass_ratio": {
     "deck_CU1_slide1": null,
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": null,
@@ -1679,7 +1679,7 @@
     "reco_CU2_slide1": "#dexa3",
     "reco_CU2_slide2": "#dexa4"
   },
-  "dexaGynoidMass": {
+  "biomarker_gynoid_fat_mass_body_tissue_mass_ratio": {
     "deck_CU1_slide1": null,
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": null,
@@ -1689,7 +1689,7 @@
     "reco_CU2_slide1": "#dexa3",
     "reco_CU2_slide2": "#dexa4"
   },
-  "dexaLeanMass": {
+  "biomarker_body_lean_mass": {
     "deck_CU1_slide1": null,
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": null,
@@ -1699,7 +1699,7 @@
     "reco_CU2_slide1": "#dexa3",
     "reco_CU2_slide2": "#dexa4"
   },
-  "dexaTissueMass": {
+  "biomarker_body_tissue_mass": {
     "deck_CU1_slide1": null,
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": null,
@@ -1709,7 +1709,7 @@
     "reco_CU2_slide1": "#dexa3",
     "reco_CU2_slide2": "#dexa4"
   },
-  "dexaTotalMass": {
+  "biomarker_body_mass": {
     "deck_CU1_slide1": null,
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": null,
@@ -1719,7 +1719,7 @@
     "reco_CU2_slide1": "#dexa3",
     "reco_CU2_slide2": "#dexa4"
   },
-  "dexaFatMass": {
+  "biomarker_body_fat_mass": {
     "deck_CU1_slide1": "#dexa4",
     "deck_CU1_slide2": "#dexa3",
     "deck_CU2_slide1": "#dexa4",
@@ -1729,7 +1729,7 @@
     "reco_CU2_slide1": "#dexa4",
     "reco_CU2_slide2": "#dexa3"
   },
-  "dexaVisceralFat": {
+  "biomarker_visceral_adipose_tissue_mass": {
     "deck_CU1_slide1": "#dexa4",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#dexa4",
@@ -1739,7 +1739,7 @@
     "reco_CU2_slide1": "#dexa4",
     "reco_CU2_slide2": "#dexa3"
   },
-  "waistCircumference": {
+  "biomarker_waist_circumference_midpoint": {
     "deck_CU1_slide1": "#dexa4",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#dexa4",
@@ -1749,7 +1749,7 @@
     "reco_CU2_slide1": "#dexa4",
     "reco_CU2_slide2": "#dexa3"
   },
-  "synthesisEcg": {
+  "clinical_finding_heart_electrical_activity_status": {
     "deck_CU1_slide1": "#ecg",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#ecg",
@@ -1759,7 +1759,7 @@
     "reco_CU2_slide1": "#ecg",
     "reco_CU2_slide2": null
   },
-  "cardiacAscendingAorta": {
+  "clinical_finding_aorta_ascending_status": {
     "deck_CU1_slide1": "#echocardio",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echocardio",
@@ -1769,7 +1769,7 @@
     "reco_CU2_slide1": "#echocardio",
     "reco_CU2_slide2": null
   },
-  "cardiacLeftVentricle": {
+  "clinical_finding_ventricle_left_status": {
     "deck_CU1_slide1": "#echocardio",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echocardio",
@@ -1779,7 +1779,7 @@
     "reco_CU2_slide1": "#echocardio",
     "reco_CU2_slide2": null
   },
-  "cardiacPericardium": {
+  "clinical_finding_pericardium_status": {
     "deck_CU1_slide1": "#echocardio",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echocardio",
@@ -1789,7 +1789,7 @@
     "reco_CU2_slide1": "#echocardio",
     "reco_CU2_slide2": null
   },
-  "cardiacRightVentricle": {
+  "clinical_finding_ventricle_right_status": {
     "deck_CU1_slide1": "#echocardio",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echocardio",
@@ -1799,7 +1799,7 @@
     "reco_CU2_slide1": "#echocardio",
     "reco_CU2_slide2": null
   },
-  "cardiacValves": {
+  "clinical_finding_valves_status": {
     "deck_CU1_slide1": "#echocardio",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echocardio",
@@ -1809,7 +1809,7 @@
     "reco_CU2_slide1": "#echocardio",
     "reco_CU2_slide2": null
   },
-  "bileDucts": {
+  "clinical_finding_bile_ducts_status": {
     "deck_CU1_slide1": "#echodig1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echodig1",
@@ -1819,7 +1819,7 @@
     "reco_CU2_slide1": "#echodig1",
     "reco_CU2_slide2": null
   },
-  "gallBladder": {
+  "clinical_finding_gallbladder_status": {
     "deck_CU1_slide1": "#echodig1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echodig1",
@@ -1829,7 +1829,7 @@
     "reco_CU2_slide1": "#echodig1",
     "reco_CU2_slide2": null
   },
-  "liver": {
+  "clinical_finding_liver_status": {
     "deck_CU1_slide1": "#echodig1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echodig1",
@@ -1839,7 +1839,7 @@
     "reco_CU2_slide1": "#echodig1",
     "reco_CU2_slide2": null
   },
-  "pancreas": {
+  "clinical_finding_pancreas_status": {
     "deck_CU1_slide1": "#echodig1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echodig1",
@@ -1849,7 +1849,7 @@
     "reco_CU2_slide1": "#echodig1",
     "reco_CU2_slide2": null
   },
-  "spleen": {
+  "clinical_finding_spleen_status": {
     "deck_CU1_slide1": "#echodig1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echodig1",
@@ -1859,7 +1859,7 @@
     "reco_CU2_slide1": "#echodig1",
     "reco_CU2_slide2": null
   },
-  "abdominalEffusion": {
+  "clinical_finding_abdominal_effusion_status": {
     "deck_CU1_slide1": "#echodig2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echodig2",
@@ -1869,7 +1869,7 @@
     "reco_CU2_slide1": "#echodig2",
     "reco_CU2_slide2": null
   },
-  "inguinalHernialOrifice": {
+  "clinical_finding_inguinal_hernial_orifices_status": {
     "deck_CU1_slide1": "#echodig2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echodig2",
@@ -1879,7 +1879,7 @@
     "reco_CU2_slide1": "#echodig2",
     "reco_CU2_slide2": null
   },
-  "stomach": {
+  "clinical_finding_stomach_status": {
     "deck_CU1_slide1": "#echodig2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echodig2",
@@ -1889,7 +1889,7 @@
     "reco_CU2_slide1": "#echodig2",
     "reco_CU2_slide2": null
   },
-  "ovaries": {
+  "clinical_finding_ovaries_status": {
     "deck_CU1_slide1": "#echoendo",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echoendo",
@@ -1899,7 +1899,7 @@
     "reco_CU2_slide1": "#echoendo",
     "reco_CU2_slide2": null
   },
-  "prostateEchography": {
+  "clinical_finding_prostate_status": {
     "deck_CU1_slide1": "#echoendo",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echoendo",
@@ -1909,7 +1909,7 @@
     "reco_CU2_slide1": "#echoendo",
     "reco_CU2_slide2": null
   },
-  "thyroidEchography": {
+  "clinical_finding_thyroid_status": {
     "deck_CU1_slide1": "#echoendo",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echoendo",
@@ -1919,7 +1919,7 @@
     "reco_CU2_slide1": "#echoendo",
     "reco_CU2_slide2": null
   },
-  "uterus": {
+  "clinical_finding_uterus_status": {
     "deck_CU1_slide1": "#echoendo",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echoendo",
@@ -1929,7 +1929,7 @@
     "reco_CU2_slide1": "#echoendo",
     "reco_CU2_slide2": null
   },
-  "bladder": {
+  "clinical_finding_bladder_status": {
     "deck_CU1_slide1": "#echorein",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echorein",
@@ -1939,7 +1939,7 @@
     "reco_CU2_slide1": "#echorein",
     "reco_CU2_slide2": null
   },
-  "interHeptaoRenalFat": {
+  "clinical_finding_interhepatorenal_fat_status": {
     "deck_CU1_slide1": "#echorein",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echorein",
@@ -1949,7 +1949,7 @@
     "reco_CU2_slide1": "#echorein",
     "reco_CU2_slide2": null
   },
-  "kidneys": {
+  "clinical_finding_kidneys_status": {
     "deck_CU1_slide1": "#echorein",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echorein",
@@ -1959,7 +1959,7 @@
     "reco_CU2_slide1": "#echorein",
     "reco_CU2_slide2": null
   },
-  "abdominal_aorta": {
+  "clinical_finding_aorta_abdominal_status": {
     "deck_CU1_slide1": "#echovasc",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echovasc",
@@ -1969,7 +1969,7 @@
     "reco_CU2_slide1": "#echovasc",
     "reco_CU2_slide2": null
   },
-  "externalCarotids": {
+  "clinical_finding_common_carotid_arteries_status": {
     "deck_CU1_slide1": "#echovasc",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echovasc",
@@ -1979,7 +1979,7 @@
     "reco_CU2_slide1": "#echovasc",
     "reco_CU2_slide2": null
   },
-  "femoral": {
+  "clinical_finding_arteries_femoral_status": {
     "deck_CU1_slide1": "#echovasc",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echovasc",
@@ -1989,7 +1989,7 @@
     "reco_CU2_slide1": "#echovasc",
     "reco_CU2_slide2": null
   },
-  "internalCarotids": {
+  "clinical_finding_internal_carotid_arteries_status": {
     "deck_CU1_slide1": "#echovasc",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#echovasc",
@@ -1999,7 +1999,7 @@
     "reco_CU2_slide1": "#echovasc",
     "reco_CU2_slide2": null
   },
-  "eyebrowsDrooping": {
+  "clinical_finding_drooping_eyebrows": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2009,7 +2009,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "eyebrowsLoss": {
+  "clinical_finding_loss_of_eyebrows": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2019,7 +2019,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "eyelashesLoss": {
+  "clinical_finding_loss_of_eyelashes": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2029,7 +2029,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "eyesAllergy": {
+  "clinical_finding_eye_allergy": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2039,7 +2039,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "eyesDryness": {
+  "clinical_finding_eye_dryness": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2049,7 +2049,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "faceOtherAcne": {
+  "clinical_finding_facial_acne": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2059,7 +2059,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "faceOtherAcneScars": {
+  "clinical_finding_facial_acne_scars": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2069,7 +2069,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "faceOtherHerpes": {
+  "clinical_finding_facial_herpes": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2079,7 +2079,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "faceSkinState": {
+  "clinical_finding_facial_skin_oiliness": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2089,7 +2089,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "fusobacteriumPorphyromonasGingivalis": {
+  "clinical_finding_fusobacterium_and_porphyromonas_gingivalis": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": "#exambouche",
     "deck_CU2_slide1": "#exam1",
@@ -2109,7 +2109,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "hairThickness": {
+  "clinical_finding_hair_thickness": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam1",
@@ -2119,17 +2119,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": null
   },
-  "mouthGumsInflammed": {
-    "deck_CU1_slide1": "#exam1",
-    "deck_CU1_slide2": "#exambouche",
-    "deck_CU2_slide1": "#exam1",
-    "deck_CU2_slide2": "#exambouche",
-    "reco_CU1_slide1": "#exam1",
-    "reco_CU1_slide2": "#exambouche",
-    "reco_CU2_slide1": "#exam1",
-    "reco_CU2_slide2": "#exambouche"
-  },
-  "mouthGumsSensitive": {
+  "clinical_finding_inflammatory_gums": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": "#exambouche",
     "deck_CU2_slide1": "#exam1",
@@ -2139,7 +2129,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": "#exambouche"
   },
-  "mouthPeriodontalDisease": {
+  "clinical_finding_sensitive_bleeding_gums": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": "#exambouche",
     "deck_CU2_slide1": "#exam1",
@@ -2149,7 +2139,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": "#exambouche"
   },
-  "mouthTeethLoss": {
+  "clinical_finding_periodontosis": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": "#exambouche",
     "deck_CU2_slide1": "#exam1",
@@ -2159,7 +2149,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": "#exambouche"
   },
-  "mouthUlcers": {
+  "clinical_finding_teeth_loss": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": "#exambouche",
     "deck_CU2_slide1": "#exam1",
@@ -2169,37 +2159,7 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": "#exambouche"
   },
-  "neckFlags": {
-    "deck_CU1_slide1": "#exam1",
-    "deck_CU1_slide2": null,
-    "deck_CU2_slide1": "#exam1",
-    "deck_CU2_slide2": null,
-    "reco_CU1_slide1": "#exam1",
-    "reco_CU1_slide2": null,
-    "reco_CU2_slide1": "#exam1",
-    "reco_CU2_slide2": null
-  },
-  "neckNodes": {
-    "deck_CU1_slide1": "#exam1",
-    "deck_CU1_slide2": null,
-    "deck_CU2_slide1": "#exam1",
-    "deck_CU2_slide2": null,
-    "reco_CU1_slide1": "#exam1",
-    "reco_CU1_slide2": null,
-    "reco_CU2_slide1": "#exam1",
-    "reco_CU2_slide2": null
-  },
-  "neckThyroidNodules": {
-    "deck_CU1_slide1": "#exam1",
-    "deck_CU1_slide2": null,
-    "deck_CU2_slide1": "#exam1",
-    "deck_CU2_slide2": null,
-    "reco_CU1_slide1": "#exam1",
-    "reco_CU1_slide2": null,
-    "reco_CU2_slide1": "#exam1",
-    "reco_CU2_slide2": null
-  },
-  "propionibacteriumAcne": {
+  "clinical_finding_mouth_ulcers": {
     "deck_CU1_slide1": "#exam1",
     "deck_CU1_slide2": "#exambouche",
     "deck_CU2_slide1": "#exam1",
@@ -2209,7 +2169,47 @@
     "reco_CU2_slide1": "#exam1",
     "reco_CU2_slide2": "#exambouche"
   },
-  "abdomenBladder": {
+  "clinical_finding_fanions": {
+    "deck_CU1_slide1": "#exam1",
+    "deck_CU1_slide2": null,
+    "deck_CU2_slide1": "#exam1",
+    "deck_CU2_slide2": null,
+    "reco_CU1_slide1": "#exam1",
+    "reco_CU1_slide2": null,
+    "reco_CU2_slide1": "#exam1",
+    "reco_CU2_slide2": null
+  },
+  "clinical_finding_neck_nodes": {
+    "deck_CU1_slide1": "#exam1",
+    "deck_CU1_slide2": null,
+    "deck_CU2_slide1": "#exam1",
+    "deck_CU2_slide2": null,
+    "reco_CU1_slide1": "#exam1",
+    "reco_CU1_slide2": null,
+    "reco_CU2_slide1": "#exam1",
+    "reco_CU2_slide2": null
+  },
+  "clinical_finding_thyroid_nodule": {
+    "deck_CU1_slide1": "#exam1",
+    "deck_CU1_slide2": null,
+    "deck_CU2_slide1": "#exam1",
+    "deck_CU2_slide2": null,
+    "reco_CU1_slide1": "#exam1",
+    "reco_CU1_slide2": null,
+    "reco_CU2_slide1": "#exam1",
+    "reco_CU2_slide2": null
+  },
+  "clinical_finding_propionibacterium_acnes": {
+    "deck_CU1_slide1": "#exam1",
+    "deck_CU1_slide2": "#exambouche",
+    "deck_CU2_slide1": "#exam1",
+    "deck_CU2_slide2": "#exambouche",
+    "reco_CU1_slide1": "#exam1",
+    "reco_CU1_slide2": "#exambouche",
+    "reco_CU2_slide1": "#exam1",
+    "reco_CU2_slide2": "#exambouche"
+  },
+  "clinical_finding_murphy_sign_abdomen": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2219,7 +2219,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "abdomenColon": {
+  "clinical_finding_colon_sensitivity_bloating": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2229,7 +2229,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "abdomenHepaticOverflow": {
+  "clinical_finding_hepatic_overflow": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2239,7 +2239,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "abdomenInguinalHernia": {
+  "clinical_finding_inguinal_hernia": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2249,7 +2249,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "abdomenReflux": {
+  "clinical_finding_reflux": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2259,7 +2259,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "abdomenUmbilicalHernia": {
+  "clinical_finding_umbilical_hernia": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2269,7 +2269,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "backFlagSign": {
+  "clinical_finding_low_back_skin_elasticity": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2279,7 +2279,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "backScoliosis": {
+  "clinical_finding_scoliosis": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2289,7 +2289,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "bicepsMuscle": {
+  "clinical_finding_biceps_muscular_level": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2299,7 +2299,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "collarboneAsymetry": {
+  "clinical_finding_asymmetrical_clavicle": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2309,7 +2309,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "feetFlatFeet": {
+  "clinical_finding_flat_foot": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2319,7 +2319,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "handSkinFoldDuration": {
+  "clinical_finding_hand_skin_fold_duration": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2329,7 +2329,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "heartMurmur": {
+  "clinical_finding_heart_murmur": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2349,7 +2349,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "nailsPsoriasis": {
+  "clinical_finding_nails_psioriasis": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2359,7 +2359,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "pulsePedal": {
+  "clinical_finding_pedal_pulse": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2369,7 +2369,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "pulsePopliteal": {
+  "clinical_finding_popliteal_pulse": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2379,7 +2379,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "thenarHypothenar": {
+  "clinical_finding_hypothenar": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2389,7 +2389,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "tricepsBingoWings": {
+  "clinical_finding_triceps_bingo_wings": {
     "deck_CU1_slide1": "#exam2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#exam2",
@@ -2399,7 +2399,7 @@
     "reco_CU2_slide1": "#exam2",
     "reco_CU2_slide2": null
   },
-  "gripLeftHand": {
+  "biomarker_maximum_grip_strength_left_hand": {
     "deck_CU1_slide1": "#force",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#force",
@@ -2409,7 +2409,7 @@
     "reco_CU2_slide1": "#force",
     "reco_CU2_slide2": null
   },
-  "gripRightHand": {
+  "biomarker_maximum_grip_strength_right_hand": {
     "deck_CU1_slide1": "#force",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#force",
@@ -2559,7 +2559,7 @@
     "reco_CU2_slide1": "#histo2",
     "reco_CU2_slide2": null
   },
-  "hrvAdaptationIndex": {
+  "biomarker_adaptation_index": {
     "deck_CU1_slide1": "#hrv",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#hrv",
@@ -2569,7 +2569,7 @@
     "reco_CU2_slide1": "#hrv",
     "reco_CU2_slide2": null
   },
-  "hrvBalance": {
+  "biomarker_autonomic_balance": {
     "deck_CU1_slide1": "#hrv",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#hrv",
@@ -2579,7 +2579,7 @@
     "reco_CU2_slide1": "#hrv",
     "reco_CU2_slide2": null
   },
-  "hrvBiologicalAge": {
+  "biomarker_heart_rate_variability_biological_age": {
     "deck_CU1_slide1": "#hrv",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#hrv",
@@ -2589,7 +2589,7 @@
     "reco_CU2_slide1": "#hrv",
     "reco_CU2_slide2": null
   },
-  "hrvConstraints": {
+  "biomarker_adaptation_strain": {
     "deck_CU1_slide1": "#hrv",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#hrv",
@@ -2599,7 +2599,7 @@
     "reco_CU2_slide1": "#hrv",
     "reco_CU2_slide2": null
   },
-  "hrvRessources": {
+  "biomarker_adaptation_resource": {
     "deck_CU1_slide1": "#hrv",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#hrv",
@@ -2609,7 +2609,7 @@
     "reco_CU2_slide1": "#hrv",
     "reco_CU2_slide2": null
   },
-  "hrvStressIndex": {
+  "biomarker_baevsky_stress_index": {
     "deck_CU1_slide1": "#hrv",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#hrv",
@@ -2619,7 +2619,7 @@
     "reco_CU2_slide1": "#hrv",
     "reco_CU2_slide2": null
   },
-  "hrvVagalIndex": {
+  "biomarker_vagal_index": {
     "deck_CU1_slide1": "#hrv",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#hrv",
@@ -2629,7 +2629,7 @@
     "reco_CU2_slide1": "#hrv",
     "reco_CU2_slide2": null
   },
-  "hrvVfcIndex": {
+  "biomarker_heart_rate_variability_index": {
     "deck_CU1_slide1": "#hrv",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#hrv",
@@ -2649,7 +2649,7 @@
     "reco_CU2_slide1": "#hrv",
     "reco_CU2_slide2": null
   },
-  "pbmi": {
+  "score_body_mass_index": {
     "deck_CU1_slide1": "#imc",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#imc",
@@ -2659,7 +2659,7 @@
     "reco_CU2_slide1": "#imc",
     "reco_CU2_slide2": null
   },
-  "methylageBiologicalAge": {
+  "biomarker_methylage_biological_age": {
     "deck_CU1_slide1": "#methylage",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#methylage",
@@ -2669,7 +2669,7 @@
     "reco_CU2_slide1": "#methylage",
     "reco_CU2_slide2": null
   },
-  "hydrogenDelta": {
+  "biomarker_hydrogen_delta_gas": {
     "deck_CU1_slide1": "#microbiote",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#microbiote",
@@ -2679,7 +2679,7 @@
     "reco_CU2_slide1": "#microbiote",
     "reco_CU2_slide2": null
   },
-  "hydrogenSulfideDelta": {
+  "biomarker_hydrogen_sulfide_delta_gas": {
     "deck_CU1_slide1": "#microbiote",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#microbiote",
@@ -2689,7 +2689,7 @@
     "reco_CU2_slide1": "#microbiote",
     "reco_CU2_slide2": null
   },
-  "microbiotaAccessibleCarbohydratesDelta": {
+  "biomarker_methyl_acetate_delta_gas": {
     "deck_CU1_slide1": "#microbiote",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#microbiote",
@@ -2699,7 +2699,7 @@
     "reco_CU2_slide1": "#microbiote",
     "reco_CU2_slide2": null
   },
-  "nitricOxideDelta": {
+  "biomarker_nitric_oxide_delta_gas": {
     "deck_CU1_slide1": "#microbiote",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#microbiote",
@@ -2709,7 +2709,7 @@
     "reco_CU2_slide1": "#microbiote",
     "reco_CU2_slide2": null
   },
-  "synthesisOct": {
+  "clinical_finding_ocular_status": {
     "deck_CU1_slide1": "#oct",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#oct",
@@ -2759,7 +2759,7 @@
     "reco_CU2_slide1": "#pollution",
     "reco_CU2_slide2": null
   },
-  "dailyVentilation": {
+  "social_history_daily_home_ventilation": {
     "deck_CU1_slide1": "#pollution",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pollution",
@@ -2769,7 +2769,7 @@
     "reco_CU2_slide1": "#pollution",
     "reco_CU2_slide2": null
   },
-  "dietDrinkConsumption": {
+  "social_history_diet_drink_consumption": {
     "deck_CU1_slide1": "#pollution",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pollution",
@@ -2779,7 +2779,7 @@
     "reco_CU2_slide1": "#pollution",
     "reco_CU2_slide2": null
   },
-  "hairColoringProducts": {
+  "social_history_hair_dye_products": {
     "deck_CU1_slide1": "#pollution",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pollution",
@@ -2789,7 +2789,7 @@
     "reco_CU2_slide1": "#pollution",
     "reco_CU2_slide2": null
   },
-  "photocopiersClosedRooms": {
+  "social_history_printers_closed_rooms": {
     "deck_CU1_slide1": "#pollution",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pollution",
@@ -2799,7 +2799,7 @@
     "reco_CU2_slide1": "#pollution",
     "reco_CU2_slide2": null
   },
-  "plasticContainers": {
+  "social_history_food_plastic_containers": {
     "deck_CU1_slide1": "#pollution",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pollution",
@@ -2809,7 +2809,7 @@
     "reco_CU2_slide1": "#pollution",
     "reco_CU2_slide2": null
   },
-  "syntheticFurniture": {
+  "social_history_house_synthetic_furnitures": {
     "deck_CU1_slide1": "#pollution",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pollution",
@@ -2819,7 +2819,7 @@
     "reco_CU2_slide1": "#pollution",
     "reco_CU2_slide2": null
   },
-  "syntheticHouseholdProducts": {
+  "social_history_home_cleaning_products": {
     "deck_CU1_slide1": "#pollution",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pollution",
@@ -2829,7 +2829,7 @@
     "reco_CU2_slide1": "#pollution",
     "reco_CU2_slide2": null
   },
-  "waterFiltration": {
+  "social_history_filter_water": {
     "deck_CU1_slide1": "#pollution",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pollution",
@@ -2839,7 +2839,7 @@
     "reco_CU2_slide1": "#pollution",
     "reco_CU2_slide2": null
   },
-  "ptad": {
+  "biomarker_diastolic_blood_pressure_sitting": {
     "deck_CU1_slide1": "#pression",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pression",
@@ -2849,7 +2849,7 @@
     "reco_CU2_slide1": "#pression",
     "reco_CU2_slide2": null
   },
-  "ptas": {
+  "biomarker_systolic_blood_pressure_sitting": {
     "deck_CU1_slide1": "#pression",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#pression",
@@ -2879,7 +2879,7 @@
     "reco_CU2_slide1": "#sommeil",
     "reco_CU2_slide2": null
   },
-  "sleepApnea": {
+  "score_stop_bang": {
     "deck_CU1_slide1": "#sommeil",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#sommeil",
@@ -2889,7 +2889,7 @@
     "reco_CU2_slide1": "#sommeil",
     "reco_CU2_slide2": null
   },
-  "sleepiness": {
+  "score_epworth_sleepiness_scale": {
     "deck_CU1_slide1": "#sommeil",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#sommeil",
@@ -2899,7 +2899,7 @@
     "reco_CU2_slide1": "#sommeil",
     "reco_CU2_slide2": null
   },
-  "sleepTroubleFallingAsleep": {
+  "social_history_trouble_falling_asleep": {
     "deck_CU1_slide1": "#sommeil",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#sommeil",
@@ -2909,7 +2909,7 @@
     "reco_CU2_slide1": "#sommeil",
     "reco_CU2_slide2": null
   },
-  "sleepTroubleNightTimeAwakening": {
+  "social_history_frequent_nocturnal_awakenings": {
     "deck_CU1_slide1": "#sommeil",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#sommeil",
@@ -2919,7 +2919,7 @@
     "reco_CU2_slide1": "#sommeil",
     "reco_CU2_slide2": null
   },
-  "synthesisSleepDuration": {
+  "social_history_average_sleep_per_night": {
     "deck_CU1_slide1": "#sommeil",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#sommeil",
@@ -2929,7 +2929,7 @@
     "reco_CU2_slide1": "#sommeil",
     "reco_CU2_slide2": null
   },
-  "spirometryCvfZ": {
+  "biomarker_forced_vital_capacity_z_score": {
     "deck_CU1_slide1": "#spiro",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#spiro",
@@ -2939,7 +2939,7 @@
     "reco_CU2_slide1": "#spiro",
     "reco_CU2_slide2": null
   },
-  "spirometryVemsZ": {
+  "biomarker_forced_expiratory_volume_in_1_second_z_score": {
     "deck_CU1_slide1": "#spiro",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#spiro",
@@ -2949,7 +2949,7 @@
     "reco_CU2_slide1": "#spiro",
     "reco_CU2_slide2": null
   },
-  "bathero": {
+  "biomarker_atherogenic_index_serum": {
     "deck_CU1_slide1": "#biocardio1",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#biocardio1",
@@ -2959,7 +2959,7 @@
     "reco_CU2_slide1": "#biocardio1",
     "reco_CU2_slide2": null
   },
-  "bcoefsat": {
+  "biomarker_iron_saturation_serum": {
     "deck_CU1_slide1": "#bioantiox2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioantiox2",
@@ -2969,7 +2969,7 @@
     "reco_CU2_slide1": "#bioantiox2",
     "reco_CU2_slide2": null
   },
-  "bfsh": {
+  "biomarker_follitropin_serum": {
     "deck_CU1_slide1": "#bioendo2",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioendo2",
@@ -2979,7 +2979,7 @@
     "reco_CU2_slide1": "#bioendo2",
     "reco_CU2_slide2": null
   },
-  "bodyTemperature": {
+  "biomarker_body_temperature": {
     "deck_CU1_slide1": "#bioimmuno3",
     "deck_CU1_slide2": null,
     "deck_CU2_slide1": "#bioimmuno3",
