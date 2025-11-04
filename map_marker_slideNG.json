@@ -229,7 +229,7 @@
 "reco_CU2_slide1": "#audiometrie_yearb",
 "reco_CU2_slide2": null
 },
-"urineDipstickBloodLevelValue": {
+"biomarker_blood_urine_by_test_strip": {
 "deck_CU1_slide1": "#bandelettes",
 "deck_CU1_slide2": null,
 "deck_CU2_slide1": "#bandelettes",
@@ -239,7 +239,7 @@
 "reco_CU2_slide1": "#bandelettes",
 "reco_CU2_slide2": null
 },
-"urineDipstickGlucoseLevelValue": {
+"biomarker_glucose_urine_by_test_strip": {
 "deck_CU1_slide1": "#bandelettes",
 "deck_CU1_slide2": null,
 "deck_CU2_slide1": "#bandelettes",
@@ -249,7 +249,7 @@
 "reco_CU2_slide1": "#bandelettes",
 "reco_CU2_slide2": null
 },
-"urineDipstickProteinuriaLevelValue": {
+"biomarker_protein_urine_by_test_strip": {
 "deck_CU1_slide1": "#bandelettes",
 "deck_CU1_slide2": null,
 "deck_CU2_slide1": "#bandelettes",
@@ -259,7 +259,7 @@
 "reco_CU2_slide1": "#bandelettes",
 "reco_CU2_slide2": null
 },
-"urineDipstickUrineLeukocytesLevelValue": {
+"biomarker_leukocytes_urine_by_test_strip": {
 "deck_CU1_slide1": "#bandelettes",
 "deck_CU1_slide2": null,
 "deck_CU2_slide1": "#bandelettes",
