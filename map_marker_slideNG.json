@@ -1110,13 +1110,13 @@
 "reco_CU2_slide2": null
 },
 "biomarker_eicosatrienoic_acid_serum": {
-"deck_CU1_slide1": "#biometabo1",
+"deck_CU1_slide1": "#biometabo2",
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": "#biometabo1",
+"deck_CU2_slide1": "#biometabo2",
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": "#biometabo1",
+"reco_CU1_slide1": "#biometabo2",
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": "#biometabo1",
+"reco_CU2_slide1": "#biometabo2",
 "reco_CU2_slide2": null
 },
 "biomarker_elaidic_acid": {
