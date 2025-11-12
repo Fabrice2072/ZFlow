@@ -1940,13 +1940,13 @@
 "reco_CU2_slide2": null
 },
 "clinical_finding_interhepatorenal_fat_status": {
-"deck_CU1_slide1": "#echorein",
+"deck_CU1_slide1": "#echodig1",
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": "#echorein",
+"deck_CU2_slide1": "#echodig1",
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": "#echorein",
+"reco_CU1_slide1": "#echodig1",
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": "#echorein",
+"reco_CU2_slide1": "#echodig1",
 "reco_CU2_slide2": null
 },
 "clinical_finding_kidneys_status": {
