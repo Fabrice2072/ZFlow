@@ -2755,9 +2755,9 @@
 "deck_CU2_slide1": null,
 "deck_CU2_slide2": null,
 "reco_CU1_slide1": "#pollution",
-"reco_CU1_slide2": "#pollution",
+"reco_CU1_slide2": null,
 "reco_CU2_slide1": "#pollution",
-"reco_CU2_slide2": "#pollution",
+"reco_CU2_slide2": null
 },
 "social_history_daily_home_ventilation": {
 "deck_CU1_slide1": null,
@@ -2767,7 +2767,7 @@
 "reco_CU1_slide1": "#pollution",
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": "#pollution",
-"reco_CU2_slide2": null,
+"reco_CU2_slide2": null
 },
 "social_history_diet_drink_consumption": {
 "deck_CU1_slide1": null,
@@ -2777,7 +2777,7 @@
 "reco_CU1_slide1": "#pollution",
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": "#pollution",
-"reco_CU2_slide2": null,
+"reco_CU2_slide2": null
 },
 "social_history_hair_dye_products": {
 "deck_CU1_slide1": null,
@@ -2787,7 +2787,7 @@
 "reco_CU1_slide1": "#pollution",
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": "#pollution",
-"reco_CU2_slide2": null,
+"reco_CU2_slide2": null
 },
 "social_history_printers_closed_rooms": {
 "deck_CU1_slide1": null,
@@ -2797,7 +2797,7 @@
 "reco_CU1_slide1": "#pollution",
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": "#pollution",
-"reco_CU2_slide2": null,
+"reco_CU2_slide2": null
 },
 "social_history_food_plastic_containers": {
 "deck_CU1_slide1": null,
@@ -2807,7 +2807,7 @@
 "reco_CU1_slide1": "#pollution",
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": "#pollution",
-"reco_CU2_slide2": null,
+"reco_CU2_slide2": null
 },
 "social_history_house_synthetic_furnitures": {
 "deck_CU1_slide1": null,
@@ -2817,7 +2817,7 @@
 "reco_CU1_slide1": "#pollution",
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": "#pollution",
-"reco_CU2_slide2": null,
+"reco_CU2_slide2": null
 },
 "social_history_home_cleaning_products": {
 "deck_CU1_slide1": null,
@@ -2827,7 +2827,7 @@
 "reco_CU1_slide1": "#pollution",
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": "#pollution",
-"reco_CU2_slide2": null,
+"reco_CU2_slide2": null
 },
 "social_history_filter_water": {
 "deck_CU1_slide1": null,
@@ -2837,7 +2837,7 @@
 "reco_CU1_slide1": "#pollution",
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": "#pollution",
-"reco_CU2_slide2": null,
+"reco_CU2_slide2": null
 },
 "biomarker_diastolic_blood_pressure_sitting": {
 "deck_CU1_slide1": "#pression",
