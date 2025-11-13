@@ -1,5 +1,6 @@
 {
   "CU1_Homme": [
+    "----------",
     "imc",
     "dexa1",
     "dexa2",
@@ -50,9 +51,11 @@
     "cbct3",
     "oct",
     "audiometrie",
-    "acuitevisu"
+    "acuitevisu",
+    "----------"
   ],
   "CU2_Homme": [
+    "----------",
     "imc",
     "dexa1",
     "dexa2",
@@ -102,9 +105,11 @@
     "cbct3",
     "oct",
     "audiometrie",
-    "acuitevisu"
+    "acuitevisu",
+    "----------",
   ],
   "CU1_Femme": [
+    "----------",
     "imc",
     "dexa1",
     "dexa2",
@@ -155,9 +160,11 @@
     "cbct3",
     "oct",
     "audiometrie",
-    "acuitevisu"
+    "acuitevisu",
+    "----------",
   ],
   "CU2_Femme": [
+    "----------",
     "imc",
     "dexa1",
     "dexa2",
@@ -207,6 +214,7 @@
     "cbct3",
     "oct",
     "audiometrie",
-    "acuitevisu"
+    "acuitevisu",
+    "----------",
   ]
 }
