@@ -2988,5 +2988,14 @@
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": "#bioimmuno3",
 "reco_CU2_slide2": null
-}
+},
+"biomarker_advanced_glycation_endproducts_skin": {
+"deck_CU1_slide1": "#AGE",
+"deck_CU1_slide2": null,
+"deck_CU2_slide1": "#AGE",
+"deck_CU2_slide2": null,
+"reco_CU1_slide1": "#AGE",
+"reco_CU1_slide2": null,
+"reco_CU2_slide1": "#AGE",
+"reco_CU2_slide2": null
 }
