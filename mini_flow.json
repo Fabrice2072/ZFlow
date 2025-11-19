@@ -1,0 +1,14 @@
+[
+  { "slide": "#histo1", "condition": null },
+  { "slide": "#histo2", "condition": null },
+  { "slide": "#exam1", "condition": null },
+  { "slide": "#echorein", "condition": null },
+  { "slide": "#oct_Homme", "condition": "(window.genre == \"Male\")" },
+  { "slide": "#oct_Femme", "condition": "(window.genre == \"Female\")" },
+  { "slide": "#acuitevisu", "condition": null },
+  { "slide": "#hrv", "condition": null },
+  { "slide": "#AGE", "condition": null },
+  { "slide": "#biostress2", "condition": null },
+  { "slide": "#imc", "condition": null },
+  { "slide": "#end", "condition": null }
+]

@@ -1,0 +1,230 @@
+{
+  "#histo1": {
+    "Titre Slide FR": "Antécédents personnels",
+    "Titre Slide EN": "Personal history"
+  },
+  "#histo2": {
+    "Titre Slide FR": "Antécédents familiaux",
+    "Titre Slide EN": "Family history"
+  },
+  "#exam1": {
+    "Titre Slide FR": "Examen Clinique - Visage",
+    "Titre Slide EN": "Clinical Exam - Face"
+  },
+  "#exam2": {
+    "Titre Slide FR": "Examen Clinique - Corps",
+    "Titre Slide EN": "Clinical Exam - Body"
+  },
+  "#imc": {
+    "Titre Slide FR": "IMC",
+    "Titre Slide EN": "BMI"
+  },
+  "#dexa1": {
+    "Titre Slide FR": "DEXA - DMO",
+    "Titre Slide EN": "DEXA - Bone Mineral Density"
+  },
+  "#dexa2": {
+    "Titre Slide FR": "DEXA - DMO Rachis & Fémurs",
+    "Titre Slide EN": "DEXA - Spine & Femur Bone Mineral Density"
+  },
+  "#dexa3": {
+    "Titre Slide FR": "DEXA - Masse Grasse",
+    "Titre Slide EN": "DEXA - Fat Mass"
+  },
+  "#dexa4": {
+    "Titre Slide FR": "DEXA - Tissus Adipeux Viscéral",
+    "Titre Slide EN": "DEXA - Visceral Adipose Tissue"
+  },
+  "#force": {
+    "Titre Slide FR": "Force de Préhension",
+    "Titre Slide EN": "Grip Strength"
+  },
+  "#echocardio": {
+    "Titre Slide FR": "Écho. Cardiaque",
+    "Titre Slide EN": "Cardiac Ultrasound"
+  },
+  "#echovasc": {
+    "Titre Slide FR": "Écho. Vasculaire",
+    "Titre Slide EN": "Vascular Ultrasound"
+  },
+  "#cbct1": {
+    "Titre Slide FR": "CBCT Pulmonaire",
+    "Titre Slide EN": "Pulmonary CBCT"
+  },
+  "#pression": {
+    "Titre Slide FR": "Pression Artérielle",
+    "Titre Slide EN": "Blood Pressure"
+  },
+  "#ecg": {
+    "Titre Slide FR": "Électrocardiogramme",
+    "Titre Slide EN": "Electrocardiogram"
+  },
+  "#spiro": {
+    "Titre Slide FR": "Spirométrie",
+    "Titre Slide EN": "Spirometry"
+  },
+  "#biocardio1": {
+    "Titre Slide FR": "Bilan Cardiovasculaire - Lipides",
+    "Titre Slide EN": "Cardiovascular Assessment - Lipids"
+  },
+  "#biocardio2": {
+    "Titre Slide FR": "Bilan Cardiovasculaire - Vitamines",
+    "Titre Slide EN": "Cardiovascular Assessment - Vitamins"
+  },
+  "#biocardio1_CU1": {
+    "Titre Slide FR": "Bilan Cardiovasculaire - Lipides ",
+    "Titre Slide EN": "Cardiovascular Assessment - Lipids"
+  },
+  "#biocardio2_CU1": {
+    "Titre Slide FR": "Bilan Cardiovasculaire - Vitamines",
+    "Titre Slide EN": "Cardiovascular Assessment - Vitamins"
+  },
+  "#biocardio1_CU2": {
+    "Titre Slide FR": "Bilan Cardiovasculaire",
+    "Titre Slide EN": "Cardiovascular Assessment"
+  },
+  "#biometabo1": {
+    "Titre Slide FR": "Bilan des Acides Gras",
+    "Titre Slide EN": "Fatty Acid Profile"
+  },
+  "#biometabo2": {
+    "Titre Slide FR": "Bilan des Omégas 3 et 6",
+    "Titre Slide EN": "Omega 3 & 6 Profile"
+  },
+  "#methylage_yearb": {
+    "Titre Slide FR": "Méthylation",
+    "Titre Slide EN": "Methylation"
+  },
+
+  "#methylage": {
+    "Titre Slide FR": "Méthylation",
+    "Titre Slide EN": "Methylation"
+  },
+
+  "#echorein": {
+    "Titre Slide FR": "Écho. Rénale",
+    "Titre Slide EN": "Renal Ultrasound"
+  },
+  "#biorein": {
+    "Titre Slide FR": "Bilan Biologique Rénal",
+    "Titre Slide EN": "Renal Biological Assessment"
+  },
+  "#bandelettes": {
+    "Titre Slide FR": "Analyse Urinaire",
+    "Titre Slide EN": "Urinalysis"
+  },
+  "#exambouche": {
+    "Titre Slide FR": "Examen Buccal",
+    "Titre Slide EN": "Oral Examination"
+  },
+  "#cbct2": {
+    "Titre Slide FR": "CBCT Dentaire",
+    "Titre Slide EN": "Dental CBCT"
+  },
+  "#echodig1": {
+    "Titre Slide FR": "Écho. Abdominale",
+    "Titre Slide EN": "Abdominal Ultrasound"
+  },
+  "#echodig2": {
+    "Titre Slide FR": "Écho. Abdominale",
+    "Titre Slide EN": "Abdominal Ultrasound"
+  },
+  "#microbiote_yearb": {
+    "Titre Slide FR": "Gaz Expirés",
+    "Titre Slide EN": "Exhaled Gas Analysis"
+  },
+
+  "#microbiote": {
+    "Titre Slide FR": "Gaz Expirés",
+    "Titre Slide EN": "Exhaled Gas Analysis"
+  },
+
+  "#biodig": {
+    "Titre Slide FR": "Bilan Hépatique et Digestif",
+    "Titre Slide EN": "Hepatic and Digestive Assessment"
+  },
+  "#intol": {
+    "Titre Slide FR": "Intolérances Alimentaires",
+    "Titre Slide EN": "Food Intolerances"
+  },
+  "#echoendo": {
+    "Titre Slide FR": "Écho. Endocrinienne",
+    "Titre Slide EN": "Endocrine Ultrasound"
+  },
+  "#bioendo1": {
+    "Titre Slide FR": "Bilan Glucidique",
+    "Titre Slide EN": "Carbohydrate Biochemistry"
+  },
+  "#bioendo2": {
+    "Titre Slide FR": "Bilan Hormonal",
+    "Titre Slide EN": "Hormonal Assessment"
+  },
+  "#AGE": {
+    "Titre Slide FR": "A.G.E. Reader",
+    "Titre Slide EN": "A.G.E. Reader"
+  },
+  "#bioantiox1": {
+    "Titre Slide FR": "Bilan des Antioxydants ",
+    "Titre Slide EN": "Antioxidant Profile"
+  },
+  "#bioantiox2": {
+    "Titre Slide FR": "Bilan des Pro-oxydants",
+    "Titre Slide EN": "Pro-oxidant Profile"
+  },
+  "#bioantiox3": {
+    "Titre Slide FR": "Marqueurs du Stress Oxydant",
+    "Titre Slide EN": "Oxidative Stress Markers"
+  },
+  "#hrv": {
+    "Titre Slide FR": "Variabilité de la Fréq. Cardiaque",
+    "Titre Slide EN": "Heart Rate Variability"
+  },
+  "#biostress1": {
+    "Titre Slide FR": "Bilan des Neurotransmetteurs",
+    "Titre Slide EN": "Neurotransmitter Assessment"
+  },
+  "#biostress2": {
+    "Titre Slide FR": "Bilan Physiologique du Stress",
+    "Titre Slide EN": "Physiological Stress Assessment"
+  },
+  "#sommeil": {
+    "Titre Slide FR": "Scores Sommeil",
+    "Titre Slide EN": "Sleep Scores"
+  },
+  "#bioimmuno1": {
+    "Titre Slide FR": "Bilan Hématologique et Immunitaire",
+    "Titre Slide EN": "Immune Assessment"
+  },
+  "#bioimmuno2": {
+    "Titre Slide FR": "Bilan Hématologique et Immunitaire",
+    "Titre Slide EN": "Hematological Assessment"
+  },
+  "#bioimmuno4": {
+    "Titre Slide FR": "Bilan Sérologique - IST",
+    "Titre Slide EN": "Serological Assessment - STIs"
+  },
+  "#bioimmuno3": {
+    "Titre Slide FR": "Bilan Sérologique - Virus & Inflammation",
+    "Titre Slide EN": "Serological Assessment - Viruses & Inflammation"
+  },
+  "#pollution": {
+    "Titre Slide FR": "Dosage des Métaux Lourds",
+    "Titre Slide EN": "Heavy Metals Assessment"
+  },
+  "#cbct3": {
+    "Titre Slide FR": "CBCT ORL",
+    "Titre Slide EN": "ENT CBCT"
+  },
+  "#oct": {
+    "Titre Slide FR": "OCT",
+    "Titre Slide EN": "OCT"
+  },
+  "#audiometrie": {
+    "Titre Slide FR": "Dépistage Tonal",
+    "Titre Slide EN": "Tonal Testing"
+  },
+  "#acuitevisu": {
+    "Titre Slide FR": "Acuité Visuelle",
+    "Titre Slide EN": "Visual Acuity"
+  }
+}
