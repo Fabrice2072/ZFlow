@@ -4,7 +4,7 @@
     { "slideCode": "imc", "testMarker": "score_body_mass_index" },
     { "slideCode": "dexa1", "testMarker": "" },
     { "slideCode": "dexa2", "testMarker": "" },
-    { "slideCode": "dexa3", "testMarker": "" },
+    { "slideCode": "dexa3", "testMarker": "score_body_mass_index" },
     { "slideCode": "dexa4", "testMarker": "" },
     { "slideCode": "force", "testMarker": "" },
     { "isSeparator": true },
