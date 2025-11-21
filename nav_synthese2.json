@@ -2,7 +2,7 @@
   "CU1_Homme": [
     { "isSeparator": true },
     { "slideCode": "imc", "testMarker": "score_body_mass_index" },
-    { "slideCode": "dexa1", "testMarker": "" },
+    { "slideCode": "dexa1", "testMarker": "biomarker_25_hydroxyvitamin_d3_and_d2_serum" },
     { "slideCode": "dexa2", "testMarker": "" },
     { "slideCode": "dexa3", "testMarker": "score_body_mass_index" },
     { "slideCode": "dexa4", "testMarker": "" },
@@ -114,7 +114,7 @@
   ],
   "CU1_Femme": [
     { "isSeparator": true },
-    { "slideCode": "imc", "testMarker": "" },
+    { "slideCode": "imc", "testMarker": "score_body_mass_index" },
     { "slideCode": "dexa1", "testMarker": "" },
     { "slideCode": "dexa2", "testMarker": "" },
     { "slideCode": "dexa3", "testMarker": "" },
@@ -171,7 +171,7 @@
   ],
   "CU2_Femme": [
     { "isSeparator": true },
-    { "slideCode": "imc", "testMarker": "" },
+    { "slideCode": "imc", "testMarker": "score_body_mass_index" },
     { "slideCode": "dexa1", "testMarker": "" },
     { "slideCode": "dexa2", "testMarker": "" },
     { "slideCode": "dexa3", "testMarker": "" },
