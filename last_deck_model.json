@@ -1,7 +1,7 @@
 {
   "deckModel": {
     "version": "1.0",
-    "exportedAt": "2025-11-24T13:07:09.545Z",
+    "exportedAt": "2025-11-24T16:59:02.089Z",
     "presentation": {
       "id": "82e2814a-635f-42f7-b056-97f2bb98d6cc",
       "name": "HF/CU1-2-3-core relecture",
@@ -9,7 +9,7 @@
       "slideHeight": 768,
       "customCSS": "@import url(\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css\");\n@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap\");\n\n.icon-box {\n  opacity: 1;\n  filter: none;\n  transition: opacity 0.3s;\n}\n\n.icon-box.icon-disabled {\n  opacity: 0.1; /* Icône grisée */\n  filter: grayscale(100%);\n}\n\n.title {\n  font-size: 18px;\n  color: #b88c63;\n  display: block;   /* ← pour que le titre soit sur sa propre ligne */\n}\n\n.titlebold {\n  font-size: 18px;\n  color: #b88c63;\n  font-weight: bold;\n  display: block;   /* ← pour que le titre soit sur sa propre ligne */\n}\n\n\n.fa-solid,\n.fa-regular,\n.fa-brands,\n.icon-box i {\n  font-style: normal !important;\n}\n\n  /* Liste des recos */\n  .tasks {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    gap: 10px;\n  }\n\n  .task {\n    display: flex;\n    gap: 10px;\n    align-items: flex-start;\n  }\n\n  .icon-box {\n    width: 24px;\n    height: 24px;\n    min-width: 24px;\n    border-radius: 6px;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .icon-box .fa-solid { font-size: 14px; line-height: 1; }\n\n  /* Variantes couleur/picto (adaptées à tes sections) */\n  .icon-default    { background:#e3f1ec; }\n  .icon-default .fa-solid { color:#2d8860; }\n\n  .icon-supplement  { background:#eae5f7; }\n  .icon-supplement .fa-solid { color:#584092; }\n\n  .icon-nutrition  { background:#eff3d9; }\n  .icon-nutrition .fa-solid { color:#b0c054; }\n\n  .icon-lifestyle  { background:#fdece1; }\n  .icon-lifestyle .fa-solid { color:#f48744; }\n\n  .icon-medicament { background:#eae5f7; }\n  .icon-medicament .fa-solid { color:#7f5ecf; }\n\n  .task-content { display:flex; flex-direction:column; gap:2px; }\n  .task-title   { font-biomarker_weight:500; font-size:15px; color:#000; }\n  .task-sub     { color:#6b7280; font-size:12px; }\n\n",
       "createdAt": "2025-11-24T12:38:08.769Z",
-      "updatedAt": "2025-11-24T13:07:03.090Z"
+      "updatedAt": "2025-11-24T16:58:16.493Z"
     },
     "slides": [
       {
@@ -91,6 +91,29 @@
             },
             "createdAt": "2025-11-24T12:38:08.765Z",
             "updatedAt": "2025-11-24T12:38:08.765Z"
+          },
+          {
+            "id": "204c0911-dbd1-4258-ab39-352aafa4cd3c",
+            "content": "{{=isCore()?\"Core\":\"\";}}",
+            "x": 606,
+            "y": 311,
+            "width": 215,
+            "height": 50,
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 18,
+              "color": "#ffffff",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "left"
+            },
+            "createdAt": "2025-11-24T13:13:39.574Z",
+            "updatedAt": "2025-11-24T13:17:32.710Z"
           }
         ],
         "imageBlocks": [
@@ -159,15 +182,15 @@
             "y": 696.9861450195312,
             "width": 153,
             "height": 74,
-            "slideCode": "#parcours_bilan",
+            "slideCode": "{{=isCore()?\"#parcours_bilan_core\":\"#parcours_bilan\";}}",
             "createdAt": "2025-11-24T12:38:08.765Z",
-            "updatedAt": "2025-11-24T12:38:08.765Z"
+            "updatedAt": "2025-11-24T13:16:43.451Z"
           }
         ],
         "codeBlocks": [],
         "modalBlocks": [],
         "createdAt": "2025-11-24T12:38:08.765Z",
-        "updatedAt": "2025-11-24T12:38:08.765Z"
+        "updatedAt": "2025-11-24T13:17:32.710Z"
       },
       {
         "id": "9486e8cb-92f0-44d5-a11c-fa7f999a40d4",
@@ -182,8 +205,8 @@
             "content": "Après vos examens et l’analyse de près de 145 biomarqueurs, les résultats de votre check-up sont prêts.",
             "x": 60,
             "y": 191,
-            "width": 922,
-            "height": 181,
+            "width": 959,
+            "height": 182,
             "moduleId": "",
             "displayCondition": "",
             "appelScript": "",
@@ -199,7 +222,7 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.765Z",
-            "updatedAt": "2025-11-24T12:38:08.765Z"
+            "updatedAt": "2025-11-24T13:31:18.479Z"
           },
           {
             "id": "5132eac5-e19e-4b3f-bf46-f910d458f04f",
@@ -291,7 +314,7 @@
         "codeBlocks": [],
         "modalBlocks": [],
         "createdAt": "2025-11-24T12:38:08.765Z",
-        "updatedAt": "2025-11-24T12:38:08.765Z"
+        "updatedAt": "2025-11-24T13:31:18.479Z"
       },
       {
         "id": "77a455ac-86fb-4ccf-8b02-ab259212ee53",
@@ -327,7 +350,7 @@
           },
           {
             "id": "8ba328e5-54e0-43ef-bce4-b75cf23a3f9f",
-            "content": "24 bilans",
+            "content": "23 bilans",
             "x": 63,
             "y": 69,
             "width": 361,
@@ -347,7 +370,7 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:48:24.612Z",
-            "updatedAt": "2025-11-24T12:52:04.378Z"
+            "updatedAt": "2025-11-24T13:31:07.219Z"
           }
         ],
         "imageBlocks": [
@@ -397,9 +420,9 @@
             "y": 690.9971313476562,
             "width": 50,
             "height": 77,
-            "slideCode": "#parcours_examens",
+            "slideCode": "#parcours_examens_core",
             "createdAt": "2025-11-24T12:48:24.612Z",
-            "updatedAt": "2025-11-24T12:48:24.612Z"
+            "updatedAt": "2025-11-24T13:18:41.521Z"
           },
           {
             "id": "9539cd15-a029-43a1-817c-e799b9b04e01",
@@ -415,7 +438,7 @@
         "codeBlocks": [],
         "modalBlocks": [],
         "createdAt": "2025-11-24T12:48:24.612Z",
-        "updatedAt": "2025-11-24T12:52:04.378Z"
+        "updatedAt": "2025-11-24T13:31:07.219Z"
       },
       {
         "id": "9313b8be-ad25-49e6-b260-eae594b11edf",
@@ -705,30 +728,6 @@
             "updatedAt": "2025-11-24T12:50:48.583Z"
           },
           {
-            "id": "ab900d10-7721-4c82-a876-2e460a7c2bc8",
-            "content": "Point d'étape à 3 mois\nsur l'app Zoī",
-            "x": 817,
-            "y": 227,
-            "width": 182,
-            "height": 59,
-            "moduleId": "",
-            "displayCondition": "",
-            "appelScript": "",
-            "slideCode": "",
-            "autoScroll": false,
-            "style": {
-              "bold": false,
-              "italic": false,
-              "fontSize": 12,
-              "color": "#8e9198",
-              "backgroundColor": "transparent",
-              "borderColor": "transparent",
-              "textAlign": "center"
-            },
-            "createdAt": "2025-11-24T12:50:48.583Z",
-            "updatedAt": "2025-11-24T12:50:48.583Z"
-          },
-          {
             "id": "92e01f88-7b89-4dd6-89da-d957d43c8e19",
             "content": "Réservez votre prochain check-up",
             "x": 1114,
@@ -852,14 +851,14 @@
         "imageBlocks": [
           {
             "id": "729a16b6-3ded-4fc8-819d-702fa82e9d37",
-            "src": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/parcours_1.svg",
+            "src": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/parcours1_core.svg",
             "alt": "Image",
             "x": 100,
             "y": 273,
             "width": 1126,
             "height": 465,
             "createdAt": "2025-11-24T12:50:48.583Z",
-            "updatedAt": "2025-11-24T12:50:48.583Z"
+            "updatedAt": "2025-11-24T13:28:13.915Z"
           },
           {
             "id": "a508b6d2-30e5-489a-9083-c2736394ec96",
@@ -876,12 +875,12 @@
             "id": "1af8825e-fa19-4b27-83d4-7cc0e5a3ab2e",
             "src": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/Bilans_pictos_Core.svg",
             "alt": "Image",
-            "x": 212,
-            "y": 348,
+            "x": 209,
+            "y": 376,
             "width": 777,
             "height": 320,
             "createdAt": "2025-11-24T12:50:48.583Z",
-            "updatedAt": "2025-11-24T12:53:01.776Z"
+            "updatedAt": "2025-11-24T13:28:23.840Z"
           }
         ],
         "bulletBlocks": [],
@@ -907,9 +906,9 @@
             "y": 703.9861450195312,
             "width": 56,
             "height": 66,
-            "slideCode": "#parcours_examens2",
+            "slideCode": "#parcours_examens2_core",
             "createdAt": "2025-11-24T12:50:48.583Z",
-            "updatedAt": "2025-11-24T12:50:48.583Z"
+            "updatedAt": "2025-11-24T13:29:46.755Z"
           },
           {
             "id": "94e25476-25cc-4806-b06e-390d6f0562ba",
@@ -925,7 +924,7 @@
         "codeBlocks": [],
         "modalBlocks": [],
         "createdAt": "2025-11-24T12:50:48.583Z",
-        "updatedAt": "2025-11-24T12:53:01.776Z"
+        "updatedAt": "2025-11-24T13:29:46.755Z"
       },
       {
         "id": "dabb8558-fb06-45dc-80a2-cc9913eea8d8",
@@ -1274,6 +1273,330 @@
         "modalBlocks": [],
         "createdAt": "2025-11-24T12:38:08.765Z",
         "updatedAt": "2025-11-24T12:38:08.765Z"
+      },
+      {
+        "id": "19b92de8-cd17-4b64-ab7b-bd7444df302f",
+        "title": "",
+        "code": "#parcours_examens2_core",
+        "displayCondition": "",
+        "content": "",
+        "backgroundColor": "#ffffff",
+        "textBlocks": [
+          {
+            "id": "5823c0f1-2086-4d4b-95e7-4a915dafc4d7",
+            "content": "Votre parcours Zoī",
+            "x": 53,
+            "y": 71,
+            "width": 671,
+            "height": 108,
+            "moduleId": "",
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": true,
+              "italic": false,
+              "fontSize": 60,
+              "color": "#000000",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "left"
+            },
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "e8373fc0-bb0c-46ed-8440-c73538023a9b",
+            "content": "Dans votre Life Journal, découvrez :\n\n      Votre <t chery12>plan d’action</s> \n          ● Objectifs personnalisés\n          ● Recommandations sur mesure \n\n      Vos <t chery12>documents</s>\n          ● Ordonnances\n          ● Résultats d’examens \n          ● Comptes rendus médicaux à partager\n",
+            "x": 510,
+            "y": 390,
+            "width": 335,
+            "height": 211,
+            "moduleId": "",
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#000000",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "left"
+            },
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "cdde430f-dac6-4840-9443-9e16e5f5c4f5",
+            "content": "Par mail, retrouvez :\n\n          ● Les coordonnées de <t chery12>spécialistes confrères </s>en cas de besoin*\n          ● Des <t chery12>pharmacies</s> possédant les thérapeutiques prescrits*\n          ● Votre <t chery12>panier personnalisé</s> de compléments alimentaires*",
+            "x": 510,
+            "y": 607,
+            "width": 558,
+            "height": 111,
+            "moduleId": "",
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#000000",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "left"
+            },
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "93a8ea11-11d6-47df-a1ff-5bda5d8df24b",
+            "content": "* À contacter librement et sans contrepartie pour Zoī\n",
+            "x": 988.99609375,
+            "y": 718,
+            "width": 371,
+            "height": 39,
+            "moduleId": "",
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#8e9198",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "left"
+            },
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "42ee910e-9a27-4c37-8a07-9e96074a6950",
+            "content": "Votre Check-Up",
+            "x": 74,
+            "y": 225,
+            "width": 134,
+            "height": 50,
+            "moduleId": "",
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#8e9198",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "center"
+            },
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "a1cdfb65-bba3-4eb0-8df3-aa4cfa7d7023",
+            "content": "{{=formatDate(getCUDate(\"n\", \"date\"), true)}}",
+            "x": 69,
+            "y": 245,
+            "width": 145,
+            "height": 50,
+            "moduleId": "",
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#b88c63",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "center"
+            },
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "cc4eca9b-4334-47ed-95af-4b30b8c8f64a",
+            "content": "Votre consultation de\nrestitution",
+            "x": 328,
+            "y": 227,
+            "width": 182,
+            "height": 59,
+            "moduleId": "",
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": true,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#000000",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "center"
+            },
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "cd5027b0-f0f6-4603-a4ee-cece73880874",
+            "content": "{{=formatDate(addMonths(getCUDate(\"n\", \"date\"), 12), false)}}\n",
+            "x": 1117,
+            "y": 244,
+            "width": 142,
+            "height": 50,
+            "moduleId": "",
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#b88c63",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "center"
+            },
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "53115e44-937e-404d-98e3-fa970d2ad978",
+            "content": "Réservez votre prochain check-up",
+            "x": 1114,
+            "y": 206,
+            "width": 144,
+            "height": 58,
+            "moduleId": "",
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#8e9198",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "center"
+            },
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          }
+        ],
+        "imageBlocks": [
+          {
+            "id": "18fec1ce-a0fe-4604-af0c-0b77acb4c6e3",
+            "src": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/parcours_2_core.svg",
+            "alt": "Image",
+            "x": 100,
+            "y": 273,
+            "width": 1126,
+            "height": 465,
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:59.534Z"
+          },
+          {
+            "id": "28cdd058-19dc-47eb-8d4e-f00a8852f6b8",
+            "src": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/nav_pn.svg",
+            "alt": "Image",
+            "x": 0,
+            "y": 700,
+            "width": 166,
+            "height": 64,
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "c1254573-2a0a-4541-9cb6-b0dd7c9c78f6",
+            "src": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/phone.svg",
+            "alt": "Image",
+            "x": 479,
+            "y": 394,
+            "width": 20,
+            "height": 30,
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          },
+          {
+            "id": "2387f9d8-0f2d-42c5-b3cb-49ca8f4e42b1",
+            "src": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/mail.svg",
+            "alt": "Image",
+            "x": 469,
+            "y": 613,
+            "width": 30,
+            "height": 23,
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          }
+        ],
+        "bulletBlocks": [],
+        "rectangleBlocks": [
+          {
+            "id": "44210e5d-fdf5-4fa1-9598-23d6e4caf105",
+            "x": 0,
+            "y": 0,
+            "width": 1365,
+            "height": 20,
+            "backgroundColor": "#b88c63",
+            "borderColor": "#b88c63",
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          }
+        ],
+        "linkBlocks": [
+          {
+            "id": "16e183e4-a33e-432e-a284-25a6a3d0191c",
+            "x": 109,
+            "y": 700.9861450195312,
+            "width": 53,
+            "height": 66,
+            "slideCode": "#synthese_core",
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:29:15.842Z"
+          },
+          {
+            "id": "7212d873-9487-4d5a-9d05-152bd83df1ec",
+            "x": 43,
+            "y": 691,
+            "width": 66,
+            "height": 77,
+            "slideCode": "#parcours_examens",
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:28:41.089Z"
+          }
+        ],
+        "codeBlocks": [
+          {
+            "id": "a5845368-92a3-4182-9a20-73192f2bdaae",
+            "x": 1260,
+            "y": 58,
+            "name": "Nouveau code",
+            "code": "window.mfrom = \"#synthese_core\";\n",
+            "createdAt": "2025-11-24T13:28:41.089Z",
+            "updatedAt": "2025-11-24T13:30:36.525Z"
+          }
+        ],
+        "modalBlocks": [],
+        "createdAt": "2025-11-24T13:28:41.089Z",
+        "updatedAt": "2025-11-24T13:30:36.525Z"
       },
       {
         "id": "43699e27-423f-4845-bc87-6f9eb1b4995a",
@@ -3075,13 +3398,13 @@
             "y": 504,
             "size": 12,
             "condition": "isNormalSlide(\"#biocardio1\")",
-            "displayCondition": "bulletTestN(\"biocardio1_CU2\")",
+            "displayCondition": "isCU1()?bulletTestN(\"biocardio1_CU1\"):bulletTestN(\"biocardio1_CU2\")",
             "defaultColor": "#52c376",
             "trueColor": "#52c376",
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:53:03.684Z"
           },
           {
             "id": "d982ab92-2a0d-41d3-97fe-f691e03baa6c",
@@ -3299,13 +3622,13 @@
             "y": 504,
             "size": 12,
             "condition": "isNormalSlide(\"#biocardio1\",\"n-1\")",
-            "displayCondition": "bulletTestN_1(\"biocardio1_CU2\")",
+            "displayCondition": "isCU1()?bulletTestN_1(\"biocardio1_CU1\"):bulletTestN_1(\"biocardio1_CU2\")",
             "defaultColor": "#52c376",
             "trueColor": "#52c376",
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:54:26.845Z"
           },
           {
             "id": "d5416e32-1066-4452-b43b-87a8bf2f6f60",
@@ -3820,7 +4143,7 @@
         ],
         "modalBlocks": [],
         "createdAt": "2025-11-24T12:38:08.766Z",
-        "updatedAt": "2025-11-24T12:38:08.766Z"
+        "updatedAt": "2025-11-24T16:54:26.845Z"
       },
       {
         "id": "597e03d7-ab51-4054-b5a9-25038d6ae390",
@@ -3858,7 +4181,7 @@
             "id": "00aa35f0-4e57-4200-9c5f-f96a8f6162a9",
             "content": "<b>Fonction cardiorespiratoire</b>",
             "x": 160,
-            "y": 240,
+            "y": 270,
             "width": 298,
             "height": 38,
             "moduleId": "",
@@ -3876,13 +4199,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:21:19.385Z"
           },
           {
             "id": "3f14975e-6340-429c-b877-c36ad28e4244",
             "content": "{{=getT(\"IMC\")}}",
             "x": 200,
-            "y": 133,
+            "y": 163,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -3900,13 +4223,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:21:29.290Z"
           },
           {
             "id": "1a4fe056-c9ee-4998-b1d5-723784342a42",
             "content": "{{=getT(\"Dépistage Tonal\")}}",
             "x": 1000,
-            "y": 333,
+            "y": 363,
             "width": 235,
             "height": 38,
             "moduleId": "",
@@ -3924,13 +4247,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:22.546Z"
           },
           {
             "id": "66251c93-7599-4c96-947b-55b6fb806eb9",
             "content": "{{=getT(\"Bilan Sérologique - IST\", exists(\"biomarker_immunoglobulines_g_antibody_chlamydia_trachomatis_serum\", \"n\"))}}",
             "x": 1000,
-            "y": 213,
+            "y": 243,
             "width": 286,
             "height": 38,
             "moduleId": "",
@@ -3948,13 +4271,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:47.218Z"
           },
           {
             "id": "a6ff9034-a308-4c45-a8ca-69f0dbe7ed5b",
             "content": "{{=getT(\"Bilan inflammatoire\")}}",
             "x": 1000,
-            "y": 172,
+            "y": 202,
             "width": 395,
             "height": 38,
             "moduleId": "",
@@ -3972,13 +4295,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:26:01.000Z"
           },
           {
             "id": "a0b8ceed-c8b3-4ee6-be24-8e9b8e777dfc",
             "content": "{{=getT(\"Écho. Abdominale\")}}",
             "x": 600,
-            "y": 333,
+            "y": 363,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -3996,13 +4319,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:36.456Z"
           },
           {
             "id": "13e97a00-8481-4fba-a87c-630a02e3345d",
             "content": "{{=getT(\"Bilan Hématologique et Immunitaire\")}}",
             "x": 1000,
-            "y": 133,
+            "y": 163,
             "width": 285,
             "height": 38,
             "moduleId": "",
@@ -4020,13 +4343,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:26:14.166Z"
           },
           {
             "id": "0b874995-ebff-4649-9fe8-811902f07b4c",
             "content": "{{=getT(\"Bilan Biologique Rénal\")}}",
             "x": 600,
-            "y": 173,
+            "y": 203,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4044,13 +4367,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:59.987Z"
           },
           {
             "id": "a34ea92f-7615-4b27-9d58-6f70d5b3b579",
             "content": "{{=getT(\"Analyse Urinaire\")}}",
             "x": 600,
-            "y": 213,
+            "y": 243,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4068,13 +4391,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:55.733Z"
           },
           {
             "id": "3eefe8a9-5d94-44ef-bf4e-1a01f47438cd",
             "content": "{{=getT(\"Écho. Rénale\", exists(\"clinical_finding_kidneys_status\", \"n\"))}}",
             "x": 600,
-            "y": 133,
+            "y": 163,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4092,13 +4415,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:24:03.588Z"
           },
           {
             "id": "958f0c35-a3a1-4fa5-b488-983a387b0b4a",
             "content": "{{=getT(\"Age Biologique\")}}",
             "x": 200,
-            "y": 643,
+            "y": 673,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4116,13 +4439,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:08:41.119Z"
           },
           {
             "id": "5ebf15de-7b41-417f-a282-c812a6b8db07",
             "content": "{{=getT(\"Bilan Biologique Cardiovasculaire\")}}",
             "x": 200,
-            "y": 523,
+            "y": 553,
             "width": 250,
             "height": 38,
             "moduleId": "",
@@ -4140,13 +4463,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:08:12.272Z"
           },
           {
             "id": "85e0ea80-9f97-4fce-b9a2-020c3989db10",
             "content": "{{=getT(\"Pression Artérielle\")}}",
             "x": 200,
-            "y": 403,
+            "y": 433,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4164,13 +4487,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:09:58.980Z"
           },
           {
             "id": "fa4417f1-36e1-448e-9589-239e74dfafaf",
             "content": "{{=getT(\"CBCT Pulmonaire\", exists(\"clinical_finding_lungs_status\", \"n\"), !exists(\"clinical_finding_lungs_status\", \"n\"))}}",
             "x": 200,
-            "y": 363,
+            "y": 393,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4188,13 +4511,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:10:14.673Z"
           },
           {
             "id": "f5851899-48ff-40c6-a85d-84f1bce06d36",
             "content": "{{=getT(\"Écho. Cardiaque\")}}",
             "x": 200,
-            "y": 283,
+            "y": 323,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4212,13 +4535,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:21:13.295Z"
           },
           {
             "id": "5a037b7b-5e75-4133-b202-f4a420e2a8ba",
             "content": "{{=getT(\"Force de Préhension\")}}",
             "x": 200,
-            "y": 173,
+            "y": 203,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4236,13 +4559,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:21:24.584Z"
           },
           {
             "id": "c17f3eda-94f6-4aa2-829b-39ff985fb168",
             "content": "{{=getT(\"Écho. Endocrinienne\")}}",
             "x": 600,
-            "y": 493,
+            "y": 522,
             "width": 235,
             "height": 38,
             "moduleId": "",
@@ -4260,13 +4583,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:22:55.262Z"
           },
           {
             "id": "86e8a5bb-3901-4fd6-aa61-7342a6633de7",
             "content": "{{=getT(\"Bilan Glucidique\")}}",
             "x": 600,
-            "y": 533,
+            "y": 563,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4284,13 +4607,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:22:32.512Z"
           },
           {
             "id": "51a9a08c-fafe-4436-a305-93ac6abb7730",
             "content": "{{=getT(\"Bilan Hormonal\")}}",
             "x": 600,
-            "y": 573,
+            "y": 603,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4308,13 +4631,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:22:12.186Z"
           },
           {
             "id": "22f0fe29-9a48-4077-9f5d-690276098845",
             "content": "{{=getT(\"Acuité Visuelle\")}}",
             "x": 1000,
-            "y": 373,
+            "y": 403,
             "width": 235,
             "height": 38,
             "moduleId": "",
@@ -4332,13 +4655,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:05.892Z"
           },
           {
             "id": "fdb04ae6-7e02-4c56-bcbd-b1a49f7cab30",
             "content": "<b>Composition corporelle</b>",
             "x": 160,
-            "y": 90,
+            "y": 120,
             "width": 298,
             "height": 38,
             "moduleId": "",
@@ -4356,13 +4679,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:22:03.439Z"
           },
           {
             "id": "c41331eb-10a0-47f6-b504-657b4ece836f",
             "content": "<b>Fonction rénale</b>",
             "x": 560,
-            "y": 90,
+            "y": 120,
             "width": 298,
             "height": 38,
             "moduleId": "",
@@ -4380,13 +4703,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:24:59.543Z"
           },
           {
             "id": "d4f0f065-9fa7-4080-9aa5-040981c0e922",
             "content": "<b>Fonction endocrine</b>",
             "x": 560,
-            "y": 440,
+            "y": 470,
             "width": 298,
             "height": 38,
             "moduleId": "",
@@ -4404,13 +4727,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:11.094Z"
           },
           {
             "id": "e8cd88c1-cdf3-458c-a0a3-36c7241cecf4",
             "content": "<b>Fonction métabolique</b>",
             "x": 160,
-            "y": 590,
+            "y": 620,
             "width": 298,
             "height": 38,
             "moduleId": "",
@@ -4428,13 +4751,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:08:35.978Z"
           },
           {
             "id": "830b931c-2acf-4853-8b9d-fc8a5d249cc4",
             "content": "<b>Fonction digestive</b>",
             "x": 560,
-            "y": 280,
+            "y": 310,
             "width": 298,
             "height": 38,
             "moduleId": "",
@@ -4452,13 +4775,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:51.251Z"
           },
           {
             "id": "79e1b9d3-f236-4188-b301-6d41ff9f114f",
             "content": "<b>Fonction immunitaire</b>",
             "x": 960,
-            "y": 90,
+            "y": 120,
             "width": 298,
             "height": 38,
             "moduleId": "",
@@ -4476,13 +4799,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:26:28.404Z"
           },
           {
             "id": "05fe0aca-ed1b-425e-b500-ad3ca1d54bcb",
             "content": "<b>Fonction neurologique</b>",
             "x": 960,
-            "y": 280,
+            "y": 310,
             "width": 298,
             "height": 38,
             "moduleId": "",
@@ -4500,13 +4823,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:41.934Z"
           },
           {
             "id": "1d23f63c-3649-4b6e-be34-8b67d0d5f4ea",
             "content": "{{=getT(\"Électrocardiogramme\")}}",
             "x": 200,
-            "y": 443,
+            "y": 473,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4524,13 +4847,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:09:33.564Z"
           },
           {
             "id": "dccfb3ae-4798-4470-bd4a-561421dafcd3",
             "content": "{{=getT(\"Spirométrie\")}}",
             "x": 200,
-            "y": 483,
+            "y": 513,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4548,13 +4871,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:09:06.213Z"
           },
           {
             "id": "50690112-93e6-44d0-b383-d9ff673d7e0a",
             "content": "{{=getT(\"Bilan Hépatique\")}}",
             "x": 600,
-            "y": 373,
+            "y": 403,
             "width": 255,
             "height": 38,
             "moduleId": "",
@@ -4572,13 +4895,13 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:16.005Z"
           },
           {
             "id": "44edddcc-4d52-45a9-bff0-1a0695165adf",
             "content": "{{=getT(\"Écho. Vasculaire\")}}",
             "x": 200,
-            "y": 323,
+            "y": 353,
             "width": 205,
             "height": 38,
             "moduleId": "",
@@ -4596,7 +4919,7 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:10:45.121Z"
           }
         ],
         "imageBlocks": [
@@ -4627,7 +4950,7 @@
           {
             "id": "86084630-68bf-4b64-a384-1e1a2de4e37c",
             "x": 170,
-            "y": 294,
+            "y": 334,
             "size": 12,
             "condition": "isNormalSlide(\"#echocardiaque\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"echocardiaque\")",
@@ -4636,12 +4959,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:11:09.933Z"
           },
           {
             "id": "17f6420a-aa03-4e1a-8e88-59f820124b18",
             "x": 190,
-            "y": 654,
+            "y": 684,
             "size": 12,
             "condition": "getCU(\"biomarker_methylage_biological_age\", \"n\", \"interpretation\")==\"normal\"",
             "displayCondition": "bulletTestN(\"methylage\")",
@@ -4650,12 +4973,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:08:46.858Z"
           },
           {
             "id": "271891b8-5f6b-476e-a35c-5bd5aed68bf3",
             "x": 590,
-            "y": 224,
+            "y": 254,
             "size": 12,
             "condition": "isNormalSlide(\"#bandelettes\")",
             "displayCondition": "bulletTestN(\"bandelettes\")",
@@ -4664,12 +4987,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:24:25.348Z"
           },
           {
             "id": "6e938545-2cc1-4f30-8323-a5d83f8721bb",
             "x": 190,
-            "y": 294,
+            "y": 334,
             "size": 12,
             "condition": "isNormalSlide(\"#echocardiaque\")",
             "displayCondition": "bulletTestN(\"echocardiaque\")",
@@ -4678,12 +5001,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:11:18.330Z"
           },
           {
             "id": "e670b396-39ba-4639-a385-9cad6c105969",
             "x": 190,
-            "y": 374,
+            "y": 404,
             "size": 12,
             "condition": "isNormalSlide(\"#cbct1\")",
             "displayCondition": "bulletTestN(\"cbct1\")",
@@ -4692,12 +5015,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:10:26.047Z"
           },
           {
             "id": "ed439479-8867-4800-9c1c-7952d09053a5",
             "x": 190,
-            "y": 414,
+            "y": 444,
             "size": 12,
             "condition": "isNormalSlide(\"#pression\")",
             "displayCondition": "bulletTestN(\"pression\")",
@@ -4706,12 +5029,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:10:05.779Z"
           },
           {
             "id": "b57a63f0-591f-44e8-89c1-02f69756e2db",
             "x": 190,
-            "y": 144,
+            "y": 174,
             "size": 12,
             "condition": "getReNG(\"score_body_mass_index\", \"n\", \"interpretation\")==\"normal\"",
             "displayCondition": "bulletTestN(\"imc\")",
@@ -4720,12 +5043,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:21:51.909Z"
           },
           {
             "id": "0208d6c6-7222-41aa-83f4-98ea8bb2d6a1",
             "x": 190,
-            "y": 184,
+            "y": 214,
             "size": 12,
             "condition": "isNormalSlide(\"#force\")",
             "displayCondition": "bulletTestN(\"force\")",
@@ -4734,12 +5057,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:21:42.524Z"
           },
           {
             "id": "5de07b1a-58b9-4735-9de9-137e89b9f178",
             "x": 590,
-            "y": 144,
+            "y": 174,
             "size": 12,
             "condition": "isNormalSlide(\"#echorein\")",
             "displayCondition": "bulletTestN(\"echorein\")",
@@ -4748,12 +5071,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:24:50.256Z"
           },
           {
             "id": "93f82375-80b1-4899-9c1a-0c1109de3a2b",
             "x": 590,
-            "y": 584,
+            "y": 614,
             "size": 12,
             "condition": "isNormalSlide(\"#bioendo2\")",
             "displayCondition": "bulletTestN(\"bioendo2\")",
@@ -4762,12 +5085,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:22:23.632Z"
           },
           {
             "id": "2bb97977-fad5-467a-b7af-bca30b821dc6",
             "x": 590,
-            "y": 344,
+            "y": 374,
             "size": 12,
             "condition": "isNormalSlide(\"#echodig1\")",
             "displayCondition": "bulletTestN(\"echodig1\")",
@@ -4776,12 +5099,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:46.215Z"
           },
           {
             "id": "c0f10343-688d-4cdd-a474-b04da7dff787",
             "x": 590,
-            "y": 184,
+            "y": 214,
             "size": 12,
             "condition": "isNormalSlide(\"#biorein\")",
             "displayCondition": "bulletTestN(\"biorein\")",
@@ -4790,12 +5113,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:24:36.097Z"
           },
           {
             "id": "06a17682-541d-458d-a563-2e4f7a04b717",
             "x": 590,
-            "y": 544,
+            "y": 574,
             "size": 12,
             "condition": "isNormalSlide(\"#bioendo1\")",
             "displayCondition": "bulletTestN(\"bioendo1\")",
@@ -4804,12 +5127,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:22:37.239Z"
           },
           {
             "id": "fc2d10a5-e6ce-4bd5-a5f7-472ceae3b868",
             "x": 590,
-            "y": 504,
+            "y": 534,
             "size": 12,
             "condition": "isNormalSlide(\"#echoendo\")",
             "displayCondition": "bulletTestN(\"echoendo\")",
@@ -4818,12 +5141,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:07.344Z"
           },
           {
             "id": "7a38236d-929d-4d1c-b0fe-37e271e0b32b",
             "x": 990,
-            "y": 144,
+            "y": 174,
             "size": 12,
             "condition": "isNormalSlide(\"#bioimmuno1\")",
             "displayCondition": "bulletTestN(\"bioimmuno1\")",
@@ -4832,12 +5155,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:26:18.934Z"
           },
           {
             "id": "081c4502-c246-4d67-8dc7-e5424fa6d80f",
             "x": 990,
-            "y": 184,
+            "y": 214,
             "size": 12,
             "condition": "isNormalSlide(\"#bioimmuno3\")",
             "displayCondition": "bulletTestN(\"bioimmuno3\")",
@@ -4846,12 +5169,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:26:05.614Z"
           },
           {
             "id": "546667c5-3eb6-4fc3-b714-7723b2504a96",
             "x": 990,
-            "y": 224,
+            "y": 254,
             "size": 12,
             "condition": "isNormalSlide(\"#bioimmuno4\")",
             "displayCondition": "bulletTestN(\"bioimmuno4\")",
@@ -4860,12 +5183,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:52.208Z"
           },
           {
             "id": "88455e6a-fd03-4464-94a8-d26015f388ed",
             "x": 190,
-            "y": 534,
+            "y": 564,
             "size": 12,
             "condition": "isNormalSlide(\"#biocardio1\")",
             "displayCondition": "bulletTestN(\"biocardio1_CU2\")",
@@ -4874,12 +5197,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:08:26.809Z"
           },
           {
             "id": "37d8269e-79ee-48a7-aa45-8922537b3ab9",
             "x": 990,
-            "y": 384,
+            "y": 414,
             "size": 12,
             "condition": "isNormalSlide(\"#acuitevisu\")",
             "displayCondition": "bulletTestN(\"acuitevisu\")",
@@ -4888,12 +5211,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:12.906Z"
           },
           {
             "id": "85a6eb55-2639-4814-9213-b4cd5979220f",
             "x": 990,
-            "y": 344,
+            "y": 374,
             "size": 12,
             "condition": "isNormalSlide(\"#audiometrie\")",
             "displayCondition": "bulletTestN(\"audiometrie\")",
@@ -4902,12 +5225,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:36.209Z"
           },
           {
             "id": "32a8bb86-51d7-4569-b22c-3bd5c4dcc781",
             "x": 570,
-            "y": 224,
+            "y": 254,
             "size": 12,
             "condition": "isNormalSlide(\"#bandelettes\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"bandelettes\")",
@@ -4916,12 +5239,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:24:30.806Z"
           },
           {
             "id": "15f3ac60-75d7-434c-85f8-aefa909ca327",
             "x": 170,
-            "y": 184,
+            "y": 214,
             "size": 12,
             "condition": "isNormalSlide(\"#force\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"force\")",
@@ -4930,12 +5253,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:21:47.754Z"
           },
           {
             "id": "c6816cea-6b06-48c4-a366-68312f89a24b",
             "x": 170,
-            "y": 374,
+            "y": 404,
             "size": 12,
             "condition": "isNormalSlide(\"#cbct1\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"cbct1\")",
@@ -4944,12 +5267,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:10:40.534Z"
           },
           {
             "id": "d0c8c535-bdde-4e52-8dcb-c4f5452ee2ba",
             "x": 170,
-            "y": 414,
+            "y": 444,
             "size": 12,
             "condition": "isNormalSlide(\"#pression\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"pression\")",
@@ -4958,12 +5281,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:10:10.396Z"
           },
           {
             "id": "be004fff-9432-495e-bdfb-2688f5d98d11",
             "x": 170,
-            "y": 534,
+            "y": 564,
             "size": 12,
             "condition": "isNormalSlide(\"#biocardio1\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"biocardio1_CU2\")",
@@ -4972,12 +5295,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:09:13.833Z"
           },
           {
             "id": "60743e29-013c-46c5-bac9-a3097d392340",
             "x": 170,
-            "y": 144,
+            "y": 174,
             "size": 12,
             "condition": "getReNG(\"score_body_mass_index\", \"n-1\", \"interpretation\")==\"normal\")",
             "displayCondition": "bulletTestN_1(\"imc\")",
@@ -4986,12 +5309,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:21:57.079Z"
           },
           {
             "id": "b5d5b52d-190f-405a-8611-e86da108dd0a",
             "x": 170,
-            "y": 654,
+            "y": 684,
             "size": 12,
             "condition": "getCU(\"biomarker_methylage_biological_age\", \"n-1\", \"interpretation\")==\"normal\"",
             "displayCondition": "bulletTestN_1(\"methylage\")",
@@ -5000,12 +5323,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:08:54.993Z"
           },
           {
             "id": "a0846c45-55c5-4e88-bb83-39645d7dd727",
             "x": 570,
-            "y": 144,
+            "y": 174,
             "size": 12,
             "condition": "isNormalSlide(\"#echorein\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"echorein\")",
@@ -5014,12 +5337,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:24:55.619Z"
           },
           {
             "id": "6d756c1c-7453-40c5-ad62-1decc2c74c4e",
             "x": 570,
-            "y": 184,
+            "y": 214,
             "size": 12,
             "condition": "isNormalSlide(\"#biorein\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"biorein\")",
@@ -5028,12 +5351,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:24:42.760Z"
           },
           {
             "id": "1f9b77c1-f707-4704-a5b0-0e3fd5255d1f",
             "x": 970,
-            "y": 384,
+            "y": 414,
             "size": 12,
             "condition": "isNormalSlide(\"#acuitevisu\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"acuitevisu\")",
@@ -5042,12 +5365,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:17.511Z"
           },
           {
             "id": "a86865db-d3a8-4aaf-b85a-b912c30b66f8",
             "x": 570,
-            "y": 344,
+            "y": 374,
             "size": 12,
             "condition": "isNormalSlide(\"#echodig1\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"echodig1\")",
@@ -5056,12 +5379,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:40.545Z"
           },
           {
             "id": "575e4769-1a99-4df6-867c-d27624be5902",
             "x": 570,
-            "y": 504,
+            "y": 534,
             "size": 12,
             "condition": "isNormalSlide(\"#echoendo\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"echoendo\")",
@@ -5070,12 +5393,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:01.202Z"
           },
           {
             "id": "d508d1fc-a019-4cbc-a9a7-3d82530a70ff",
             "x": 570,
-            "y": 544,
+            "y": 574,
             "size": 12,
             "condition": "isNormalSlide(\"#bioendo1\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"bioendo1\")",
@@ -5084,12 +5407,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:22:41.464Z"
           },
           {
             "id": "9636110e-1942-45ae-b63a-7b9eca3e9736",
             "x": 570,
-            "y": 584,
+            "y": 614,
             "size": 12,
             "condition": "isNormalSlide(\"#bioendo2\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"bioendo2\")",
@@ -5098,12 +5421,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:22:28.617Z"
           },
           {
             "id": "155a3380-cd23-4008-9d93-5e153380a927",
             "x": 970,
-            "y": 144,
+            "y": 174,
             "size": 12,
             "condition": "isNormalSlide(\"#bioimmuno1\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"bioimmuno1\")",
@@ -5112,12 +5435,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:26:24.671Z"
           },
           {
             "id": "0658f9ad-3b52-4816-abbd-86c85a8cbb42",
             "x": 970,
-            "y": 184,
+            "y": 214,
             "size": 12,
             "condition": "isNormalSlide(\"#bioimmuno3\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"bioimmuno3\")",
@@ -5126,12 +5449,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:26:10.127Z"
           },
           {
             "id": "5eeb1c58-e3c5-447c-84c4-dce7e768fc99",
             "x": 970,
-            "y": 224,
+            "y": 254,
             "size": 12,
             "condition": "isNormalSlide(\"#bioimmuno4\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"bioimmuno4\")",
@@ -5140,12 +5463,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:57.079Z"
           },
           {
             "id": "c431f785-a0ef-447d-a749-c9b5648c1d27",
             "x": 970,
-            "y": 344,
+            "y": 374,
             "size": 12,
             "condition": "isNormalSlide(\"#audiometrie\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"audiometrie\")",
@@ -5154,12 +5477,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:25:27.797Z"
           },
           {
             "id": "d9a37f5c-2a55-4fbd-9431-6b2e9448d328",
             "x": 190,
-            "y": 494,
+            "y": 524,
             "size": 12,
             "condition": "isNormalSlide(\"#spiro\")",
             "displayCondition": "bulletTestN(\"spiro\")",
@@ -5168,12 +5491,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:09:20.756Z"
           },
           {
             "id": "d9833275-46a4-419d-916c-abdb26b3f6c7",
             "x": 170,
-            "y": 454,
+            "y": 484,
             "size": 12,
             "condition": "isNormalSlide(\"#ecg\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"ecg\")",
@@ -5182,12 +5505,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:09:43.245Z"
           },
           {
             "id": "26cefc77-74a2-405a-b4d0-b58180fe0b52",
             "x": 170,
-            "y": 494,
+            "y": 524,
             "size": 12,
             "condition": "isNormalSlide(\"#spiro\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"spiro\")",
@@ -5196,12 +5519,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:09:25.599Z"
           },
           {
             "id": "540929c3-ba3a-41f9-a789-ef0a0bb6b10f",
             "x": 190,
-            "y": 454,
+            "y": 484,
             "size": 12,
             "condition": "isNormalSlide(\"#ecg\")",
             "displayCondition": "bulletTestN(\"ecg\")",
@@ -5210,12 +5533,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:09:52.073Z"
           },
           {
             "id": "004ca600-8e73-4a0a-95e9-7961ac3dab8f",
             "x": 590,
-            "y": 384,
+            "y": 414,
             "size": 12,
             "condition": "isNormalSlide(\"#biodig\")",
             "displayCondition": "bulletTestN(\"biodig\")",
@@ -5224,12 +5547,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:31.959Z"
           },
           {
             "id": "92746d3f-9f8d-4791-b7cb-72e9df5feafc",
             "x": 570,
-            "y": 384,
+            "y": 414,
             "size": 12,
             "condition": "isNormalSlide(\"#biodig\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"biodig\")",
@@ -5238,12 +5561,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:23:23.648Z"
           },
           {
             "id": "faee7d94-6177-4237-88fe-5f4fa37bbdd8",
             "x": 190,
-            "y": 334,
+            "y": 364,
             "size": 12,
             "condition": "isNormalSlide(\"#echovasc\")",
             "displayCondition": "bulletTestN(\"echovasc\")",
@@ -5252,12 +5575,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:10:59.208Z"
           },
           {
             "id": "4a9eee7f-dd2d-45e6-872b-09e53e82ae03",
             "x": 170,
-            "y": 334,
+            "y": 364,
             "size": 12,
             "condition": "isNormalSlide(\"#echovasc\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"echovasc\")",
@@ -5266,7 +5589,7 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T16:10:51.432Z"
           }
         ],
         "rectangleBlocks": [],
@@ -5298,14 +5621,14 @@
             "x": 1260,
             "y": 59,
             "name": "Nouveau code",
-            "code": "cleanNavMap();\n\nsetLS('previousSlide', '#synthese');\nsetLS('titreObj', '');\nsetLS('numObj', '');\n\nsetLS('numObjT', 0);\nsetLS('numCU', \"n\");\n",
+            "code": "cleanNavMap();\n\nsetLS('previousSlide', '#synthese_core');\nsetLS('titreObj', '');\nsetLS('numObj', '');\n\nsetLS('numObjT', 0);\nsetLS('numCU', \"n\");\n",
             "createdAt": "2025-11-24T12:38:08.766Z",
-            "updatedAt": "2025-11-24T12:38:08.766Z"
+            "updatedAt": "2025-11-24T13:30:24.924Z"
           }
         ],
         "modalBlocks": [],
         "createdAt": "2025-11-24T12:38:08.766Z",
-        "updatedAt": "2025-11-24T12:38:08.766Z"
+        "updatedAt": "2025-11-24T16:26:28.404Z"
       },
       {
         "id": "4544d81c-2e96-4d1e-92cf-7c90ef47ac62",
@@ -16718,9 +17041,9 @@
             "id": "eb5a4211-b955-49b4-8679-1945f56dd49d",
             "content": "<t>Foie</s>\n{{=getCuFormat(\"clinical_finding_liver_status\", \"n\", \"interpretationComment\")}}\n\n<t>Vésicule biliaire</s>\n{{=getCuFormat(\"clinical_finding_gallbladder_status\", \"n\", \"interpretationComment\")}}\n\n<t>Voies biliaires</s>\n{{=getCuFormat(\"clinical_finding_bile_ducts_status\", \"n\", \"interpretationComment\")}}\n\n<t>Graisse inter hépato-rénale</s>\n{{=getCuFormat(\"clinical_finding_interhepatorenal_fat_status\", \"n\", \"interpretationComment\")}}\n\n<t>Pancréas</s>\n{{=getCuFormat(\"clinical_finding_pancreas_status\", \"n\", \"interpretationComment\")}}\n\n<t>Rate</s>\n{{=getCuFormat(\"clinical_finding_spleen_status\", \"n\", \"interpretationComment\")}}\n",
             "x": 600,
-            "y": 160,
-            "width": 700,
-            "height": 580,
+            "y": 143,
+            "width": 715,
+            "height": 619,
             "moduleId": "",
             "displayCondition": "",
             "appelScript": "",
@@ -16736,7 +17059,7 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-24T12:38:08.767Z",
-            "updatedAt": "2025-11-24T12:38:08.767Z"
+            "updatedAt": "2025-11-24T16:58:16.493Z"
           },
           {
             "id": "15ad7ee3-1af8-4226-bd33-420ff94028e0",
@@ -16906,7 +17229,7 @@
           }
         ],
         "createdAt": "2025-11-24T12:38:08.767Z",
-        "updatedAt": "2025-11-24T12:38:08.767Z"
+        "updatedAt": "2025-11-24T16:58:16.493Z"
       },
       {
         "id": "6d32f8ae-0e90-4a34-837e-443218a8905b",
@@ -38667,6 +38990,26 @@
     ],
     "modules": [
       {
+        "id": "d7130d65-cee6-4383-b45b-82ee53fbea4f",
+        "name": "Nouveau module",
+        "moduleId": "",
+        "include": "function isCore() {\n  \n  return window.FUMType == \"Core\";\n}",
+        "appel": "",
+        "code": "",
+        "createdAt": "2025-11-24T13:11:33.671Z",
+        "updatedAt": "2025-11-24T13:12:03.257Z"
+      },
+      {
+        "id": "86392452-2ea5-4cff-a05d-e39c2279d7db",
+        "name": "const",
+        "moduleId": "",
+        "include": "window.lang = \"FR\";\n\n//window.FUMType = \"Life\";\nwindow.FUMType = \"Core\";\n//window.FUMType = \"Pulse\";\n\nwindow.genre = getPI(\"gender\"); // male ou female \nwindow.gitR = \"https://raw.githubusercontent.com/Fabrice2072/ZFlow/main/\";\nwindow.cAge = getAge(getPI(\"birthDate\"));\nwindow.cWeight_n = getCU(\"biomarker_weight\", \"n\", \"value\")==null?getCU(\"biomarker_weight\", \"n-1\", \"value\"):getCU(\"biomarker_weight\", \"n\", \"value\");\nwindow.cWeight_n_1 = getCU(\"biomarker_weight\", \"n-1\", \"value\");\nwindow.cHeight_n = getCU(\"biomarker_height\", \"n\", \"value\")==null?getCU(\"biomarker_height\", \"n-1\", \"value\"):getCU(\"biomarker_height\", \"n\", \"value\");\n\n\nwindow.cHeight_n_1 = getCU(\"biomarker_height\", \"n-1\", \"value\");\nwindow.cFirstname  = getPI(\"firstName\");\nwindow.cLastname   = getPI(\"lastName\");\nwindow.cLanguage   = getPI(\"language\");\nwindow.cGender     = getPI(\"demographic_sex\");\nwindow.cIMC = round2(window.cWeight_n / ((window.cHeight_n/100) * (window.cHeight_n/100)));\nwindow.cIMC_n_1 = round2(window.cWeight_n_1 / ((window.cHeight_n_1/100) * (window.cHeight_n_1/100)));",
+        "appel": "window.gitR + \"corev30.svg\",",
+        "code": "",
+        "createdAt": "2025-11-24T12:38:08.768Z",
+        "updatedAt": "2025-11-24T13:11:06.306Z"
+      },
+      {
         "id": "2257208c-ae16-470e-952e-22584f2ce09f",
         "name": "prevSlideFromSynthese",
         "moduleId": "",
@@ -38762,16 +39105,6 @@
         "moduleId": "",
         "include": "function ifNull(val, ifnullstring) {\n\n  if (val ==  null) return ifnullstring;\n  return val;\n}",
         "appel": "graph stress notamment",
-        "code": "",
-        "createdAt": "2025-11-24T12:38:08.768Z",
-        "updatedAt": "2025-11-24T12:38:08.768Z"
-      },
-      {
-        "id": "86392452-2ea5-4cff-a05d-e39c2279d7db",
-        "name": "const",
-        "moduleId": "",
-        "include": "window.lang = \"FR\";\n\nwindow.genre = getPI(\"gender\"); // male ou female \nwindow.gitR = \"https://raw.githubusercontent.com/Fabrice2072/ZFlow/main/\";\nwindow.cAge = getAge(getPI(\"birthDate\"));\nwindow.cWeight_n = getCU(\"biomarker_weight\", \"n\", \"value\")==null?getCU(\"biomarker_weight\", \"n-1\", \"value\"):getCU(\"biomarker_weight\", \"n\", \"value\");\nwindow.cWeight_n_1 = getCU(\"biomarker_weight\", \"n-1\", \"value\");\nwindow.cHeight_n = getCU(\"biomarker_height\", \"n\", \"value\")==null?getCU(\"biomarker_height\", \"n-1\", \"value\"):getCU(\"biomarker_height\", \"n\", \"value\");\n\n\nwindow.cHeight_n_1 = getCU(\"biomarker_height\", \"n-1\", \"value\");\nwindow.cFirstname  = getPI(\"firstName\");\nwindow.cLastname   = getPI(\"lastName\");\nwindow.cLanguage   = getPI(\"language\");\nwindow.cGender     = getPI(\"demographic_sex\");\nwindow.cIMC = round2(window.cWeight_n / ((window.cHeight_n/100) * (window.cHeight_n/100)));\nwindow.cIMC_n_1 = round2(window.cWeight_n_1 / ((window.cHeight_n_1/100) * (window.cHeight_n_1/100)));",
-        "appel": "window.gitR + \"corev30.svg\",",
         "code": "",
         "createdAt": "2025-11-24T12:38:08.768Z",
         "updatedAt": "2025-11-24T12:38:08.768Z"
@@ -39719,6 +40052,14 @@
     ],
     "jsonDataSources": [
       {
+        "id": "20df5671-b2fb-4340-aef3-8a48dd3a99b0",
+        "name": "CU1 nathalie curvat",
+        "url": "file://CU1 nathalie curvat",
+        "mapName": "checkupMap",
+        "createdAt": "2025-11-24T14:20:14.343Z",
+        "updatedAt": "2025-11-24T14:20:14.343Z"
+      },
+      {
         "id": "b1fe4001-5e0a-46b4-b7ca-ae68621206a1",
         "name": "deck-14efa76f-fcc0-5419-9e98-378d2fce0a5e.fr (1)",
         "url": "file://deck-14efa76f-fcc0-5419-9e98-378d2fce0a5e.fr (1)",
@@ -39784,13 +40125,13 @@
       }
     ],
     "statistics": {
-      "totalSlides": 97,
-      "totalTextBlocks": 921,
-      "totalImageBlocks": 161,
+      "totalSlides": 98,
+      "totalTextBlocks": 930,
+      "totalImageBlocks": 165,
       "totalBulletBlocks": 442,
-      "totalRectangleBlocks": 50,
-      "totalLinkBlocks": 377,
-      "totalCodeBlocks": 18,
+      "totalRectangleBlocks": 51,
+      "totalLinkBlocks": 379,
+      "totalCodeBlocks": 19,
       "totalModalBlocks": 71,
       "totalCodeBlocksDetailed": [
         {
@@ -39825,456 +40166,461 @@
         },
         {
           "slideIndex": 6,
+          "slideId": "19b92de8-cd17-4b64-ab7b-bd7444df302f",
+          "codeBlocksCount": 1
+        },
+        {
+          "slideIndex": 7,
           "slideId": "43699e27-423f-4845-bc87-6f9eb1b4995a",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 7,
+          "slideIndex": 8,
           "slideId": "728ab865-6335-46f9-97fc-609670cbe611",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 8,
+          "slideIndex": 9,
           "slideId": "597e03d7-ab51-4054-b5a9-25038d6ae390",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 9,
+          "slideIndex": 10,
           "slideId": "4544d81c-2e96-4d1e-92cf-7c90ef47ac62",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 10,
+          "slideIndex": 11,
           "slideId": "160d82fc-5951-4011-aaba-aacfcad15261",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 11,
+          "slideIndex": 12,
           "slideId": "becfe56e-a044-4b7d-8b01-35edd237caa7",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 12,
+          "slideIndex": 13,
           "slideId": "02f73964-35f5-40ca-ba6b-54a28926f166",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 13,
+          "slideIndex": 14,
           "slideId": "aadf6bae-5983-4477-a9aa-5ce4d47df38d",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 14,
+          "slideIndex": 15,
           "slideId": "6bb51655-de82-4de4-a387-3b268255cc7b",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 15,
+          "slideIndex": 16,
           "slideId": "50038f52-f120-4c72-a483-d8b8b70ca86a",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 16,
+          "slideIndex": 17,
           "slideId": "e0dd1b2a-b59d-4082-88df-84ba24606446",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 17,
+          "slideIndex": 18,
           "slideId": "84dc2c61-28a7-41ef-8d5e-f743dbfbcd39",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 18,
+          "slideIndex": 19,
           "slideId": "6c5f0bd4-a639-4434-953b-9f49bee7c865",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 19,
+          "slideIndex": 20,
           "slideId": "2420ac51-f5a2-4790-98db-c4ed879a3843",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 20,
+          "slideIndex": 21,
           "slideId": "ec458efa-846f-4184-9344-8df565c6e6f0",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 21,
+          "slideIndex": 22,
           "slideId": "6d32f8ae-0e90-4a34-837e-443218a8905b",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 22,
+          "slideIndex": 23,
           "slideId": "1e257fa1-e937-447f-a2c8-ddee6b89f462",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 23,
+          "slideIndex": 24,
           "slideId": "a57855a1-f4ea-4cd7-ba8b-1110b08712f3",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 24,
+          "slideIndex": 25,
           "slideId": "9d0283f6-90a7-4fb6-b56d-9a391ec54ec0",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 25,
+          "slideIndex": 26,
           "slideId": "df626677-5714-4ea9-9256-6b66764eda5f",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 26,
+          "slideIndex": 27,
           "slideId": "8e2c8bda-08db-406e-8698-36214c045cec",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 27,
+          "slideIndex": 28,
           "slideId": "852969cc-fe96-4e23-966f-860ca744f777",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 28,
+          "slideIndex": 29,
           "slideId": "c52afb78-aca5-43fd-89d9-6e75b06d3e03",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 29,
+          "slideIndex": 30,
           "slideId": "d47cc4ff-0593-4af9-ac2f-5bb803424ddd",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 30,
+          "slideIndex": 31,
           "slideId": "27af686f-850f-48ec-8cae-823b435fcbaa",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 31,
+          "slideIndex": 32,
           "slideId": "ac28a8b0-ffb6-4a1a-9f4e-95918a81bba9",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 32,
+          "slideIndex": 33,
           "slideId": "64199c5b-f4e8-4fdf-a8c5-0d805f59796f",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 33,
+          "slideIndex": 34,
           "slideId": "311aa827-72dc-48c9-b53e-4f59ccb0b065",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 34,
+          "slideIndex": 35,
           "slideId": "6198b0ca-eff3-4718-b465-8fb1410709a1",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 35,
+          "slideIndex": 36,
           "slideId": "822ad8ff-78fb-420e-9389-97c0fd3f77e2",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 36,
+          "slideIndex": 37,
           "slideId": "2c963ff2-2654-4534-83ed-9d95ff518aff",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 37,
+          "slideIndex": 38,
           "slideId": "741d3b7e-17cf-4515-b28b-93da492de744",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 38,
+          "slideIndex": 39,
           "slideId": "3fc0d91e-7d55-4a12-afd2-d7d8fb4f0bb5",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 39,
+          "slideIndex": 40,
           "slideId": "d9069efd-04c1-4aac-92c2-7056c6201b48",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 40,
+          "slideIndex": 41,
           "slideId": "5adc179c-63cf-4353-af6c-1a060a683bbb",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 41,
+          "slideIndex": 42,
           "slideId": "89849497-0eef-46d9-9d94-72cbfed85240",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 42,
+          "slideIndex": 43,
           "slideId": "8bfc8e22-9286-48cd-b01f-413f1c383e14",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 43,
+          "slideIndex": 44,
           "slideId": "9afe7b17-b4dc-46c5-bb91-90552556649d",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 44,
+          "slideIndex": 45,
           "slideId": "e4c3bf0a-ce10-4cd4-a599-85aa78db0f26",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 45,
+          "slideIndex": 46,
           "slideId": "b7211038-8298-423e-b88e-79104615a2d7",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 46,
+          "slideIndex": 47,
           "slideId": "a3c42380-0dc6-4172-ba43-b7022ea18961",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 47,
+          "slideIndex": 48,
           "slideId": "c87c3ecc-0224-492b-a0ba-bf3e91317969",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 48,
+          "slideIndex": 49,
           "slideId": "67292a7a-f6a2-43d7-8ed0-be9f61be681c",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 49,
+          "slideIndex": 50,
           "slideId": "22bc10a3-95d7-42ba-aa62-9f5696905730",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 50,
+          "slideIndex": 51,
           "slideId": "3a6081b7-4f09-42d0-8f37-1d60e816b0fc",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 51,
+          "slideIndex": 52,
           "slideId": "65fc9414-3d94-4e35-87e2-937463010a12",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 52,
+          "slideIndex": 53,
           "slideId": "6f7c03d5-2444-4901-9285-e38beb69bdf6",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 53,
+          "slideIndex": 54,
           "slideId": "ace1c22d-4fa0-46dc-8655-46aae5fa2603",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 54,
+          "slideIndex": 55,
           "slideId": "c15df981-1070-4129-bbd5-bb73cb2e1e70",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 55,
+          "slideIndex": 56,
           "slideId": "92780b16-5189-406d-a980-426f62a228c3",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 56,
+          "slideIndex": 57,
           "slideId": "e1c86464-b59a-4f79-846a-8c3a2aef640b",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 57,
+          "slideIndex": 58,
           "slideId": "f2bc41c6-a9ec-493e-a9a9-42ff991f486b",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 58,
+          "slideIndex": 59,
           "slideId": "19ef78ab-d141-4461-9a02-11bc3bfb30e8",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 59,
+          "slideIndex": 60,
           "slideId": "474ba9d0-bca6-485b-bc28-b4716f9d98eb",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 60,
+          "slideIndex": 61,
           "slideId": "fd0d8cb2-0a54-45e4-886c-1441e114b7f4",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 61,
+          "slideIndex": 62,
           "slideId": "00ce346b-2415-4dd4-a1bd-9e819a8dfa65",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 62,
+          "slideIndex": 63,
           "slideId": "23809283-3816-4d6e-abc3-e07dd3c02275",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 63,
+          "slideIndex": 64,
           "slideId": "07745118-8745-4c29-bc50-797c9daf069a",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 64,
+          "slideIndex": 65,
           "slideId": "1e7b990e-6a27-4c26-bca7-a3bcff6b88ec",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 65,
+          "slideIndex": 66,
           "slideId": "9056db15-bbbf-4a29-8506-ae751e8c4304",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 66,
+          "slideIndex": 67,
           "slideId": "c5e46d2e-4428-47ae-8ee9-777ca9f7c277",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 67,
+          "slideIndex": 68,
           "slideId": "c5abfdb4-ab56-4f30-a482-2267fca735a6",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 68,
+          "slideIndex": 69,
           "slideId": "a9211cf0-9354-4bdc-83c4-77db9661a56e",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 69,
+          "slideIndex": 70,
           "slideId": "4879a0ea-0a7c-4dca-984f-6ce368661fff",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 70,
+          "slideIndex": 71,
           "slideId": "990de044-7782-4d2b-872a-a964b107878c",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 71,
+          "slideIndex": 72,
           "slideId": "94ab9506-768e-4130-bc0a-8152cabddebc",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 72,
+          "slideIndex": 73,
           "slideId": "05848c1b-33de-48ce-ba61-6e2e3d14cc92",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 73,
+          "slideIndex": 74,
           "slideId": "8794a063-7c81-44fb-9ef8-65834ba43c6a",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 74,
+          "slideIndex": 75,
           "slideId": "95fbb83d-2d6c-4e1e-9249-9987da3cdf15",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 75,
+          "slideIndex": 76,
           "slideId": "b28b6641-0a67-44dd-bc58-f9a6485e162d",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 76,
+          "slideIndex": 77,
           "slideId": "9afeaa8b-5b54-4ced-aff3-95f8aa9780f8",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 77,
+          "slideIndex": 78,
           "slideId": "94b43a86-d330-49e6-be69-315abb974f72",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 78,
+          "slideIndex": 79,
           "slideId": "15217d04-ac20-4114-aa7e-19291a01a2f7",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 79,
+          "slideIndex": 80,
           "slideId": "d181d4cd-2d64-45eb-9842-f1781fea9549",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 80,
+          "slideIndex": 81,
           "slideId": "aa1a146a-9ead-4571-997d-3ac273bbce65",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 81,
+          "slideIndex": 82,
           "slideId": "cb2093f6-5014-4110-b4df-e25cf23e7fc4",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 82,
+          "slideIndex": 83,
           "slideId": "1d7dae48-67d4-4645-b557-c270fd9c9044",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 83,
+          "slideIndex": 84,
           "slideId": "6705713f-b59e-4b18-89e1-9411942d2a39",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 84,
+          "slideIndex": 85,
           "slideId": "1bdc3cfd-13f9-46c3-8585-3714fc38b7e5",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 85,
+          "slideIndex": 86,
           "slideId": "1882b5ef-8858-4fcd-a832-8cf90414deee",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 86,
+          "slideIndex": 87,
           "slideId": "4c38af02-874f-4f6d-b3a1-be5226f7ec28",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 87,
+          "slideIndex": 88,
           "slideId": "627e581f-4d47-4667-b277-5bd4a8d6172c",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 88,
+          "slideIndex": 89,
           "slideId": "3f9fde28-be84-43b2-afd3-ee035cc987e5",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 89,
+          "slideIndex": 90,
           "slideId": "67beea31-29e7-453e-bb74-4a2ca59fbbe5",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 90,
+          "slideIndex": 91,
           "slideId": "de6cb2de-f9a9-4eca-b3db-cb30a07564b9",
           "codeBlocksCount": 1
         },
         {
-          "slideIndex": 91,
+          "slideIndex": 92,
           "slideId": "04299b0d-1767-4df9-8d1e-c9c528dddf75",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 92,
+          "slideIndex": 93,
           "slideId": "9a62af77-76b0-4a72-ab43-ba1525fe2178",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 93,
+          "slideIndex": 94,
           "slideId": "92e9b8d3-e7a2-462f-adb0-42660c867ee4",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 94,
+          "slideIndex": 95,
           "slideId": "d15c5cef-3b5a-40dc-8269-cf846157699d",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 95,
+          "slideIndex": 96,
           "slideId": "bf8d6875-7b51-4209-898c-0290e6ebd533",
           "codeBlocksCount": 0
         },
         {
-          "slideIndex": 96,
+          "slideIndex": 97,
           "slideId": "878de6fb-1fec-49ba-afae-6b3d0d29306a",
           "codeBlocksCount": 0
         }
@@ -40282,9 +40628,9 @@
       "totalDataVariables": 1,
       "totalStyleVariables": 21,
       "totalImageResources": 51,
-      "totalModules": 105,
-      "totalJsonDataSources": 8,
-      "slidesWithCodes": 89,
+      "totalModules": 106,
+      "totalJsonDataSources": 9,
+      "slidesWithCodes": 90,
       "slidesWithDisplayConditions": 0
     }
   }
