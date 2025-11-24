@@ -1641,33 +1641,33 @@
 },
 "biomarker_bone_density_left_femur_t_score": {
 "deck_CU1_slide1": "#dexa2",
-"deck_CU1_slide2": null,
+"deck_CU1_slide2": "#dexa1",
 "deck_CU2_slide1": "#dexa2",
-"deck_CU2_slide2": null,
+"deck_CU2_slide2": "#dexa1",
 "reco_CU1_slide1": "#dexa2",
-"reco_CU1_slide2": null,
+"reco_CU1_slide2": "#dexa1",
 "reco_CU2_slide1": "#dexa2",
-"reco_CU2_slide2": null
+"reco_CU2_slide2": "#dexa1"
 },
 "biomarker_bone_density_right_femur_t_score": {
 "deck_CU1_slide1": "#dexa2",
-"deck_CU1_slide2": null,
+"deck_CU1_slide2": "#dexa1",
 "deck_CU2_slide1": "#dexa2",
-"deck_CU2_slide2": null,
+"deck_CU2_slide2": "#dexa1",
 "reco_CU1_slide1": "#dexa2",
-"reco_CU1_slide2": null,
+"reco_CU1_slide2": "#dexa1",
 "reco_CU2_slide1": "#dexa2",
-"reco_CU2_slide2": null
+"reco_CU2_slide2": "#dexa1"
 },
 "biomarker_bone_density_t_score": {
 "deck_CU1_slide1": "#dexa2",
-"deck_CU1_slide2": null,
+"deck_CU1_slide2": "#dexa1",
 "deck_CU2_slide1": "#dexa2",
-"deck_CU2_slide2": null,
+"deck_CU2_slide2": "#dexa1",
 "reco_CU1_slide1": "#dexa2",
-"reco_CU1_slide2": null,
+"reco_CU1_slide2": "#dexa1",
 "reco_CU2_slide1": "#dexa2",
-"reco_CU2_slide2": null
+"reco_CU2_slide2": "#dexa1"
 },
 "biomarker_body_fat_mass_ratio": {
 "deck_CU1_slide1": "#dexa3",
