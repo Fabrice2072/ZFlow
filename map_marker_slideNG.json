@@ -2429,6 +2429,16 @@
 "reco_CU2_slide1": "#force",
 "reco_CU2_slide2": null
 },
+"biomarker_maximum_grip_strength_hands_asymmetry": {
+"deck_CU1_slide1": "#force",
+"deck_CU1_slide2": null,
+"deck_CU2_slide1": "#force",
+"deck_CU2_slide2": null,
+"reco_CU1_slide1": "#force",
+"reco_CU1_slide2": null,
+"reco_CU2_slide1": "#force",
+"reco_CU2_slide2": null
+},
 "Allergies": {
 "deck_CU1_slide1": null,
 "deck_CU1_slide2": null,
