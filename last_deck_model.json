@@ -1,7 +1,7 @@
 {
   "deckModel": {
     "version": "1.0",
-    "exportedAt": "2025-11-26T08:43:26.523Z",
+    "exportedAt": "2025-11-26T15:08:41.024Z",
     "presentation": {
       "id": "3ff0149c-7618-4d04-81e2-13cf09989752",
       "name": "HF/CU1-2-3-core relecture",
@@ -9,7 +9,7 @@
       "slideHeight": 768,
       "customCSS": "@import url(\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css\");\n@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap\");\n\n.icon-box {\n  opacity: 1;\n  filter: none;\n  transition: opacity 0.3s;\n}\n\n.icon-box.icon-disabled {\n  opacity: 0.1; /* Icône grisée */\n  filter: grayscale(100%);\n}\n\n.title {\n  font-size: 18px;\n  color: #b88c63;\n  display: block;   /* ← pour que le titre soit sur sa propre ligne */\n}\n\n.titlebold {\n  font-size: 18px;\n  color: #b88c63;\n  font-weight: bold;\n  display: block;   /* ← pour que le titre soit sur sa propre ligne */\n}\n\n\n.fa-solid,\n.fa-regular,\n.fa-brands,\n.icon-box i {\n  font-style: normal !important;\n}\n\n  /* Liste des recos */\n  .tasks {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    gap: 10px;\n  }\n\n  .task {\n    display: flex;\n    gap: 10px;\n    align-items: flex-start;\n  }\n\n  .icon-box {\n    width: 24px;\n    height: 24px;\n    min-width: 24px;\n    border-radius: 6px;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .icon-box .fa-solid { font-size: 14px; line-height: 1; }\n\n  /* Variantes couleur/picto (adaptées à tes sections) */\n  .icon-default    { background:#e3f1ec; }\n  .icon-default .fa-solid { color:#2d8860; }\n\n  .icon-supplement  { background:#eae5f7; }\n  .icon-supplement .fa-solid { color:#584092; }\n\n  .icon-nutrition  { background:#eff3d9; }\n  .icon-nutrition .fa-solid { color:#b0c054; }\n\n  .icon-lifestyle  { background:#fdece1; }\n  .icon-lifestyle .fa-solid { color:#f48744; }\n\n  .icon-medicament { background:#eae5f7; }\n  .icon-medicament .fa-solid { color:#7f5ecf; }\n\n  .task-content { display:flex; flex-direction:column; gap:2px; }\n  .task-title   { font-biomarker_weight:500; font-size:15px; color:#000; }\n  .task-sub     { color:#6b7280; font-size:12px; }\n\n",
       "createdAt": "2025-11-25T13:32:10.095Z",
-      "updatedAt": "2025-11-26T08:42:32.688Z"
+      "updatedAt": "2025-11-26T15:06:19.910Z"
     },
     "slides": [
       {
@@ -96,7 +96,7 @@
             "id": "08e6e63a-ef3c-4f67-9c20-3f7bf54e6edd",
             "content": "{{=isCore()?\"Core\":\"\";}}",
             "x": 606,
-            "y": 311,
+            "y": 307,
             "width": 215,
             "height": 50,
             "moduleId": "",
@@ -107,14 +107,14 @@
             "style": {
               "bold": false,
               "italic": false,
-              "fontSize": 18,
+              "fontSize": 24,
               "color": "#ffffff",
               "backgroundColor": "transparent",
               "borderColor": "transparent",
               "textAlign": "left"
             },
             "createdAt": "2025-11-25T13:32:10.092Z",
-            "updatedAt": "2025-11-25T13:32:10.092Z"
+            "updatedAt": "2025-11-26T09:35:57.831Z"
           }
         ],
         "imageBlocks": [
@@ -191,7 +191,7 @@
         "codeBlocks": [],
         "modalBlocks": [],
         "createdAt": "2025-11-25T13:32:10.092Z",
-        "updatedAt": "2025-11-25T13:32:10.092Z"
+        "updatedAt": "2025-11-26T09:35:57.831Z"
       },
       {
         "id": "7eb7b5a0-2f37-435a-99cd-24717cb9e599",
@@ -4230,7 +4230,7 @@
             "id": "28b609f5-90b8-48f9-bf4a-f04f59d74fb2",
             "content": "{{=getT(\"Dépistage Tonal\")}}",
             "x": 1000,
-            "y": 363,
+            "y": 403,
             "width": 235,
             "height": 38,
             "moduleId": "",
@@ -4248,7 +4248,7 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-25T13:32:10.092Z",
-            "updatedAt": "2025-11-25T13:32:10.092Z"
+            "updatedAt": "2025-11-26T10:56:26.873Z"
           },
           {
             "id": "5e82d0f4-de6e-4dcc-afc4-8ed6eff18b7a",
@@ -4296,7 +4296,7 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-25T13:32:10.092Z",
-            "updatedAt": "2025-11-25T13:32:10.092Z"
+            "updatedAt": "2025-11-26T12:51:51.072Z"
           },
           {
             "id": "74a6980d-252e-4093-9faf-eee6b2fbd5e5",
@@ -4309,30 +4309,6 @@
             "displayCondition": "bulletTestN(\"echodig1\")",
             "appelScript": "",
             "slideCode": "{{=getLink(\"echodig1\")}}",
-            "autoScroll": false,
-            "style": {
-              "bold": false,
-              "italic": false,
-              "fontSize": 12,
-              "color": "#000000",
-              "backgroundColor": "transparent",
-              "borderColor": "transparent",
-              "textAlign": "left"
-            },
-            "createdAt": "2025-11-25T13:32:10.092Z",
-            "updatedAt": "2025-11-25T13:32:10.092Z"
-          },
-          {
-            "id": "b328f9b6-c826-4738-8eef-e5e59f6d08e6",
-            "content": "{{=getT(\"Bilan Hématologique et Immunitaire\")}}",
-            "x": 1000,
-            "y": 163,
-            "width": 285,
-            "height": 38,
-            "moduleId": "",
-            "displayCondition": "bulletTestN(\"bioimmuno1\")",
-            "appelScript": "",
-            "slideCode": "{{=getLink(\"bioimmuno1\")}}",
             "autoScroll": false,
             "style": {
               "bold": false,
@@ -4638,7 +4614,7 @@
             "id": "b3fdf272-73cb-49b2-a0b9-0699728e21ee",
             "content": "{{=getT(\"Acuité Visuelle\")}}",
             "x": 1000,
-            "y": 403,
+            "y": 363,
             "width": 235,
             "height": 38,
             "moduleId": "",
@@ -4656,7 +4632,7 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-25T13:32:10.092Z",
-            "updatedAt": "2025-11-25T13:32:10.092Z"
+            "updatedAt": "2025-11-26T10:56:20.279Z"
           },
           {
             "id": "b32f794d-afaf-4dba-ba80-43a8c2fd2a6b",
@@ -4921,6 +4897,53 @@
             },
             "createdAt": "2025-11-25T13:32:10.092Z",
             "updatedAt": "2025-11-25T13:32:10.092Z"
+          },
+          {
+            "id": "42d5881d-f9cf-44f2-ad33-81add1030707",
+            "content": "{{=getGroupName()}}\nZinc : {{=bulletTestN(\"bioimmuno1\")}}",
+            "x": 1037,
+            "y": 696,
+            "width": 329,
+            "height": 72,
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#8e9198",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "left"
+            },
+            "createdAt": "2025-11-26T10:08:53.036Z",
+            "updatedAt": "2025-11-26T15:02:22.957Z"
+          },
+          {
+            "id": "7f0f08e1-45c6-4e6e-bef1-2ce888074782",
+            "content": "{{=getT(\"Bilan Hématologique et Immunitaire\")}}",
+            "x": 1000,
+            "y": 163,
+            "width": 285,
+            "height": 38,
+            "moduleId": "",
+            "displayCondition": "bulletTestN(\"bioimmuno1\")",
+            "appelScript": "",
+            "slideCode": "{{=getLink(\"bioimmuno1\")}}",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 12,
+              "color": "#000000",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "left"
+            },
+            "createdAt": "2025-11-26T12:50:17.802Z",
+            "updatedAt": "2025-11-26T12:50:17.802Z"
           }
         ],
         "imageBlocks": [
@@ -5203,7 +5226,7 @@
           {
             "id": "e1b94b4c-8493-4fc6-9e8a-87b1da06208a",
             "x": 990,
-            "y": 414,
+            "y": 374,
             "size": 12,
             "condition": "isNormalSlide(\"#acuitevisu\")",
             "displayCondition": "bulletTestN(\"acuitevisu\")",
@@ -5212,12 +5235,12 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-25T13:32:10.092Z",
-            "updatedAt": "2025-11-25T13:32:10.092Z"
+            "updatedAt": "2025-11-26T10:56:10.690Z"
           },
           {
             "id": "eab9d699-a05e-48d6-90ae-7c63443aa60e",
             "x": 990,
-            "y": 374,
+            "y": 414,
             "size": 12,
             "condition": "isNormalSlide(\"#audiometrie\")",
             "displayCondition": "bulletTestN(\"audiometrie\")",
@@ -5226,7 +5249,7 @@
             "falseColor": "#fab152",
             "innerDiskSize": 0,
             "createdAt": "2025-11-25T13:32:10.092Z",
-            "updatedAt": "2025-11-25T13:32:10.092Z"
+            "updatedAt": "2025-11-26T10:56:32.890Z"
           },
           {
             "id": "79775ab0-ade9-4492-b774-8bbcac0b2214",
@@ -5357,7 +5380,7 @@
           {
             "id": "57ae01ce-737b-4232-b72a-1a7ef6228fc1",
             "x": 970,
-            "y": 414,
+            "y": 374,
             "size": 12,
             "condition": "isNormalSlide(\"#acuitevisu\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"acuitevisu\")",
@@ -5366,7 +5389,7 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-25T13:32:10.092Z",
-            "updatedAt": "2025-11-25T13:32:10.092Z"
+            "updatedAt": "2025-11-26T10:56:05.855Z"
           },
           {
             "id": "0180fa1f-c946-4098-8eb0-f9f0a80f028e",
@@ -5469,7 +5492,7 @@
           {
             "id": "5c5cacd4-2532-47bd-9068-27b63a7c62ad",
             "x": 970,
-            "y": 374,
+            "y": 414,
             "size": 12,
             "condition": "isNormalSlide(\"#audiometrie\",\"n-1\")",
             "displayCondition": "bulletTestN_1(\"audiometrie\")",
@@ -5478,7 +5501,7 @@
             "falseColor": "#fab152",
             "innerDiskSize": 8,
             "createdAt": "2025-11-25T13:32:10.092Z",
-            "updatedAt": "2025-11-25T13:32:10.092Z"
+            "updatedAt": "2025-11-26T10:56:37.409Z"
           },
           {
             "id": "82e507e0-af2b-4c26-947b-1661f7138e02",
@@ -5629,7 +5652,7 @@
         ],
         "modalBlocks": [],
         "createdAt": "2025-11-25T13:32:10.092Z",
-        "updatedAt": "2025-11-25T13:32:10.092Z"
+        "updatedAt": "2025-11-26T15:02:22.957Z"
       },
       {
         "id": "e5cc3f84-6e5e-448e-8777-9e1d588aba8c",
@@ -27570,7 +27593,7 @@
           }
         ],
         "createdAt": "2025-11-25T13:32:10.094Z",
-        "updatedAt": "2025-11-25T15:26:55.307Z"
+        "updatedAt": "2025-11-26T10:41:21.535Z"
       },
       {
         "id": "c04b03c5-7546-4073-a6d5-ec49a5e54850",
@@ -34177,8 +34200,8 @@
           },
           {
             "id": "31b5a800-b04c-477b-be09-4fc3243f7399",
-            "content": "Zinc \n- n : 76\n- n-1 : 79\n- n-2 : 89",
-            "x": 1153.9896240234375,
+            "content": "Zinc \n{{= getCU(\"biomarker_zinc_serum\", \"n\", \"value\")}}\n- n : 76\n- n-1 : 79\n- n-2 : 89",
+            "x": 1134.9896240234375,
             "y": 638.9861450195312,
             "width": 200,
             "height": 100,
@@ -34197,7 +34220,7 @@
               "textAlign": "left"
             },
             "createdAt": "2025-11-25T13:32:10.095Z",
-            "updatedAt": "2025-11-25T15:26:23.682Z"
+            "updatedAt": "2025-11-26T12:58:05.994Z"
           }
         ],
         "imageBlocks": [
@@ -34284,7 +34307,7 @@
           }
         ],
         "createdAt": "2025-11-25T13:32:10.095Z",
-        "updatedAt": "2025-11-25T15:26:23.682Z"
+        "updatedAt": "2025-11-26T12:58:05.994Z"
       },
       {
         "id": "6204a5fe-3ddb-41b1-87cf-981d88ce685e",
@@ -38435,6 +38458,47 @@
         "modalBlocks": [],
         "createdAt": "2025-11-25T13:32:10.095Z",
         "updatedAt": "2025-11-25T16:48:51.286Z"
+      },
+      {
+        "id": "a8b5c7e4-197f-46df-a5c8-246018d5adbb",
+        "title": "",
+        "code": "",
+        "displayCondition": "",
+        "content": "",
+        "backgroundColor": "#ffffff",
+        "textBlocks": [
+          {
+            "id": "f41c5e75-30ec-419b-913a-8fa1e12f5bcf",
+            "content": "{{=allgetpocNG(\"deck_CU2\")}}",
+            "x": 100,
+            "y": 100,
+            "width": 200,
+            "height": 100,
+            "displayCondition": "",
+            "appelScript": "",
+            "slideCode": "",
+            "autoScroll": false,
+            "style": {
+              "bold": false,
+              "italic": false,
+              "fontSize": 16,
+              "color": "#000000",
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "textAlign": "left"
+            },
+            "createdAt": "2025-11-26T14:29:14.861Z",
+            "updatedAt": "2025-11-26T14:29:22.926Z"
+          }
+        ],
+        "imageBlocks": [],
+        "bulletBlocks": [],
+        "rectangleBlocks": [],
+        "linkBlocks": [],
+        "codeBlocks": [],
+        "modalBlocks": [],
+        "createdAt": "2025-11-26T14:29:12.455Z",
+        "updatedAt": "2025-11-26T14:29:22.926Z"
       }
     ],
     "dataVariables": [
@@ -39080,14 +39144,54 @@
     ],
     "modules": [
       {
+        "id": "7c312a61-ebf7-461a-adb9-78181d016fee",
+        "name": "isPulse",
+        "moduleId": "",
+        "include": "function isPulse() {\n  \n  return CuOffer() === \"Pulse\";\n}",
+        "appel": "",
+        "code": "",
+        "createdAt": "2025-11-26T09:31:59.460Z",
+        "updatedAt": "2025-11-26T09:32:31.495Z"
+      },
+      {
+        "id": "b04e3d61-6cad-4226-adc5-a823ab12849a",
+        "name": "isLife",
+        "moduleId": "",
+        "include": "function isLife() {\n  \n  return CuOffer() === \"Life\";\n}",
+        "appel": "",
+        "code": "",
+        "createdAt": "2025-11-26T09:31:42.472Z",
+        "updatedAt": "2025-11-26T09:32:35.578Z"
+      },
+      {
+        "id": "729038bd-96b6-486f-9887-c54f27ceee49",
+        "name": "isCore",
+        "moduleId": "",
+        "include": "function isCore() {\n  \n  return CuOffer() === \"Core\";\n}",
+        "appel": "",
+        "code": "",
+        "createdAt": "2025-11-25T13:32:10.095Z",
+        "updatedAt": "2025-11-26T09:32:22.536Z"
+      },
+      {
+        "id": "900d00d1-8653-46a2-958a-ec8b1fdb3482",
+        "name": "cuOffer",
+        "moduleId": "",
+        "include": "function cuOffer() {\n\n  const offer = getCUDate(\"n\", \"protocolCode\");\n\n  if (offer === \"screening\") return \"Core\";\n  if (offer === \"flagship\") return \"Life\"; \n  if (offer === \"optimization\") return \"Pulse\";\n  \n  return \"Life\";\n}",
+        "appel": "",
+        "code": "",
+        "createdAt": "2025-11-26T09:25:53.996Z",
+        "updatedAt": "2025-11-26T14:10:31.728Z"
+      },
+      {
         "id": "5b4e7926-f348-4b77-8caa-23bf92d5331d",
         "name": "const",
         "moduleId": "",
-        "include": "window.lang = \"FR\";\n\nwindow.FUMType = \"Life\";\n//window.FUMType = \"Core\";\n//window.FUMType = \"Pulse\";\n\nwindow.genre = getPI(\"gender\"); // male ou female \nwindow.gitR = \"https://raw.githubusercontent.com/Fabrice2072/ZFlow/main/\";\nwindow.cAge = getAge(getPI(\"birthDate\"));\nwindow.cWeight_n = getCU(\"biomarker_weight\", \"n\", \"value\")==null?getCU(\"biomarker_weight\", \"n-1\", \"value\"):getCU(\"biomarker_weight\", \"n\", \"value\");\nwindow.cWeight_n_1 = getCU(\"biomarker_weight\", \"n-1\", \"value\");\nwindow.cHeight_n = getCU(\"biomarker_height\", \"n\", \"value\")==null?getCU(\"biomarker_height\", \"n-1\", \"value\"):getCU(\"biomarker_height\", \"n\", \"value\");\n\n\nwindow.cHeight_n_1 = getCU(\"biomarker_height\", \"n-1\", \"value\");\nwindow.cFirstname  = getPI(\"firstName\");\nwindow.cLastname   = getPI(\"lastName\");\nwindow.cLanguage   = getPI(\"language\");\nwindow.cGender     = getPI(\"demographic_sex\");\nwindow.cIMC = round2(window.cWeight_n / ((window.cHeight_n/100) * (window.cHeight_n/100)));\nwindow.cIMC_n_1 = round2(window.cWeight_n_1 / ((window.cHeight_n_1/100) * (window.cHeight_n_1/100)));",
+        "include": "window.lang = \"FR\";\n\nwindow.genre = getPI(\"gender\"); // male ou female \nwindow.gitR = \"https://raw.githubusercontent.com/Fabrice2072/ZFlow/main/\";\nwindow.cAge = getAge(getPI(\"birthDate\"));\nwindow.cWeight_n = getCU(\"biomarker_weight\", \"n\", \"value\")==null?getCU(\"biomarker_weight\", \"n-1\", \"value\"):getCU(\"biomarker_weight\", \"n\", \"value\");\nwindow.cWeight_n_1 = getCU(\"biomarker_weight\", \"n-1\", \"value\");\nwindow.cHeight_n = getCU(\"biomarker_height\", \"n\", \"value\")==null?getCU(\"biomarker_height\", \"n-1\", \"value\"):getCU(\"biomarker_height\", \"n\", \"value\");\n\n\nwindow.cHeight_n_1 = getCU(\"biomarker_height\", \"n-1\", \"value\");\nwindow.cFirstname  = getPI(\"firstName\");\nwindow.cLastname   = getPI(\"lastName\");\nwindow.cLanguage   = getPI(\"language\");\nwindow.cGender     = getPI(\"demographic_sex\");\nwindow.cIMC = round2(window.cWeight_n / ((window.cHeight_n/100) * (window.cHeight_n/100)));\nwindow.cIMC_n_1 = round2(window.cWeight_n_1 / ((window.cHeight_n_1/100) * (window.cHeight_n_1/100)));",
         "appel": "window.gitR + \"corev30.svg\",",
         "code": "",
         "createdAt": "2025-11-25T13:32:10.095Z",
-        "updatedAt": "2025-11-25T13:32:10.095Z"
+        "updatedAt": "2025-11-26T09:30:07.519Z"
       },
       {
         "id": "43f8bfcc-441f-42a2-9f16-b1945984f66c",
@@ -39163,11 +39267,11 @@
         "id": "a7da6b50-cbc4-4bb8-bf4e-1bf698bfcfa5",
         "name": "getSlideCode",
         "moduleId": "",
-        "include": "function getSlideCode(id, direction, store = false, currentSlideCode = null) {\n\n\n  let src = localStorage.getItem('previousSlide'); \n  let val = \"\";\n  console.warn(\" slide code : *******\"+src+\"*\");\n  \n\n  if ((src == \"#synthese\") || (src == \"#synthese1\") || (src == \"#synthese_core\")) {\n         \n    if (direction == 1) val = getPrevNext(getGroupName(), currentSlideCode).next;\n    if (direction == -1) val = getPrevNext(getGroupName(), currentSlideCode).previous;\n    if (val == \"#isSeparator\") return \"#synthese\";\n    if (val == \"#undefined\") return src;\n    \n    return val;\n  }\n\n  id = id + direction; \n  if (store) setLS(\"idMarker\", id);\n\n  val = getObjInfo(\n      \"code\",\n      localStorage.getItem(\"numObjT\"),\n      id,\n      localStorage.getItem(\"numCU\"));\n\n  if (val =='') {\n    val = getPreviousSlide();\n  }\n\n  return val;\n}",
+        "include": "function getSlideCode(id, direction, store = false, currentSlideCode = null) {\n\n\n  let src = localStorage.getItem('previousSlide'); \n  let val = \"\";\n  console.warn(\" slide code : *******\"+src+\"*\");\n  \n\n  if ((src == \"#synthese\") || (src == \"#synthese1\") || (src == \"#synthese_core\")) {\n         \n    if (direction == 1) val = getPrevNext(getGroupName(), currentSlideCode).next;\n    if (direction == -1) val = getPrevNext(getGroupName(), currentSlideCode).previous;\n    if (val == \"#isSeparator\") return src; //\"#synthese\";\n    if (val == \"#undefined\") return src;\n    \n    return val;\n  }\n\n  id = id + direction; \n  if (store) setLS(\"idMarker\", id);\n\n  val = getObjInfo(\n      \"code\",\n      localStorage.getItem(\"numObjT\"),\n      id,\n      localStorage.getItem(\"numCU\"));\n\n  if (val =='') {\n    val = getPreviousSlide();\n  }\n\n  return val;\n}",
         "appel": "fonctionne avec navSyntheseMap",
         "code": "",
         "createdAt": "2025-11-25T13:32:10.095Z",
-        "updatedAt": "2025-11-25T15:24:37.351Z"
+        "updatedAt": "2025-11-26T10:39:11.728Z"
       },
       {
         "id": "a8560fd1-f6fe-413b-a9c1-7489af82e29c",
@@ -39293,11 +39397,11 @@
         "id": "3313efab-9771-4941-b3f5-010d6b8bea62",
         "name": "getGroupName",
         "moduleId": "",
-        "include": "function getGroupName() {\n\n  let mgender = \"Homme\";\n \n  if (getPI(\"gender\") != \"male\") mgender = \"Femme\";\n  \n  mgender = cuType() + \"_\" + mgender;\n  \n  return mgender;\n}",
+        "include": "function getGroupName() {\n\n  let mgender = \"Homme\";\n \n  if (getPI(\"gender\") != \"male\") mgender = \"Femme\";\n  \n  mgender = cuOffer() + \"_\" + cuType() + \"_\" + mgender;\n  \n  return mgender;\n}",
         "appel": "pour naviguer dans la synthese",
         "code": "",
         "createdAt": "2025-11-25T13:32:10.095Z",
-        "updatedAt": "2025-11-25T13:32:10.095Z"
+        "updatedAt": "2025-11-26T10:08:18.290Z"
       },
       {
         "id": "9c0c6e58-123f-4536-b59a-b338ea27afcc",
@@ -39374,16 +39478,6 @@
         "name": "cuType",
         "moduleId": "",
         "include": "function cuType() {\n\n  let mCycle = getCUDate(\"n\", \"cycleCount\");\n  \n  if (mCycle == 1) return \"CU1\";\n  if (mCycle == 2) return \"CU2\";\n\n  if (mCycle == 3) return \"CU2\";  // !!\n}",
-        "appel": "",
-        "code": "",
-        "createdAt": "2025-11-25T13:32:10.095Z",
-        "updatedAt": "2025-11-25T13:32:10.095Z"
-      },
-      {
-        "id": "729038bd-96b6-486f-9887-c54f27ceee49",
-        "name": "isCore",
-        "moduleId": "",
-        "include": "function isCore() {\n  \n  return window.FUMType == \"Core\";\n}",
         "appel": "",
         "code": "",
         "createdAt": "2025-11-25T13:32:10.095Z",
@@ -39763,11 +39857,11 @@
         "id": "b231b3b2-7036-4c68-bc5a-59af4cc0c427",
         "name": "collectSlidesByObjectiveNG ",
         "moduleId": "",
-        "include": "window.collectSlidesByObjectiveNG = function(\n  cycle = \"n\",\n  objectiveIndex = 0,\n  { group = null } = {},\n  titreSlides = [],\n  codeSlides = [],\n) {\n\n\n  const lang = window.lang;\n  \n  const objectives = checkupMap.get(\"checkups\")?.[cycle]?.objectives;\n  if (!objectives) return `❌ Pas d'objectives trouvés pour le cycle \"${cycle}\"`;\n  if (objectiveIndex < 0 || objectiveIndex >= objectives.length) {\n    return `❌ L'objectif ${objectiveIndex} n'existe pas (max = ${objectives.length - 1})`;\n  }\n\n  const obj = objectives[objectiveIndex];\n  const wantedItems = new Set(obj?.observationCodes || []);\n\n  // normalise markerSlideMapNG -> objet simple\n  const map = markerSlideMapNG instanceof Map\n    ? Object.fromEntries(markerSlideMapNG)\n    : (markerSlideMapNG || {});\n\n  // 1) Lister tous les slideCodes possibles selon le group\n  const allSlideCodes = new Set();\n  for (const entry of Object.values(map)) {\n    if (!entry || typeof entry !== \"object\") continue;\n\n    const pairs = Object.entries(entry);\n    if (group) {\n      // ex: \"deck_CU1_slide1/2\"\n      for (const [k, v] of pairs) {\n        if (k.startsWith(group + \"_slide\") && v) allSlideCodes.add(v);\n      }\n    } else {\n      for (const [k, v] of pairs) {\n        if (/_slide\\d+$/.test(k) && v) allSlideCodes.add(v);\n      }\n    }\n  }\n\n  // 2) Garder seulement les slides qui contiennent au moins un item de l’objectif\n  const keptSlides = [];\n  for (const slideCode of allSlideCodes) {\n    const markers = findMarkersBySlide(slideCode, group); // markers liés à ce slide\n    if (!markers || markers.length === 0) continue;\n\n    const hasOne = markers.some(m => wantedItems.has(m));\n    if (hasOne) keptSlides.push(slideCode);\n  }\n\n  // 3) Trier par titre FR (fallback = code)\n  keptSlides.sort((a, b) => {\n    const titreA = getTitre(a, lang) || a;\n    const titreB = getTitre(b, lang) || b;\n    return titreA.localeCompare(titreB, lang, { sensitivity: \"base\" });\n  });\n\n  // 4) Vider puis remplir les tableaux en sortie\n  titreSlides.length = 0;\n  codeSlides.length = 0;\n\n  let result = `--- Objective ${objectiveIndex + 1} (groupé par slide avec titre FR${group ? ` • ${group}` : \"\"}) ---\\n`;\n  for (const slide of keptSlides) {\n    const titreFR = getTitre(slide, lang) || slide;\n    titreSlides.push(titreFR);\n    codeSlides.push(slide);\n    result += `${titreFR} (${slide})\\n`;\n  }\n\n  return result.trim();\n};\n",
-        "appel": "const titreSlides = [];\nconst codeSlides = [];\nconsole.log(window.collectSlidesByObjectiveNG(\"n\", 0, { group: \"deck_CU1\" }, titreSlides, codeSlides));\n",
+        "include": "window.collectSlidesByObjectiveNG = function (\n  cycle = \"n\",\n  objectiveIndex = 0,\n  { group = null } = {},\n  titreSlides = [],\n  codeSlides = [],\n) {\n  const lang = window.lang;\n\n  console.warn(\"🟢 collectSlidesByObjectiveNG start\", {\n    cycle,\n    objectiveIndex,\n    group,\n    titreLen: titreSlides.length,\n    codeLen: codeSlides.length,\n  });\n\n  const objectives = checkupMap.get(\"checkups\")?.[cycle]?.objectives;\n  if (!objectives) {\n    console.warn(`❌ Pas d'objectives pour le cycle \"${cycle}\"`);\n    return `❌ Pas d'objectives trouvés pour le cycle \"${cycle}\"`;\n  }\n  if (objectiveIndex < 0 || objectiveIndex >= objectives.length) {\n    console.warn(`❌ index objectif invalide`, { objectiveIndex, max: objectives.length - 1 });\n    return `❌ L'objectif ${objectiveIndex} n'existe pas (max = ${objectives.length - 1})`;\n  }\n\n  const obj = objectives[objectiveIndex];\n  const wantedItems = new Set(obj?.observationCodes || []);\n  console.warn(\"🎯 Objective\", objectiveIndex, \"observationCodes =\", [...wantedItems]);\n\n  // normalise markerSlideMapNG -> objet simple\n  const map = markerSlideMapNG instanceof Map\n    ? Object.fromEntries(markerSlideMapNG)\n    : (markerSlideMapNG || {});\n\n  console.warn(\"📚 markerSlideMapNG keys =\", Object.keys(map));\n\n  // 1) Lister tous les slideCodes possibles selon le group\n  const allSlideCodes = new Set();\n  for (const entry of Object.values(map)) {\n    if (!entry || typeof entry !== \"object\") continue;\n\n    const pairs = Object.entries(entry);\n    if (group) {\n      // ex: \"deck_CU2_slide1\"\n      for (const [k, v] of pairs) {\n        if (k.startsWith(group + \"_slide\") && v) {\n          allSlideCodes.add(v);\n        }\n      }\n    } else {\n      for (const [k, v] of pairs) {\n        if (/_slide\\d+$/.test(k) && v) {\n          allSlideCodes.add(v);\n        }\n      }\n    }\n  }\n\n  console.warn(\"📊 allSlideCodes pour group\", group, \"=\", [...allSlideCodes]);\n\n  // 2) Garder seulement les slides qui contiennent au moins un item de l’objectif\n  const keptSlides = [];\n  for (const slideCode of allSlideCodes) {\n\n    // 🔧 IMPORTANT : on passe le 3e paramètre comme dans tes autres fonctions\n    const markers = (typeof findMarkersBySlide === \"function\" && findMarkersBySlide.length >= 3)\n      ? findMarkersBySlide(slideCode, group, false)\n      : findMarkersBySlide(slideCode, group);\n\n    console.warn(\"🔎 slide\", slideCode, \"→ markers =\", markers);\n\n    if (!markers || markers.length === 0) continue;\n    const hasOne = markers.some(m => wantedItems.has(m));\n    if (hasOne) keptSlides.push(slideCode);\n  }\n\n  console.warn(\"✅ keptSlides =\", keptSlides);\n\n  // 3) Trier par titre\n  keptSlides.sort((a, b) => {\n    const titreA = getTitre(a, lang) || a;\n    const titreB = getTitre(b, lang) || b;\n    return titreA.localeCompare(titreB, lang, { sensitivity: \"base\" });\n  });\n\n  // 4) Vider puis remplir les tableaux en sortie\n  titreSlides.length = 0;\n  codeSlides.length = 0;\n\n  let result = `--- Objective ${objectiveIndex + 1} (groupé par slide FR${group ? ` • ${group}` : \"\"}) ---\\n`;\n  for (const slide of keptSlides) {\n    const titreFR = getTitre(slide, lang) || slide;\n    titreSlides.push(titreFR);\n    codeSlides.push(slide);\n    result += `${titreFR} (${slide})\\n`;\n  }\n\n  console.warn(\"📦 Sortie collectSlidesByObjectiveNG\", {\n    titreSlides,\n    codeSlides,\n  });\n\n  return result.trim();\n};\n\n\n\n",
+        "appel": "const titreSlides = [];\nconst codeSlides = [];\nconsole.log(window.collectSlidesByObjectiveNG(\"n\", 0, { group: \"deck_CU1\" }, titreSlides, codeSlides));\n\n*********\nwindow.collectSlidesByObjectiveNG = function(\n  cycle = \"n\",\n  objectiveIndex = 0,\n  { group = null } = {},\n  titreSlides = [],\n  codeSlides = [],\n) {\n\n\n  const lang = window.lang;\n  \n  const objectives = checkupMap.get(\"checkups\")?.[cycle]?.objectives;\n  if (!objectives) return `❌ Pas d'objectives trouvés pour le cycle \"${cycle}\"`;\n  if (objectiveIndex < 0 || objectiveIndex >= objectives.length) {\n    return `❌ L'objectif ${objectiveIndex} n'existe pas (max = ${objectives.length - 1})`;\n  }\n\n  const obj = objectives[objectiveIndex];\n  const wantedItems = new Set(obj?.observationCodes || []);\n\n  // normalise markerSlideMapNG -> objet simple\n  const map = markerSlideMapNG instanceof Map\n    ? Object.fromEntries(markerSlideMapNG)\n    : (markerSlideMapNG || {});\n\n  // 1) Lister tous les slideCodes possibles selon le group\n  const allSlideCodes = new Set();\n  for (const entry of Object.values(map)) {\n    if (!entry || typeof entry !== \"object\") continue;\n\n    const pairs = Object.entries(entry);\n    if (group) {\n      // ex: \"deck_CU1_slide1/2\"\n      for (const [k, v] of pairs) {\n        if (k.startsWith(group + \"_slide\") && v) allSlideCodes.add(v);\n      }\n    } else {\n      for (const [k, v] of pairs) {\n        if (/_slide\\d+$/.test(k) && v) allSlideCodes.add(v);\n      }\n    }\n  }\n\n  // 2) Garder seulement les slides qui contiennent au moins un item de l’objectif\n  const keptSlides = [];\n  for (const slideCode of allSlideCodes) {\n    const markers = findMarkersBySlide(slideCode, group); // markers liés à ce slide\n    if (!markers || markers.length === 0) continue;\n\n    const hasOne = markers.some(m => wantedItems.has(m));\n    if (hasOne) keptSlides.push(slideCode);\n  }\n\n  // 3) Trier par titre FR (fallback = code)\n  keptSlides.sort((a, b) => {\n    const titreA = getTitre(a, lang) || a;\n    const titreB = getTitre(b, lang) || b;\n    return titreA.localeCompare(titreB, lang, { sensitivity: \"base\" });\n  });\n\n  // 4) Vider puis remplir les tableaux en sortie\n  titreSlides.length = 0;\n  codeSlides.length = 0;\n\n  let result = `--- Objective ${objectiveIndex + 1} (groupé par slide avec titre FR${group ? ` • ${group}` : \"\"}) ---\\n`;\n  for (const slide of keptSlides) {\n    const titreFR = getTitre(slide, lang) || slide;\n    titreSlides.push(titreFR);\n    codeSlides.push(slide);\n    result += `${titreFR} (${slide})\\n`;\n  }\n\n  return result.trim();\n};\n",
         "code": "",
         "createdAt": "2025-11-25T13:32:10.095Z",
-        "updatedAt": "2025-11-25T13:32:10.095Z"
+        "updatedAt": "2025-11-26T14:59:11.354Z"
       },
       {
         "id": "df730c48-c420-4d38-a699-08dba84f89dc",
@@ -40142,41 +40236,97 @@
     ],
     "jsonDataSources": [
       {
-        "id": "010af33e-cf5a-4c47-bc71-f4d2c03897af",
+        "id": "83ed6cfb-0d37-4588-a020-58b899729fe2",
+        "name": "test claire",
+        "url": "file://test claire",
+        "mapName": "checkupMap",
+        "createdAt": "2025-11-26T15:06:19.909Z",
+        "updatedAt": "2025-11-26T15:06:19.909Z"
+      },
+      {
+        "id": "81aff4c8-a902-4c77-92ac-cd150b4083c0",
+        "name": "Core Alex",
+        "url": "file://Core Alex",
+        "mapName": "checkupMap",
+        "createdAt": "2025-11-26T15:00:40.953Z",
+        "updatedAt": "2025-11-26T15:00:40.953Z"
+      },
+      {
+        "id": "d427fd0e-4498-4113-ac0c-e26ce805a043",
+        "name": "Core Alex",
+        "url": "file://Core Alex",
+        "mapName": "checkupMap",
+        "createdAt": "2025-11-26T14:56:46.362Z",
+        "updatedAt": "2025-11-26T14:56:46.362Z"
+      },
+      {
+        "id": "eda0e537-2cce-48fd-8b45-df82a8b19adf",
+        "name": "test claire",
+        "url": "file://test claire",
+        "mapName": "checkupMap",
+        "createdAt": "2025-11-26T14:53:29.727Z",
+        "updatedAt": "2025-11-26T14:53:29.727Z"
+      },
+      {
+        "id": "026f2903-40f1-4f60-a32d-6fde37929678",
+        "name": "Core Alex",
+        "url": "file://Core Alex",
+        "mapName": "checkupMap",
+        "createdAt": "2025-11-26T14:23:37.032Z",
+        "updatedAt": "2025-11-26T14:23:37.032Z"
+      },
+      {
+        "id": "29010442-791e-4093-9cbd-7cc489ae13e7",
+        "name": "test claire",
+        "url": "file://test claire",
+        "mapName": "checkupMap",
+        "createdAt": "2025-11-26T14:23:37.032Z",
+        "updatedAt": "2025-11-26T14:23:37.032Z"
+      },
+      {
+        "id": "ff7ec0b5-5961-4f52-b3aa-880955609596",
         "name": "navSyntheseMap",
-        "url": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/nav_synthese2.json",
+        "url": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/nav_synthese3.json",
         "mapName": "navSyntheseMap",
-        "createdAt": "2025-11-26T08:42:32.688Z",
-        "updatedAt": "2025-11-26T08:42:32.688Z"
+        "createdAt": "2025-11-26T14:23:37.032Z",
+        "updatedAt": "2025-11-26T14:23:37.032Z"
+      },
+      {
+        "id": "a8003506-1682-4d32-8a55-082ccc9fb23e",
+        "name": "Core Alex",
+        "url": "file://Core Alex",
+        "mapName": "checkupMap",
+        "createdAt": "2025-11-26T14:23:37.032Z",
+        "updatedAt": "2025-11-26T14:23:37.032Z"
       },
       {
         "id": "f53b3181-7518-4c3d-bf11-fee77a104a89",
         "name": "titresMap",
         "url": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/map_codeSlide_titreSlide.json",
         "mapName": "titresMap",
-        "createdAt": "2025-11-26T08:42:32.688Z",
-        "updatedAt": "2025-11-26T08:42:32.688Z"
+        "createdAt": "2025-11-26T14:23:37.032Z",
+        "updatedAt": "2025-11-26T14:23:37.032Z"
       },
       {
         "id": "cf2565f3-00f0-42f5-86a6-8bf23c53caed",
         "name": "sleepMap",
         "url": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/map_sleep.json",
         "mapName": "sleepMap",
-        "createdAt": "2025-11-26T08:42:32.688Z",
-        "updatedAt": "2025-11-26T08:42:32.688Z"
+        "createdAt": "2025-11-26T14:23:37.032Z",
+        "updatedAt": "2025-11-26T14:23:37.032Z"
       },
       {
         "id": "913ad374-88f9-4bc1-8dc5-ac86ab25fa5a",
         "name": "markerSlideMapNG",
         "url": "https://raw.githubusercontent.com/Fabrice2072/ZFlow/refs/heads/main/map_marker_slideNG.json",
         "mapName": "markerSlideMapNG",
-        "createdAt": "2025-11-26T08:42:32.688Z",
-        "updatedAt": "2025-11-26T08:42:32.688Z"
+        "createdAt": "2025-11-26T14:23:37.032Z",
+        "updatedAt": "2025-11-26T14:23:37.032Z"
       }
     ],
     "statistics": {
-      "totalSlides": 99,
-      "totalTextBlocks": 933,
+      "totalSlides": 100,
+      "totalTextBlocks": 935,
       "totalImageBlocks": 165,
       "totalBulletBlocks": 442,
       "totalRectangleBlocks": 51,
@@ -40678,13 +40828,18 @@
           "slideIndex": 98,
           "slideId": "7f41a262-a04c-42dd-859e-deda8ff9e8e1",
           "codeBlocksCount": 0
+        },
+        {
+          "slideIndex": 99,
+          "slideId": "a8b5c7e4-197f-46df-a5c8-246018d5adbb",
+          "codeBlocksCount": 0
         }
       ],
       "totalDataVariables": 1,
       "totalStyleVariables": 21,
       "totalImageResources": 51,
-      "totalModules": 106,
-      "totalJsonDataSources": 4,
+      "totalModules": 109,
+      "totalJsonDataSources": 11,
       "slidesWithCodes": 90,
       "slidesWithDisplayConditions": 0
     }
