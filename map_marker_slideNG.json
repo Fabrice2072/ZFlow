@@ -960,9 +960,9 @@
 "reco_CU2_slide2": null
 },
 "biomarker_beta_globulin_electrophoresis_serum": {
-"deck_CU1_slide1": "#bioimmuno2",
+"deck_CU1_slide1": null,
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": "#bioimmuno2",
+"deck_CU2_slide1": null,
 "deck_CU2_slide2": null,
 "reco_CU1_slide1": "#bioimmuno2",
 "reco_CU1_slide2": null,
