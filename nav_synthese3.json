@@ -24,7 +24,7 @@
       { "slideCode": "isSeparator"},
     { "slideCode": "echoendo", "testMarker": "clinical_finding_thyroid_status" },
     { "slideCode": "bioendo1", "testMarker": "biomarker_glucose_fasting_serum" },
-    { "slideCode": "bioendo2", "testMarker": "biomarker_pregnenolone_serum" },
+    { "slideCode": "bioendo2", "testMarker": "biomarker_tsh_serum" },
       { "slideCode": "isSeparator"},
     { "slideCode": "bioimmuno1", "testMarker": "biomarker_25_hydroxyvitamin_d3_and_d2_serum" },
     { "slideCode": "bioimmuno3", "testMarker": "biomarker_cytomegalovirus_immunoglobulines_g_serum" },
