@@ -12,7 +12,7 @@
     { "slideCode": "spiro", "testMarker": "biomarker_forced_vital_capacity_z_score" },
     { "slideCode": "cbct1", "testMarker": "clinical_finding_lungs_status" },
       { "slideCode": "isSeparator"},
-    { "slideCode": "methylage", "testMarker": "biomarker_methylage_biological_age" },
+    { "slideCode": "phenoage", "testMarker": "score_pheno_age" },
       { "slideCode": "isSeparator"},
     { "slideCode": "echorein", "testMarker": "clinical_finding_kidneys_status" },
     { "slideCode": "biorein", "testMarker": "biomarker_creatinine_serum" },
