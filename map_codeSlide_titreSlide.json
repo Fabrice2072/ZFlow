@@ -133,15 +133,17 @@
     "Titre Slide FR": "Gaz Expirés",
     "Titre Slide EN": "Exhaled Gas Analysis"
   },
-
   "#microbiote": {
     "Titre Slide FR": "Gaz Expirés",
     "Titre Slide EN": "Exhaled Gas Analysis"
   },
-
   "#biodig": {
     "Titre Slide FR": "Bilan Hépatique et Digestif",
     "Titre Slide EN": "Hepatic and Digestive Assessment"
+  },
+  "#biodig_core": {
+    "Titre Slide FR": "Bilan Hépatique",
+    "Titre Slide EN": "Hepatic Assessment"
   },
   "#intol": {
     "Titre Slide FR": "Intolérances Alimentaires",
@@ -156,6 +158,10 @@
     "Titre Slide EN": "Carbohydrate Biochemistry"
   },
   "#bioendo2": {
+    "Titre Slide FR": "Bilan Hormonal",
+    "Titre Slide EN": "Hormonal Assessment"
+  },
+  "#bioendo2_core": {
     "Titre Slide FR": "Bilan Hormonal",
     "Titre Slide EN": "Hormonal Assessment"
   },
@@ -192,6 +198,10 @@
     "Titre Slide EN": "Sleep Scores"
   },
   "#bioimmuno1": {
+    "Titre Slide FR": "Bilan Hématologique et Immunitaire",
+    "Titre Slide EN": "Immune Assessment"
+  },
+  "#bioimmuno1_core": {
     "Titre Slide FR": "Bilan Hématologique et Immunitaire",
     "Titre Slide EN": "Immune Assessment"
   },
