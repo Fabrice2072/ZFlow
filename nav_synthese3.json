@@ -35,6 +35,44 @@
       { "slideCode": "isSeparator"}
   ],
 
+  "Core_CU1_Femme": [
+      { "slideCode": "isSeparator"},
+    { "slideCode": "imc", "testMarker": "score_body_mass_index" },
+    { "slideCode": "force", "testMarker": "biomarker_maximum_grip_strength_left_hand" },
+      { "slideCode": "isSeparator"},
+    { "slideCode": "echocardio", "testMarker": "clinical_finding_pericardium_status" },
+    { "slideCode": "echovasc", "testMarker": "clinical_finding_internal_carotid_arteries_status" },
+    { "slideCode": "biocardio1_CU1", "testMarker": "biomarker_total_cholesterol_serum" },
+    { "slideCode": "pression", "testMarker": "biomarker_systolic_blood_pressure_sitting" },
+    { "slideCode": "ecg", "testMarker": "clinical_finding_heart_electrical_activity_status" },
+    { "slideCode": "spiro", "testMarker": "biomarker_forced_vital_capacity_z_score" },
+    { "slideCode": "cbct1", "testMarker": "clinical_finding_lungs_status" },
+      { "slideCode": "isSeparator"},
+    { "slideCode": "phenoage", "testMarker": "score_pheno_age" },
+      { "slideCode": "isSeparator"},
+    { "slideCode": "echorein", "testMarker": "clinical_finding_kidneys_status" },
+    { "slideCode": "biorein", "testMarker": "biomarker_creatinine_serum" },
+    { "slideCode": "bandelettes", "testMarker": "biomarker_protein_urine_by_test_strip" },
+      { "slideCode": "isSeparator"},
+    { "slideCode": "echodig1", "testMarker": "clinical_finding_liver_status" },
+    { "slideCode": "echodig2", "testMarker": "clinical_finding_abdominal_effusion_status" },
+    { "slideCode": "biodig_core", "testMarker": "biomarker_alanine_aminotransferase_serum" },
+      { "slideCode": "isSeparator"},
+    { "slideCode": "echoendo", "testMarker": "clinical_finding_thyroid_status" },
+    { "slideCode": "bioendo2_femme_core", "testMarker": "biomarker_tsh_serum" },
+    { "slideCode": "bioendo1", "testMarker": "biomarker_glucose_fasting_serum" },
+      { "slideCode": "isSeparator"},
+    { "slideCode": "bioimmuno1_core", "testMarker": "biomarker_25_hydroxyvitamin_d3_and_d2_serum" },
+    { "slideCode": "bioimmuno2", "testMarker": "biomarker_hemoglobin_blood" },
+    { "slideCode": "bioimmuno4", "testMarker": "biomarker_hepatitis_c_virus_antibody_serum" },
+      { "slideCode": "isSeparator"},
+    { "slideCode": "acuitevisu", "testMarker": "clinical_finding_visual_acuity_right_eye_acuity" },
+    { "slideCode": "audiometrie", "testMarker": "biomarker_hearing_left_ear_4000_hz" },
+      { "slideCode": "isSeparator"}
+  ],
+
+  
+
 
 
 "Life_CU1_Homme": [
