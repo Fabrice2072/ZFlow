@@ -1850,23 +1850,23 @@
 "reco_CU2_slide2": null
 },
 "clinical_finding_pancreas_status": {
-"deck_CU1_slide1": "#echodig1",
+"deck_CU1_slide1": "#echodig2",
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": "#echodig1",
+"deck_CU2_slide1": "#echodig2",
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": "#echodig1",
+"reco_CU1_slide1": "#echodig2",
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": "#echodig1",
+"reco_CU2_slide1": "#echodig2",
 "reco_CU2_slide2": null
 },
 "clinical_finding_spleen_status": {
-"deck_CU1_slide1": "#echodig1",
+"deck_CU1_slide1": "#echodig2",
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": "#echodig1",
+"deck_CU2_slide1": "#echodig2",
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": "#echodig1",
+"reco_CU1_slide1": "#echodig2",
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": "#echodig1",
+"reco_CU2_slide1": "#echodig2",
 "reco_CU2_slide2": null
 },
 "clinical_finding_abdominal_effusion_status": {
