@@ -499,6 +499,16 @@
 "reco_CU2_slide1": null,
 "reco_CU2_slide2": null
 },
+"biomarker_brain_natriuretic_peptide_serum": {
+"deck_CU1_slide1": "#biocardio1_CU1",
+"deck_CU1_slide2": null,
+"deck_CU2_slide1": "#biocardio1_CU2",
+"deck_CU2_slide2": null,
+"reco_CU1_slide1": "#biocardio1_CU1",
+"reco_CU1_slide2": null,
+"reco_CU2_slide1": "#biocardio1_CU2",
+"reco_CU2_slide2": null
+},
 "biomarker_apolipoprotein_a1_serum": {
 "deck_CU1_slide1": "#biocardio1_CU1",
 "deck_CU1_slide2": null,
