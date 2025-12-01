@@ -360,11 +360,11 @@
 "reco_CU2_slide2": null
 },
 "biomarker_ferritin_serum": {
-"deck_CU1_slide1": null,
+"deck_CU1_slide1": "#bioimmuno1_core",
 "deck_CU1_slide2": null,
 "deck_CU2_slide1": null,
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": null,
+"reco_CU1_slide1": "#bioimmuno1_core",
 "reco_CU1_slide2": null,
 "reco_CU2_slide1": null,
 "reco_CU2_slide2": null
