@@ -361,13 +361,13 @@
 },
 "biomarker_ferritin_serum": {
 "deck_CU1_slide1": "#bioantiox2",
-"deck_CU1_slide2": null,
+"deck_CU1_slide2": "#bioimmuno1",
 "deck_CU2_slide1": "#bioantiox2",
-"deck_CU2_slide2": null,
+"deck_CU2_slide2": "#bioimmuno1",
 "reco_CU1_slide1": "#bioantiox2",
-"reco_CU1_slide2": null,
+"reco_CU1_slide2": "#bioimmuno1",
 "reco_CU2_slide1": "#bioantiox2",
-"reco_CU2_slide2": null
+"reco_CU2_slide2": "#bioimmuno1",
 },
 "biomarker_glutathione_peroxidase_red_blood_cells": {
 "deck_CU1_slide1": "#bioantiox2",
