@@ -751,13 +751,13 @@
 },
 "biomarker_iodine_mass_time_24_hour_urine": {
 "deck_CU1_slide1": "#bioendo2",
-"deck_CU1_slide2": "#bioimmuno1",
+"deck_CU1_slide2": null,
 "deck_CU2_slide1": null,
 "deck_CU2_slide2": null,
 "reco_CU1_slide1": "#bioendo2",
-"reco_CU1_slide2": "#bioimmuno1",
+"reco_CU1_slide2": null,
 "reco_CU2_slide1": "#bioendo2",
-"reco_CU2_slide2": "#bioimmuno1"
+"reco_CU2_slide2": null
 },
 "biomarker_pregnenolone_serum": {
 "deck_CU1_slide1": "#bioendo2",
