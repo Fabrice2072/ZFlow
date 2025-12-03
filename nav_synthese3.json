@@ -21,6 +21,7 @@
     { "slideCode": "echodig1", "testMarker": "clinical_finding_liver_status" },
     { "slideCode": "echodig2", "testMarker": "clinical_finding_abdominal_effusion_status" },
     { "slideCode": "biodig_core", "testMarker": "biomarker_alanine_aminotransferase_serum" },
+    { "slideCode": "cbct2", "testMarker": "clinical_finding_upper_jaw_status" },
       { "slideCode": "isSeparator"},
     { "slideCode": "echoendo", "testMarker": "clinical_finding_thyroid_status" },
     { "slideCode": "bioendo2_core", "testMarker": "biomarker_tsh_serum" },
@@ -32,6 +33,7 @@
       { "slideCode": "isSeparator"},
     { "slideCode": "acuitevisu", "testMarker": "clinical_finding_visual_acuity_right_eye_acuity" },
     { "slideCode": "audiometrie", "testMarker": "biomarker_hearing_left_ear_4000_hz" },
+    { "slideCode": "cbct3", "testMarker": "clinical_finding_sinus_status" },
       { "slideCode": "isSeparator"}
   ],
 
@@ -57,6 +59,7 @@
     { "slideCode": "echodig1_femme", "testMarker": "clinical_finding_liver_status" },
     { "slideCode": "echodig2_femme", "testMarker": "clinical_finding_abdominal_effusion_status" },
     { "slideCode": "biodig_core", "testMarker": "biomarker_alanine_aminotransferase_serum" },
+    { "slideCode": "cbct2", "testMarker": "clinical_finding_upper_jaw_status" },
       { "slideCode": "isSeparator"},
     { "slideCode": "echoendo_femme", "testMarker": "clinical_finding_thyroid_status" },
     { "slideCode": "bioendo2_femme_core", "testMarker": "biomarker_tsh_serum" },
@@ -68,6 +71,7 @@
       { "slideCode": "isSeparator"},
     { "slideCode": "acuitevisu", "testMarker": "clinical_finding_visual_acuity_right_eye_acuity" },
     { "slideCode": "audiometrie", "testMarker": "biomarker_hearing_left_ear_4000_hz" },
+    { "slideCode": "cbct3", "testMarker": "clinical_finding_sinus_status" },
       { "slideCode": "isSeparator"}
   ],
 
