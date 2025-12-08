@@ -331,13 +331,13 @@
 },
 "biomarker_high_sensitivity_c_reactive_protein_serum": {
 "deck_CU1_slide1": "#bioantiox2_pulse",
-"deck_CU1_slide2": "#bioimmuno3",
+"deck_CU1_slide2": "#bioimmuno1_pulse",
 "deck_CU2_slide1": "#bioantiox2_pulse",
-"deck_CU2_slide2": "#bioimmuno3",
+"deck_CU2_slide2": "#bioimmuno1_pulse",
 "reco_CU1_slide1": "#bioantiox2_pulse",
-"reco_CU1_slide2": "#bioimmuno3",
+"reco_CU1_slide2": "#bioimmuno1_pulse",
 "reco_CU2_slide1": "#bioantiox2_pulse",
-"reco_CU2_slide2": "#bioimmuno3"
+"reco_CU2_slide2": "#bioimmuno1_pulse"
 },
 "biomarker_copper_serum": {
 "deck_CU1_slide1": "#bioantiox2_pulse",
