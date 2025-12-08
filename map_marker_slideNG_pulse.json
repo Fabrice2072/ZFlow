@@ -401,23 +401,23 @@
 },
 "biomarkerHighSensitivityCReactiveProteinSerum": {
 "deck_CU1_slide1": "#bioantiox2_pulse",
-"deck_CU1_slide2": "#bioimmuno3",
+"deck_CU1_slide2": null,
 "deck_CU2_slide1": "#bioantiox2_pulse",
-"deck_CU2_slide2": "#bioimmuno3",
+"deck_CU2_slide2": null,
 "reco_CU1_slide1": "#bioantiox2_pulse",
-"reco_CU1_slide2": "#bioimmuno3",
+"reco_CU1_slide2": null,
 "reco_CU2_slide1": "#bioantiox2_pulse",
-"reco_CU2_slide2": "#bioimmuno3"
+"reco_CU2_slide2": null
 },
 "biomarker_soluble_urokinase_plasminogen_activator_receptor_serum": {
 "deck_CU1_slide1": "#bioantiox2_pulse",
-"deck_CU1_slide2": "#bioimmuno3",
+"deck_CU1_slide2": null,
 "deck_CU2_slide1": "#bioantiox2_pulse",
-"deck_CU2_slide2": "#bioimmuno3",
+"deck_CU2_slide2": null,
 "reco_CU1_slide1": "#bioantiox2_pulse",
-"reco_CU1_slide2": "#bioimmuno3",
+"reco_CU1_slide2": null,
 "reco_CU2_slide1": "#bioantiox2_pulse",
-"reco_CU2_slide2": "#bioimmuno3"
+"reco_CU2_slide2": null
 },
 "biomarker_selenium_serum": {
 "deck_CU1_slide1": "#bioantiox2_pulse",
@@ -441,13 +441,13 @@
 },
 "bsupar": {
 "deck_CU1_slide1": "#bioantiox2_pulse",
-"deck_CU1_slide2": "#bioimmuno3",
+"deck_CU1_slide2": null,
 "deck_CU2_slide1": "#bioantiox2_pulse",
-"deck_CU2_slide2": "#bioimmuno3",
+"deck_CU2_slide2": null,
 "reco_CU1_slide1": "#bioantiox2_pulse",
-"reco_CU1_slide2": "#bioimmuno3",
+"reco_CU1_slide2": null,
 "reco_CU2_slide1": "#bioantiox2_pulse",
-"reco_CU2_slide2": "#bioimmuno3"
+"reco_CU2_slide2": null
 },
 "biomarker_transferrin_serum": {
 "deck_CU1_slide1": "#bioantiox2_pulse",
@@ -1050,33 +1050,33 @@
 "reco_CU2_slide2": null
 },
 "biomarker_cytomegalovirus_immunoglobulines_g_serum": {
-"deck_CU1_slide1": "#bioimmuno3",
+"deck_CU1_slide1": null,
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": "#bioimmuno3",
+"deck_CU2_slide1": null,
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": "#bioimmuno3",
+"reco_CU1_slide1": null,
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": "#bioimmuno3",
+"reco_CU2_slide1": null,
 "reco_CU2_slide2": null
 },
 "biomarker_epstein_barr_virus_capsid_immunoglobulines_g_serum": {
-"deck_CU1_slide1": "#bioimmuno3",
+"deck_CU1_slide1": null,
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": "#bioimmuno3",
+"deck_CU2_slide1": null,
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": "#bioimmuno3",
+"reco_CU1_slide1": null,
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": "#bioimmuno3",
+"reco_CU2_slide1": null,
 "reco_CU2_slide2": null
 },
 "biomarker_herpes_simplex_virus_1_and_2_immunoglobulines_g_serum": {
-"deck_CU1_slide1": "#bioimmuno3",
+"deck_CU1_slide1": null,
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": "#bioimmuno3",
+"deck_CU2_slide1": null,
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": "#bioimmuno3",
+"reco_CU1_slide1": null,
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": "#bioimmuno3",
+"reco_CU2_slide1": null,
 "reco_CU2_slide2": null
 },
 "biomarker_hepatitis_b_virus_core_antibody_presence_serum": {
@@ -3020,13 +3020,13 @@
 "reco_CU2_slide2": null
 },
 "biomarker_body_temperature": {
-"deck_CU1_slide1": "#bioimmuno3",
+"deck_CU1_slide1": null,
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": "#bioimmuno3",
+"deck_CU2_slide1": null,
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": "#bioimmuno3",
+"reco_CU1_slide1": null,
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": "#bioimmuno3",
+"reco_CU2_slide1": null,
 "reco_CU2_slide2": null
 },
 "biomarker_advanced_glycation_endproducts_skin": {
