@@ -604,10 +604,10 @@
 "deck_CU1_slide2": "#bioantiox2",
 "deck_CU2_slide1": "#biocardio1_pulse",
 "deck_CU2_slide2": "#bioantiox2",
-"reco_CU1_slide1": "#biocardio1_pulse",,
+"reco_CU1_slide1": "#biocardio1_pulse",
 "reco_CU1_slide2": "#bioantiox2",
 "reco_CU2_slide1": "#bioantiox2",
-"reco_CU2_slide2": "#biocardio1_pulse",
+"reco_CU2_slide2": "#biocardio1_pulse"
 },
 "biomarker_vitamin_b12_serum": {
 "deck_CU1_slide1": "#biocardio1_pulse",
