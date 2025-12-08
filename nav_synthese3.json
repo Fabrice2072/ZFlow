@@ -110,7 +110,7 @@
       { "slideCode": "isSeparator"},
     { "slideCode": "hrv", "testMarker": "biomarker_adaptation_strain" },
       { "slideCode": "isSeparator"},
-    { "slideCode": "bioimuno1_pulse", "testMarker": "biomarker_zinc_serum" },
+    { "slideCode": "bioimmuno1_pulse", "testMarker": "biomarker_zinc_serum" },
     { "slideCode": "bioimmuno2", "testMarker": "biomarker_hemoglobin_blood" },
       { "slideCode": "isSeparator"}
   ],
@@ -149,7 +149,7 @@
       { "slideCode": "isSeparator"},
     { "slideCode": "hrv", "testMarker": "biomarker_adaptation_strain" },
       { "slideCode": "isSeparator"},
-    { "slideCode": "bioimuno1_pulse", "testMarker": "biomarker_zinc_serum" },
+    { "slideCode": "bioimmuno1_pulse", "testMarker": "biomarker_zinc_serum" },
     { "slideCode": "bioimmuno2", "testMarker": "biomarker_hemoglobin_blood" },
       { "slideCode": "isSeparator"}
   ],
