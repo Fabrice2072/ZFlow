@@ -67,6 +67,10 @@
     "Titre Slide FR": "Bilan Cardiovasculaire - Lipides",
     "Titre Slide EN": "Cardiovascular Assessment - Lipids"
   },
+  "#biocardio1_pulse": {
+    "Titre Slide FR": "Bilan Cardiovasculaire",
+    "Titre Slide EN": "Cardiovascular Assessment"
+  },
   "#biocardio2": {
     "Titre Slide FR": "Bilan Cardiovasculaire - Vitamines",
     "Titre Slide EN": "Cardiovascular Assessment - Vitamins"
@@ -169,6 +173,14 @@
     "Titre Slide FR": "Bilan Hormonal",
     "Titre Slide EN": "Hormonal Assessment"
   },
+  "#bioendo_pulse": {
+    "Titre Slide FR": "Bilan Hormonal",
+    "Titre Slide EN": "Hormonal Assessment"
+  },
+  "#bioendo_femme_pulse": {
+    "Titre Slide FR": "Bilan Hormonal",
+    "Titre Slide EN": "Hormonal Assessment"
+  },
   "#AGE": {
     "Titre Slide FR": "A.G.E. Reader",
     "Titre Slide EN": "A.G.E. Reader"
@@ -178,6 +190,10 @@
     "Titre Slide EN": "Antioxidant Profile"
   },
   "#bioantiox2": {
+    "Titre Slide FR": "Bilan des Pro-oxydants",
+    "Titre Slide EN": "Pro-oxidant Profile"
+  },
+  "#bioantiox2_pulse": {
     "Titre Slide FR": "Bilan des Pro-oxydants",
     "Titre Slide EN": "Pro-oxidant Profile"
   },
@@ -202,6 +218,10 @@
     "Titre Slide EN": "Sleep Scores"
   },
   "#bioimmuno1": {
+    "Titre Slide FR": "Bilan Immunitaire",
+    "Titre Slide EN": "Immune Assessment"
+  },
+  "#bioimmuno1_pulse": {
     "Titre Slide FR": "Bilan Immunitaire",
     "Titre Slide EN": "Immune Assessment"
   },
