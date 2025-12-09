@@ -21,15 +21,15 @@
   },
   "#dexa1": {
     "Titre Slide FR": "DEXA - DMO",
-    "Titre Slide EN": "DEXA - Bone Mineral Density"
+    "Titre Slide EN": "DEXA - BMD"
   },
   "#dexa2": {
     "Titre Slide FR": "DEXA - DMO Rachis & Fémurs",
-    "Titre Slide EN": "DEXA - Spine & Femur Bone Mineral Density"
+    "Titre Slide EN": "DEXA - BMD Spine & Femurs"
   },
   "#dexa3": {
     "Titre Slide FR": "DEXA - Masse Grasse",
-    "Titre Slide EN": "DEXA - Fat Mass"
+    "Titre Slide EN": "DEXA - Body Fat"
   },
   "#dexa4": {
     "Titre Slide FR": "DEXA - Tissus Adipeux Viscéral",
@@ -89,11 +89,11 @@
   },
   "#biometabo1": {
     "Titre Slide FR": "Bilan des Acides Gras",
-    "Titre Slide EN": "Fatty Acid Profile"
+    "Titre Slide EN": "Fatty Acid Assessment"
   },
   "#biometabo2": {
     "Titre Slide FR": "Bilan des Omégas 3 et 6",
-    "Titre Slide EN": "Omega 3 & 6 Profile"
+    "Titre Slide EN": "Omega 3 and 6 assessment"
   },
   "#methylage_yearb": {
     "Titre Slide FR": "Méthylation",
@@ -135,15 +135,15 @@
   },
   "#microbiote_yearb": {
     "Titre Slide FR": "Gaz Expirés",
-    "Titre Slide EN": "Exhaled Gas Analysis"
+    "Titre Slide EN": "Exhaled Gases"
   },
   "#microbiote": {
     "Titre Slide FR": "Gaz Expirés",
-    "Titre Slide EN": "Exhaled Gas Analysis"
+    "Titre Slide EN": "Exhaled Gases"
   },
   "#biodig": {
     "Titre Slide FR": "Bilan Hépatique et Digestif",
-    "Titre Slide EN": "Hepatic and Digestive Assessment"
+    "Titre Slide EN": "Liver and Digestive Assessment"
   },
   "#biodig_core": {
     "Titre Slide FR": "Bilan Hépatique",
@@ -159,27 +159,27 @@
   },
   "#bioendo1": {
     "Titre Slide FR": "Bilan Glucidique",
-    "Titre Slide EN": "Carbohydrate Biochemistry"
+    "Titre Slide EN": "Carbohydrate Assessment"
   },
   "#bioendo2": {
     "Titre Slide FR": "Bilan Hormonal",
-    "Titre Slide EN": "Hormonal Assessment"
+    "Titre Slide EN": "Hormone Assessment"
   },
   "#bioendo2_core": {
     "Titre Slide FR": "Bilan Hormonal",
-    "Titre Slide EN": "Hormonal Assessment"
+    "Titre Slide EN": "Hormone Assessment"
   },
   "#bioendo2_femme_core": {
     "Titre Slide FR": "Bilan Hormonal",
-    "Titre Slide EN": "Hormonal Assessment"
+    "Titre Slide EN": "Hormone Assessment"
   },
   "#bioendo_pulse": {
     "Titre Slide FR": "Bilan Hormonal",
-    "Titre Slide EN": "Hormonal Assessment"
+    "Titre Slide EN": "Hormone Assessment"
   },
   "#bioendo_femme_pulse": {
     "Titre Slide FR": "Bilan Hormonal",
-    "Titre Slide EN": "Hormonal Assessment"
+    "Titre Slide EN": "Hormone Assessment"
   },
   "#AGE": {
     "Titre Slide FR": "A.G.E. Reader",
@@ -187,15 +187,15 @@
   },
   "#bioantiox1": {
     "Titre Slide FR": "Bilan des Antioxydants",
-    "Titre Slide EN": "Antioxidant Profile"
+    "Titre Slide EN": "Antioxidant Assessment"
   },
   "#bioantiox2": {
     "Titre Slide FR": "Bilan des Pro-oxydants",
-    "Titre Slide EN": "Pro-oxidant Profile"
+    "Titre Slide EN": "Pro-oxidant Assessment"
   },
   "#bioantiox2_pulse": {
     "Titre Slide FR": "Bilan des Pro-oxydants",
-    "Titre Slide EN": "Pro-oxidant Profile"
+    "Titre Slide EN": "Pro-oxidant Assessment"
   },
   "#bioantiox3": {
     "Titre Slide FR": "Marqueurs du Stress Oxydant",
@@ -255,7 +255,7 @@
   },
   "#audiometrie": {
     "Titre Slide FR": "Dépistage Tonal",
-    "Titre Slide EN": "Tonal Testing"
+    "Titre Slide EN": "Tonal Screening"
   },
   "#acuitevisu": {
     "Titre Slide FR": "Acuité Visuelle",
