@@ -471,13 +471,13 @@
 },
 "biomarker_zinc_serum": {
 "deck_CU1_slide1": "#bioantiox2_pulse",
-"deck_CU1_slide2": null,
+"deck_CU1_slide2": "#bioimmuno1_pulse",
 "deck_CU2_slide1": "#bioantiox2_pulse",
-"deck_CU2_slide2": null,
+"deck_CU2_slide2": "#bioimmuno1_pulse",
 "reco_CU1_slide1": "#bioantiox2_pulse",
-"reco_CU1_slide2": null,
+"reco_CU1_slide2": "#bioimmuno1_pulse",
 "reco_CU2_slide1": "#bioantiox2_pulse",
-"reco_CU2_slide2": null
+"reco_CU2_slide2": "#bioimmuno1_pulse"
 },
 "biomarker_hydroxydeoxyguanosine_serum": {
 "deck_CU1_slide1": "#bioantiox3",
