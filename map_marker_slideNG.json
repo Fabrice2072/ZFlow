@@ -2920,23 +2920,23 @@
 "reco_CU2_slide2": null
 },
 "score_stop_bang": {
-"deck_CU1_slide1": null,
+"deck_CU1_slide1": "#sommeil",
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": null,
+"deck_CU2_slide1": "#sommeil",
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": null,
+"reco_CU1_slide1": "#sommeil",
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": null,
+"reco_CU2_slide1": "#sommeil",
 "reco_CU2_slide2": null
 },
 "score_epworth_sleepiness_scale": {
-"deck_CU1_slide1": null,
+"deck_CU1_slide1": "#sommeil",
 "deck_CU1_slide2": null,
-"deck_CU2_slide1": null,
+"deck_CU2_slide1": "#sommeil",
 "deck_CU2_slide2": null,
-"reco_CU1_slide1": null,
+"reco_CU1_slide1": "#sommeil",
 "reco_CU1_slide2": null,
-"reco_CU2_slide1": null,
+"reco_CU2_slide1": "#sommeil",
 "reco_CU2_slide2": null
 },
 "social_history_trouble_falling_asleep": {
