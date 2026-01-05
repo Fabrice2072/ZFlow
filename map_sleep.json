@@ -4,13 +4,14 @@
         { "interpretation": "normal", "angle": 135 }
     ],
     "sleepiness": [
-        { "interpretation": "optimal", "angle":  162},
-        { "interpretation": "normal", "angle":  128},
+        { "interpretation": "optimal", "angle":  18},
+        { "interpretation": "normal", "angle":  54},
         { "interpretation": "high-severity-medium", "angle":  90},
-        { "interpretation": "high-severity-high", "angle":  54},
-        { "interpretation": "high-severity-very-high", "angle":  18}
+        { "interpretation": "high-severity-high", "angle":  128},
+        { "interpretation": "high-severity-very-high", "angle":  162}
     ]
 }
+
 
 
 
