@@ -1,15 +1,20 @@
 {
     "sleepApnea": [
-        { "interpretationCode": "VeryHigh", "value": "5-8", "angle": 157.5 },
-        { "interpretationCode": "High", "value": "3-4", "angle": 112.5 },
-        { "interpretationCode": "SlightlyHigh", "value": "1-2", "angle": 67.5 },
-        { "interpretationCode": "Normal", "value": "0", "angle": 22.5 }
+        { "interpretation": "high-severity-high", "angle": 45 },
+        { "interpretation": "normal", "angle": 135 }
     ],
     "sleepiness": [
-        { "interpretationCode": "VeryHigh", "value": "16-24", "angle": 157.5 },
-        { "interpretationCode": "High", "value": "10-15", "angle": 112.5 },
-        { "interpretationCode": "SlightlyHigh", "value": "8-9", "angle": 67.5 },
-        { "interpretationCode": "Normal", "value": "0-7", "angle": 22.5 }
-    ]
-    
+        { "interpretation": "VeryHigh", "value": "16-24", "angle": 157.5 },
+        { "interpretation": "High", "value": "10-15", "angle": 112.5 },
+        { "interpretation": "SlightlyHigh", "value": "8-9", "angle": 67.5 },
+        { "interpretation": "Normal", "value": "0-7", "angle": 22.5 }
+
+        { "interpretation": "optimal", "angle":  162},
+        { "interpretation": "normal", "angle":  128},
+        { "interpretation": "high-severity-medium", "angle":  90},
+        { "interpretation": "high-severity-high", "angle":  54},
+        { "interpretation": "high-severity-very-high", "angle":  18},
+
+
 }
+
