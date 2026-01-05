@@ -1,7 +1,7 @@
 {
     "sleepApnea": [
-        { "interpretation": "high-severity-high", "angle": 45 },
-        { "interpretation": "normal", "angle": 135 }
+        { "interpretation": "high-severity-high", "angle": 135 },
+        { "interpretation": "normal", "angle": 45 }
     ],
     "sleepiness": [
         { "interpretation": "optimal", "angle":  18},
@@ -11,6 +11,7 @@
         { "interpretation": "high-severity-very-high", "angle":  162}
     ]
 }
+
 
 
 
