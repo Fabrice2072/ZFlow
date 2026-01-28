@@ -2709,16 +2709,6 @@
 "reco_CU2_slide1": "#phenoage",
 "reco_CU2_slide2": null
 },
-"biomarker_methylage_biological_age": {
-"deck_CU1_slide1": "#methylage",
-"deck_CU1_slide2": null,
-"deck_CU2_slide1": "#methylage",
-"deck_CU2_slide2": null,
-"reco_CU1_slide1": "#methylage",
-"reco_CU1_slide2": null,
-"reco_CU2_slide1": "#methylage",
-"reco_CU2_slide2": null
-},
 "biomarker_hydrogen_delta_gas": {
 "deck_CU1_slide1": "#microbiote",
 "deck_CU1_slide2": null,
