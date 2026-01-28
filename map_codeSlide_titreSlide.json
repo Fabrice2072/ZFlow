@@ -95,14 +95,10 @@
     "Titre Slide FR": "Bilan des Omégas 3 et 6",
     "Titre Slide EN": "Omega 3 and 6 assessment"
   },
-  "#methylage_yearb": {
-    "Titre Slide FR": "Méthylation",
-    "Titre Slide EN": "Methylation"
-  },
-
-  "#methylage": {
-    "Titre Slide FR": "Méthylation",
-    "Titre Slide EN": "Methylation"
+  
+  "#phenoage": {
+    "Titre Slide FR": "Age Biologique",
+    "Titre Slide EN": "Biological age"
   },
 
   "#echorein": {
