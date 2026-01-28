@@ -2989,6 +2989,16 @@
 "reco_CU2_slide1": "#spiro",
 "reco_CU2_slide2": null
 },
+"biomarker_forced_expiratory_volume_in_1_second_forced_vital_capacity_ratio_z_score": {
+"deck_CU1_slide1": "#spiro",
+"deck_CU1_slide2": null,
+"deck_CU2_slide1": "#spiro",
+"deck_CU2_slide2": null,
+"reco_CU1_slide1": "#spiro",
+"reco_CU1_slide2": null,
+"reco_CU2_slide1": "#spiro",
+"reco_CU2_slide2": null
+},
 "biomarker_atherogenic_index_serum": {
 "deck_CU1_slide1": "#biocardio1_CU1",
 "deck_CU1_slide2": null,
