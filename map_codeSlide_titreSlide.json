@@ -47,6 +47,10 @@
     "Titre Slide FR": "Écho. Vasculaire",
     "Titre Slide EN": "Vascular Ultrasound"
   },
+  "#bilan_seno_femme":{
+    "Titre Slide FR": "Bilan sénologique et écho. endo-pelvienne",
+    "Titre Slide EN": "Breast Imaging and Transvaginal Ultrasound"
+  },
   "#cbct1": {
     "Titre Slide FR": "CBCT Pulmonaire",
     "Titre Slide EN": "Pulmonary CBCT"
