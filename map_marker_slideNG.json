@@ -1959,6 +1959,36 @@
 "reco_CU2_slide1": "#echoendo",
 "reco_CU2_slide2": null
 },
+"clinical_finding_breast_status": {
+"deck_CU1_slide1": "#bilan_seno_femme"",
+"deck_CU1_slide2": null,
+"deck_CU2_slide1": "#bilan_seno_femme"",
+"deck_CU2_slide2": null,
+"reco_CU1_slide1": "#bilan_seno_femme"",
+"reco_CU1_slide2": null,
+"reco_CU2_slide1": "#bilan_seno_femme"",
+"reco_CU2_slide2": null
+},
+"clinical_finding_mammography_status": {
+"deck_CU1_slide1": "#bilan_seno_femme"",
+"deck_CU1_slide2": null,
+"deck_CU2_slide1": "#bilan_seno_femme"",
+"deck_CU2_slide2": null,
+"reco_CU1_slide1": "#bilan_seno_femme"",
+"reco_CU1_slide2": null,
+"reco_CU2_slide1": "#bilan_seno_femme"",
+"reco_CU2_slide2": null
+},
+"clinical_finding_endovaginal_status": {
+"deck_CU1_slide1": "#bilan_seno_femme"",
+"deck_CU1_slide2": null,
+"deck_CU2_slide1": "#bilan_seno_femme"",
+"deck_CU2_slide2": null,
+"reco_CU1_slide1": "#bilan_seno_femme"",
+"reco_CU1_slide2": null,
+"reco_CU2_slide1": "#bilan_seno_femme"",
+"reco_CU2_slide2": null
+},
 "clinical_finding_bladder_status": {
 "deck_CU1_slide1": "#echorein",
 "deck_CU1_slide2": null,
