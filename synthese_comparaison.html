@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Synthèse Bilan Zoī — Comparaison Original / Enrichi</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600;8..60,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F4F4F0;
+    --text: #1a1a1a;
+    --text-muted: #6b6b6b;
+    --accent: #2d5a3d;
+    --accent-light: #e8f5ec;
+    --added-bg: #e6f9ed;
+    --added-border: #34a853;
+    --added-text: #1b6e32;
+    --card-left: #ffffff;
+    --card-right: #fcfef9;
+    --border: #e0e0db;
+    --section-num: #c2d6c8;
+    --col-label-left: #8a8a8a;
+    --col-label-right: var(--accent);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 13.5px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Header */
+  .top-header {
+    background: #fff;
+    border-bottom: 2px solid var(--accent);
+    padding: 24px 32px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  }
+
+  .top-header-inner {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .top-header .logo {
+    font-family: 'Source Serif 4', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .top-header .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .top-header .meta strong { color: var(--text); font-weight: 600; }
+
+  .legend-bar {
+    max-width: 1500px;
+    margin: 20px auto 0;
+    padding: 0 24px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12.5px;
+    font-weight: 500;
+  }
+
+  .legend-dot {
+    width: 14px; height: 14px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  .legend-dot.original { background: var(--card-left); border: 1px solid var(--border); }
+  .legend-dot.enriched { background: var(--added-bg); border: 1px solid var(--added-border); }
+
+  /* Main grid */
+  .page {
+    max-width: 1500px;
+    margin: 24px auto 80px;
+    padding: 0 24px;
+  }
+
+  /* Section titles */
+  .section-title {
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 32px 0 16px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .section-title .num {
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--section-num);
+    line-height: 1;
+    font-family: 'Source Serif 4', serif;
+  }
+
+  /* Column headers */
+  .col-headers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 8px;
+    position: sticky;
+    top: 82px;
+    z-index: 50;
+  }
+
+  .col-header {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .col-header.left {
+    color: var(--col-label-left);
+    background: var(--card-left);
+    border-bottom: 2px solid var(--border);
+  }
+
+  .col-header.right {
+    color: var(--col-label-right);
+    background: var(--card-right);
+    border-bottom: 2px solid var(--added-border);
+  }
+
+  /* Row pair */
+  .row-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 6px;
+  }
+
+  .cell {
+    padding: 14px 18px;
+    border-radius: 6px;
+    text-align: justify;
+    hyphens: auto;
+    transition: box-shadow 0.2s;
+  }
+
+  .cell:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+
+  .cell.left {
+    background: var(--card-left);
+    border: 1px solid var(--border);
+  }
+
+  .cell.right {
+    background: var(--card-right);
+    border: 1px solid #d4e8d8;
+  }
+
+  /* Empty cell for new paragraphs that don't exist in original */
+  .cell.empty {
+    background: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 8px,
+      #f0f0ec 8px,
+      #f0f0ec 9px
+    );
+    border: 1px dashed #d0d0cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bbb;
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  /* Added text highlight */
+  .added {
+    background: var(--added-bg);
+    color: var(--added-text);
+    padding: 1px 4px;
+    border-radius: 3px;
+    border-bottom: 2px solid var(--added-border);
+    font-weight: 500;
+  }
+
+  .added-block {
+    background: var(--added-bg);
+    color: var(--added-text);
+    padding: 10px 14px;
+    border-radius: 5px;
+    border-left: 3px solid var(--added-border);
+  }
+
+  .val { font-weight: 600; white-space: nowrap; }
+
+  /* Footer */
+  footer {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px 24px;
+    border-top: 1px solid var(--border);
+    font-size: 11px;
+    color: var(--text-muted);
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    .row-pair, .col-headers { grid-template-columns: 1fr; }
+    .col-headers { display: none; }
+    .cell.left { border-left: 3px solid var(--border); }
+    .cell.right { border-left: 3px solid var(--added-border); }
+    .cell.left::before, .cell.right::before {
+      display: block;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .cell.left::before { content: "Original"; color: var(--col-label-left); }
+    .cell.right::before { content: "Enrichi"; color: var(--col-label-right); }
+    .cell.empty { min-height: 40px; }
+  }
+
+  @media print {
+    .top-header { position: static; box-shadow: none; }
+    .col-headers { position: static; }
+    .cell:hover { box-shadow: none; }
+    .added, .added-block { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top-header">
+  <div class="top-header-inner">
+    <div>
+      <div class="logo">Zoī</div>
+    </div>
+    <div class="meta">
+      <span><strong>Patient :</strong> Antoine RAFFRAY</span>
+      <span><strong>Bilan :</strong> 19/11/2025</span>
+      <span><strong>Médecin :</strong> Dr Sanrey</span>
+      <span><strong>Protocole :</strong> Optimization</span>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+
+  <div class="legend-bar">
+    <div class="legend-item"><span class="legend-dot original"></span> Texte original</div>
+    <div class="legend-item"><span class="legend-dot enriched"></span> Enrichissements ajoutés depuis les données du bilan</div>
+  </div>
+
+  <!-- ===================== SECTION 1 ===================== -->
+  <div class="section-title"><span class="num">1</span> Synthèse des objectifs</div>
+
+  <div class="col-headers">
+    <div class="col-header left">Texte original</div>
+    <div class="col-header right">Texte enrichi</div>
+  </div>
+
+  <div class="row-pair">
+    <div class="cell left">
+      Votre objectif lors de ce bilan était de vérifier votre état de santé global, notamment votre forme physique, votre équilibre nutritionnel, votre santé cardiovasculaire, la qualité de votre ossature, et d'identifier les axes d'optimisation possibles pour préserver votre capital santé et performance à long terme.
+    </div>
+    <div class="cell right">
+      Votre objectif lors de ce bilan était de vérifier votre état de santé global, notamment votre forme physique, votre équilibre nutritionnel, votre santé cardiovasculaire, la qualité de votre ossature, et d'identifier les axes d'optimisation possibles pour préserver votre capital santé et performance à long terme.
+      <span class="added">Vous aviez exprimé vouloir en savoir plus sur votre santé, augmenter votre niveau d'énergie, renforcer votre système immunitaire, améliorer votre gestion du stress, favoriser votre sommeil et rééquilibrer votre alimentation. Vous évaluez vous-même votre état de santé comme « très bon » et êtes très attentif à votre corps.</span>
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 2 ===================== -->
+  <div class="section-title"><span class="num">2</span> Explications des points d'attention</div>
+
+  <div class="col-headers">
+    <div class="col-header left">Texte original</div>
+    <div class="col-header right">Texte enrichi</div>
+  </div>
+
+  <!-- Composition corporelle -->
+  <div class="row-pair">
+    <div class="cell left">
+      Concernant votre composition corporelle, votre indice de masse corporelle (IMC) est parfaitement situé, ce qui signifie que vous avez un poids adapté à votre taille et aucune situation de surpoids à surveiller. Votre composition corporelle montre une diminution de la masse grasse et une augmentation de la masse maigre par rapport à l'an dernier. C'est un bon signe, reflétant probablement votre activité physique régulière.
+    </div>
+    <div class="cell right">
+      Concernant votre composition corporelle, votre indice de masse corporelle (IMC) est <span class="added">à <span class="val">20,1 kg/m²</span></span>, parfaitement situé <span class="added">dans la zone de poids santé pour votre taille de <span class="val">177 cm</span> et votre poids de <span class="val">63 kg</span></span>, ce qui signifie que vous avez un poids adapté à votre taille et aucune situation de surpoids à surveiller.
+      <span class="added">Votre masse grasse mesurée par DEXA est particulièrement basse à <span class="val">11,4 %</span> (soit environ 6 856 g), avec une masse maigre élevée à <span class="val">84,2 %</span> (53 481 g) — un profil qui témoigne clairement d'une activité physique régulière (vous déclarez plus de 5 heures par semaine). Votre tour de taille est de <span class="val">74 cm</span>, parfaitement dans les normes, et votre tissu adipeux viscéral est très faible à <span class="val">123 g</span>, un excellent indicateur de santé métabolique. La répartition androïde (6,9 %) et gynoïde (11,8 %) de votre masse grasse est équilibrée.</span>
+    </div>
+  </div>
+
+  <!-- Densité osseuse -->
+  <div class="row-pair">
+    <div class="cell left">
+      Votre densité osseuse est solide, ce qui est idéal car elle tend naturellement à diminuer avec l'âge. Maintenir une bonne densité osseuse aujourd'hui vous protège pour l'avenir.
+    </div>
+    <div class="cell right">
+      Votre densité osseuse est solide, <span class="added">avec des T-scores très favorables : <span class="val">+2,7</span> au fémur gauche, <span class="val">+2,2</span> au fémur droit, et <span class="val">+0,4</span> au rachis</span>. C'est idéal car elle tend naturellement à diminuer avec l'âge. Maintenir une bonne densité osseuse aujourd'hui vous protège pour l'avenir.
+    </div>
+  </div>
+
+  <!-- Vitamines -->
+  <div class="row-pair">
+    <div class="cell left">
+      Du côté des marqueurs nutritionnels, votre vitamine D est légèrement à la limite basse, sans être une réelle carence, mais il est indiqué de la soutenir en hiver.
+    </div>
+    <div class="cell right">
+      Du côté des marqueurs nutritionnels, votre vitamine D est <span class="added">à <span class="val">44,5 µg/L</span>, très légèrement sous le seuil optimal de 45 µg/L</span>, sans être une réelle carence, mais il est indiqué de la soutenir en hiver.
+      <span class="added">Vos autres vitamines sont bien situées : vitamine B9 à <span class="val">504 µg/L</span> (norme 280–791), vitamine B12 à <span class="val">469 ng/L</span> (norme 300–835), vitamine A à <span class="val">60 µg/dL</span> (norme 39–113), vitamine E à <span class="val">10,5 µg/mL</span> (norme 10–19).</span>
+    </div>
+  </div>
+
+  <!-- Cardiovasculaire -->
+  <div class="row-pair">
+    <div class="cell left">
+      Votre bilan cardiovasculaire est rassurant : la tension, le cholestérol, les graisses sanguines et les marqueurs de risque sont tous dans de bons niveaux, à part une homocystéine légèrement élevée, qui pourra aisément être contrôlée par un apport en vitamines du groupe B.
+    </div>
+    <div class="cell right">
+      Votre bilan cardiovasculaire est rassurant : <span class="added">votre tension artérielle est optimale à <span class="val">107/69 mmHg</span>, avec une fréquence cardiaque au repos remarquablement basse à <span class="val">46 bpm</span>, reflet de votre bon entraînement. Votre cholestérol total est à <span class="val">147 mg/dL</span> (norme 120–200), le LDL à <span class="val">67 mg/dL</span> (norme &lt; 114), le HDL à <span class="val">65 mg/dL</span> (norme &gt; 40) et les triglycérides à <span class="val">73 mg/dL</span> (norme 30–170). L'indice athérogénique est bas à <span class="val">2,26</span>, ce qui est protecteur. Votre CRP ultra-sensible est à <span class="val">0,52 mg/L</span> (norme &lt; 1), témoignant d'une absence d'inflammation systémique. Le score de risque cardiovasculaire SCORE2 est très bas à <span class="val">0,28 %</span>.</span> En revanche, votre homocystéine est <span class="added">à <span class="val">12 µmol/L</span>, au-dessus du seuil optimal de 8 µmol/L</span>, qui pourra aisément être contrôlée par un apport en vitamines du groupe B <span class="added">(un complément « Homocysteine Control » vous a été prescrit pour 1 mois)</span>.
+    </div>
+  </div>
+
+  <!-- Oméga-3 -->
+  <div class="row-pair">
+    <div class="cell left">
+      Vos apports en « bonnes graisses », notamment en oméga-3, sont clairement perfectibles. Les oméga-3 apportent une protection importante pour le cœur, le cerveau et la vue. Vous pouvez les trouver dans les poissons gras (maquereau, sardine, hareng) ou certaines graines et œufs de qualité.
+    </div>
+    <div class="cell right">
+      Vos apports en « bonnes graisses », notamment en oméga-3, sont clairement perfectibles.
+      <span class="added">Votre index oméga-3 est à <span class="val">5,32 %</span> alors que la cible optimale se situe entre 7,5 et 10 %. Vos trois principaux oméga-3 sont tous en dessous des normes : l'EPA à <span class="val">0,58 %</span> (cible 0,75–2,34), le DHA à <span class="val">4,74 %</span> (cible 5,27–8,87) et l'ALA à <span class="val">0,07 %</span> (cible 0,14–0,29). Le ratio AA/EPA est élevé à <span class="val">21,83</span> (cible 5–10) et le ratio ω6/ω3 est à <span class="val">4,53</span> (cible 1–4), confirmant un déséquilibre en faveur des oméga-6.</span>
+      Les oméga-3 apportent une protection importante pour le cœur, le cerveau et la vue. Vous pouvez les trouver dans les poissons gras (maquereau, sardine, hareng) ou certaines graines et œufs de qualité.
+      <span class="added">Un complément de Bourrache (1 gélule/jour pendant 3 mois) vous a également été prescrit pour rééquilibrer le profil en acides gras.</span>
+    </div>
+  </div>
+
+  <!-- Fer & Zinc -->
+  <div class="row-pair">
+    <div class="cell left">
+      Du côté du fer, votre stock est un peu en dessous du niveau optimal, ce qui peut être lié à une faible consommation de viande rouge, sans être un déficit préoccupant. Votre taux de zinc est aussi bas, ce qui peut impacter l'immunité et la récupération ; un complément alimentaire est prescrit pour y remédier.
+    </div>
+    <div class="cell right">
+      Du côté du fer, votre stock est un peu en dessous du niveau optimal, <span class="added">avec une ferritine à <span class="val">39 µg/L</span> (seuil optimal 50 µg/L)</span>, ce qui peut être lié à une faible consommation de viande rouge, sans être un déficit préoccupant.
+      <span class="added">On note cependant que votre fer sérique est élevé à <span class="val">176 µg/dL</span> (norme 60–160) et le coefficient de saturation de la transferrine à <span class="val">47,8 %</span> (norme 25–50), suggérant une bonne absorption mais un stockage insuffisant.</span>
+      Votre taux de zinc est aussi bas, <span class="added">à <span class="val">85 µg/dL</span> (norme 88–146)</span>, ce qui peut impacter l'immunité et la récupération ; <span class="added">du Rubozinc 15 mg (2 gélules/jour pendant 3 mois, à distance des repas)</span> est prescrit pour y remédier.
+      <span class="added">Le cuivre est aussi légèrement bas à <span class="val">71 µg/dL</span> (norme 86–148), avec un ratio cuivre/zinc à <span class="val">0,84</span> (cible 1–1,17) à surveiller. Le sélénium est correct à <span class="val">97 µg/L</span> (norme 90–143).</span>
+    </div>
+  </div>
+
+  <!-- Digestif -->
+  <div class="row-pair">
+    <div class="cell left">
+      Au niveau digestif, il serait pertinent d'encourager un microbiote intestinal plus équilibré : cela passe par la consommation régulière de légumes variés, de préférence cuits (particulièrement à l'extérieur ou en cas de doute sur la qualité des crudités). Également, des aliments fermentés comme le kéfir ou des yaourts peuvent renforcer votre microbiote.
+    </div>
+    <div class="cell right">
+      Au niveau digestif, <span class="added">les tests respiratoires (hydrogène, composés organiques volatils, oxyde nitrique) ne montrent pas de dysbiose majeure, mais</span> il serait pertinent d'encourager un microbiote intestinal plus équilibré : cela passe par la consommation régulière de légumes variés, de préférence cuits (particulièrement à l'extérieur ou en cas de doute sur la qualité des crudités). Également, des aliments fermentés comme le kéfir ou des yaourts peuvent renforcer votre microbiote.
+    </div>
+  </div>
+
+  <!-- Hormones — NOUVEAU -->
+  <div class="row-pair">
+    <div class="cell left empty">Pas de paragraphe correspondant dans l'original</div>
+    <div class="cell right">
+      <div class="added-block">
+        <strong>Profil hormonal :</strong> votre testostérone totale est à <span class="val">9 022 ng/L</span> (norme 3 000–10 000), un excellent niveau. La testostérone libre est à <span class="val">246 ng/L</span> (norme 50–280) avec cependant une SHBG élevée à <span class="val">73 nmol/L</span> (norme 12–55), ce qui peut limiter la fraction biodisponible. La DHEA sulfate est à <span class="val">298 µg/dL</span> (norme 200–610) et la prégnénolone à <span class="val">3,05 µg/L</span> (norme 1,17–7,72), dans les normes. La TSH est à <span class="val">1,05 mU/L</span> (norme 0,5–4,8), T3 libre à <span class="val">5,21 pmol/L</span> (norme 3,5–6,5) — votre thyroïde fonctionne bien. La T4 libre est légèrement au-dessus à <span class="val">24,13 pmol/L</span> (norme 11,5–22,7), sans signification clinique isolée.
+      </div>
+    </div>
+  </div>
+
+  <!-- Métabolisme glucidique — NOUVEAU -->
+  <div class="row-pair">
+    <div class="cell left empty">Pas de paragraphe correspondant dans l'original</div>
+    <div class="cell right">
+      <div class="added-block">
+        <strong>Métabolisme glucidique :</strong> votre glycémie à jeun est à <span class="val">74 mg/dL</span>, votre insulinémie basse à <span class="val">18 pmol/L</span>, et votre index HOMA à <span class="val">0,47</span> — vous n'avez aucun signe de résistance à l'insuline.
+      </div>
+    </div>
+  </div>
+
+  <!-- Autres paramètres -->
+  <div class="row-pair">
+    <div class="cell left">
+      Les autres paramètres, notamment le fonctionnement de la thyroïde, du pancréas, le stress oxydant, l'âge biologique, la variabilité cardiaque et la force musculaire sont rassurants et traduisent une bonne hygiène de vie globale. Quelques axes d'optimisation sont à considérer, principalement sur l'enrichissement de l'alimentation (oméga-3, zinc, fer) et la part de renforcement musculaire dans votre entraînement.
+    </div>
+    <div class="cell right">
+      Les autres paramètres, notamment le fonctionnement de la thyroïde, du pancréas, le stress oxydant, l'âge biologique, la variabilité cardiaque et la force musculaire sont rassurants et traduisent une bonne hygiène de vie globale.
+      <span class="added">Votre âge biologique estimé par PhenoAge est de <span class="val">14,7 ans</span>, soit bien en dessous de votre âge chronologique de 26 ans — un excellent marqueur. Le score de somnolence (Epworth) est à <span class="val">5</span>, dans la zone optimale, sans signe d'apnées du sommeil. Vous signalez toutefois une fatigue principalement matinale et une sensibilité au froid (mains, pieds).</span>
+      Quelques axes d'optimisation sont à considérer, principalement sur l'enrichissement de l'alimentation (oméga-3, zinc, fer) et la part de renforcement musculaire dans votre entraînement.
+    </div>
+  </div>
+
+  <!-- Force — NOUVEAU -->
+  <div class="row-pair">
+    <div class="cell left empty">Pas de paragraphe correspondant dans l'original</div>
+    <div class="cell right">
+      <div class="added-block">
+        <strong>Force musculaire :</strong> votre force de préhension est mesurée à <span class="val">39,5 kg</span> (main droite) et <span class="val">38,9 kg</span> (main gauche), avec une bonne symétrie (1,6 % d'asymétrie). Ces valeurs sont cependant en dessous de l'optimum pour votre profil et peuvent être améliorées par un renforcement musculaire ciblé.
+      </div>
+    </div>
+  </div>
+
+  <!-- Antioxydant — NOUVEAU -->
+  <div class="row-pair">
+    <div class="cell left empty">Pas de paragraphe correspondant dans l'original</div>
+    <div class="cell right">
+      <div class="added-block">
+        <strong>Stress oxydant :</strong> le pouvoir antioxydant calculé est correct à <span class="val">0,8 mmol/L</span> (norme 0,53–0,95), le stress oxydant avancé (AGE reader) est normal à <span class="val">1,4</span>, et vos anticorps anti-LDL oxydées sont à <span class="val">266 U/L</span> (norme &lt; 600). Votre PSA est à <span class="val">0,29 µg/L</span>, parfaitement normal.
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 3 ===================== -->
+  <div class="section-title"><span class="num">3</span> Plan d'action personnalisé</div>
+
+  <div class="col-headers">
+    <div class="col-header left">Texte original</div>
+    <div class="col-header right">Texte enrichi</div>
+  </div>
+
+  <!-- Vitamine D -->
+  <div class="row-pair">
+    <div class="cell left">
+      Pour l'hiver, prenez une ampoule de vitamine D chaque mois pendant 4 à 6 mois afin de soutenir votre immunité et votre capital osseux.
+    </div>
+    <div class="cell right">
+      Pour l'hiver, prenez une ampoule de <span class="added">ZYMAD 50 000 UI</span> chaque mois pendant <span class="added">6</span> mois <span class="added">, au cours d'un repas,</span> afin de soutenir votre immunité et votre capital osseux <span class="added">(vitamine D actuelle à 44,5 µg/L)</span>.
+    </div>
+  </div>
+
+  <!-- Activité physique -->
+  <div class="row-pair">
+    <div class="cell left">
+      Poursuivez vos activités physiques en veillant à bien intégrer au moins un tiers de séances de renforcement musculaire (musculation, exercices fonctionnels).
+    </div>
+    <div class="cell right">
+      Poursuivez vos activités physiques <span class="added">(actuellement &gt; 5 h/semaine)</span> en veillant à bien intégrer au moins un tiers de séances de renforcement musculaire (musculation, exercices fonctionnels) <span class="added">pour améliorer votre force de préhension (actuellement ~39 kg, améliorable)</span>.
+    </div>
+  </div>
+
+  <!-- Oméga-3 alimentation -->
+  <div class="row-pair">
+    <div class="cell left">
+      Variez vos sources de protéines et augmentez votre apport en poissons gras (maquereau, sardines, harengs) pour améliorer votre taux d'oméga-3. Ajoutez éventuellement des graines de lin ou de chia, et privilégiez les œufs bio qui en contiennent aussi plus. Maintenez votre consommation d'huile d'olive, qui est excellente pour vous.
+    </div>
+    <div class="cell right">
+      Variez vos sources de protéines et augmentez votre apport en poissons gras (maquereau, sardines, harengs) pour <span class="added">remonter votre index oméga-3 de 5,3 % vers la cible de 7,5–10 %</span>. Ajoutez éventuellement des graines de lin ou de chia, et privilégiez les œufs bio qui en contiennent aussi plus. <span class="added">Prenez le complément de Bourrache prescrit (1 gélule/jour pendant 3 mois).</span> Maintenez votre consommation d'huile d'olive, qui est excellente pour vous.
+    </div>
+  </div>
+
+  <!-- Zinc -->
+  <div class="row-pair">
+    <div class="cell left">
+      Pour l'enrichissement en zinc, prenez le complément prescrit et intégrez plus de graines de courge, légumineuses ou fruits de mer si vous en avez l'occasion.
+    </div>
+    <div class="cell right">
+      Pour l'enrichissement en zinc <span class="added">(<span class="val">85 µg/dL</span>, cible &gt; 88)</span>, prenez le <span class="added">Rubozinc 15 mg prescrit (2 gélules/jour pendant 3 mois, à distance des repas et du fer)</span> et intégrez plus de graines de courge, légumineuses ou fruits de mer si vous en avez l'occasion.
+    </div>
+  </div>
+
+  <!-- Homocystéine — NOUVEAU -->
+  <div class="row-pair">
+    <div class="cell left empty">Pas de paragraphe correspondant dans l'original</div>
+    <div class="cell right">
+      <div class="added-block">
+        Pour l'homocystéine (<span class="val">12 µmol/L</span>, cible &lt; 8), prenez le complément Homocysteine Control (2 gélules/jour pendant 1 mois) riche en vitamines B.
+      </div>
+    </div>
+  </div>
+
+  <!-- Fer -->
+  <div class="row-pair">
+    <div class="cell left">
+      Pour le fer, introduisez si possible une portion de viande rouge supplémentaire dans la semaine.
+    </div>
+    <div class="cell right">
+      Pour le fer, <span class="added">votre ferritine à <span class="val">39 µg/L</span> mérite attention :</span> introduisez si possible une portion de viande rouge supplémentaire dans la semaine.
+    </div>
+  </div>
+
+  <!-- Légumes & microbiote -->
+  <div class="row-pair">
+    <div class="cell left">
+      Adoptez une alimentation riche en légumes de saison, avec une préférence pour des légumes bien lavés et cuits en dehors de chez vous. Enfin, privilégiez la consommation d'aliments fermentés (kéfir, yaourts, kombucha) pour renforcer votre microbiote.
+    </div>
+    <div class="cell right">
+      Adoptez une alimentation riche en légumes de saison, avec une préférence pour des légumes bien lavés et cuits en dehors de chez vous. Enfin, privilégiez la consommation d'aliments fermentés (kéfir, yaourts, kombucha) pour renforcer votre microbiote.
+    </div>
+  </div>
+
+  <!-- Produits synthétiques — NOUVEAU -->
+  <div class="row-pair">
+    <div class="cell left empty">Pas de paragraphe correspondant dans l'original</div>
+    <div class="cell right">
+      <div class="added-block">
+        Diminuez votre exposition aux produits ménagers synthétiques en les remplaçant par des alternatives naturelles, et limitez les boissons light.
+      </div>
+    </div>
+  </div>
+
+  <!-- Cohérence cardiaque & conclusion -->
+  <div class="row-pair">
+    <div class="cell left">
+      Si vous traversez une période de stress, la pratique de la cohérence cardiaque peut vous être utile. Vous retrouverez ces recommandations, ainsi que vos ordonnances et compléments, dans votre application. N'hésitez pas à relire régulièrement votre synthèse et à effectuer le suivi dans votre espace dédié pour maximiser les bénéfices de ce programme bien-être.
+    </div>
+    <div class="cell right">
+      Si vous traversez une période de stress <span class="added">ou ressentez cette fatigue matinale</span>, la pratique de la cohérence cardiaque peut vous être utile. Vous retrouverez ces recommandations, ainsi que vos ordonnances et compléments, dans votre application <span class="added">Zoī</span>. N'hésitez pas à relire régulièrement votre synthèse et à effectuer le suivi dans votre espace dédié pour maximiser les bénéfices de ce programme bien-être.
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Synthèse générée à partir du bilan Zoī du 19/11/2025 — Document à usage personnel — Comparaison original / enrichi
+</footer>
+
+</body>
+</html>
