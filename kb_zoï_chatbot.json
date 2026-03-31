@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "langue": "fr",
+    "usage": "Chatbot IA Zoī — réponses aux questions fréquentes"
+  },
+
+  "escalation_message": "Merci pour votre retour, nous allons revenir vers vous dans les plus brefs délais.",
+  "fin_message": "Très bien, à bientôt.",
+
+  "topics": [
+
+    {
+      "id": "preparation_checkup",
+      "label": "Préparation au check-up",
+      "entries": [
+        {
+          "id": "kb_001",
+          "questions": [
+            "Quand faire mes auto-prélèvements ?",
+            "Comment fonctionnent les auto-prélèvements ?",
+            "Mon kit d'auto-prélèvement"
+          ],
+          "response": "Les auto-prélèvements sont à réaliser la veille de votre check-up, dès votre réveil. Une notice dans votre kit vous guidera. Ce kit est livré à l'adresse indiquée dans l'application quelques jours avant votre check-up.",
+          "escalade_si": ["Kit non reçu", "Erreur lors du protocole"]
+        },
+        {
+          "id": "kb_002",
+          "questions": [
+            "Que manger la veille ?",
+            "Puis-je boire de l'alcool la veille ?",
+            "Dois-je éviter le sport avant le check-up ?",
+            "Consignes la veille du check-up"
+          ],
+          "response": "La veille du check-up :\n- Pas de sport (fausse les facteurs inflammatoires)\n- Repas autorisé : riz ou pommes de terre à l'eau, viande blanche / œufs / poisson, sans additifs ni légumes ni dessert\n- Pas d'alcool, ni boissons gazeuses ou sucrées\n- Eau plate, thé/tisane ou café sans lait ni sucre uniquement\nNe pas respecter ce régime fausse l'examen du microbiote."
+        },
+        {
+          "id": "kb_003",
+          "questions": [
+            "Que faire le matin du check-up ?",
+            "Puis-je manger le jour J ?",
+            "Puis-je me brosser les dents ?",
+            "Puis-je prendre mes médicaments ?",
+            "Que dois-je apporter ?"
+          ],
+          "response": "2 heures avant l'examen :\n- Ne pas fumer ni manger\n- Se brosser les dents sans dentifrice\n- Médicaments habituels autorisés\n- Prévoir : auto-prélèvements, maillot de bain, étui à lentilles/lunettes si besoin\n- Vernis à ongles clairs ou translucides (le vernis foncé gêne la lecture HRV)"
+        },
+        {
+          "id": "kb_004",
+          "questions": [
+            "Où trouver toutes les consignes de préparation ?",
+            "Où sont les infos de préparation dans l'app ?"
+          ],
+          "response": "Les consignes sont dans la notice d'auto-prélèvement livrée chez vous, et dans l'application dans l'onglet 'Mon Rendez-vous'."
+        },
+        {
+          "id": "kb_005",
+          "questions": [
+            "Où remplir le questionnaire de santé ?",
+            "Quand remplir le questionnaire ?",
+            "C'est quoi le questionnaire 'Faisons connaissance' ?"
+          ],
+          "response": "Le questionnaire de santé 'Faisons connaissance' est dans l'application. Il aborde vos antécédents familiaux et habitudes de vie. Il est essentiel pour préparer votre check-up et doit être complété environ 10 jours avant."
+        }
+      ]
+    },
+
+    {
+      "id": "mon_checkup",
+      "label": "Mon check-up",
+      "entries": [
+        {
+          "id": "kb_006",
+          "questions": [
+            "Quand est mon check-up ?",
+            "À quelle heure est mon rendez-vous ?",
+            "Où voir la date de mon rendez-vous ?"
+          ],
+          "response": "La date et l'heure sont dans l'application, onglet 'Mon rendez-vous'. Pour toute question : conciergerie du lundi au vendredi, 9h–18h."
+        },
+        {
+          "id": "kb_007",
+          "questions": [
+            "Où se déroule le check-up ?",
+            "Quelle est l'adresse du centre ?",
+            "Combien de temps dure le check-up ?"
+          ],
+          "response": "Le check-up dure environ 4h au centre Zoī Vendōme — 12 rue Volney, 75002 Paris. À l'arrivée, scannez le QR code sur la page d'accueil de l'application."
+        },
+        {
+          "id": "kb_008",
+          "questions": [
+            "Quand aurai-je mes résultats après le check-up ?",
+            "Que se passe-t-il après le check-up ?"
+          ],
+          "response": "Votre médecin établira votre plan d'action personnalisé après réception des résultats, présenté lors d'une consultation de restitution 4 à 6 semaines après le check-up. En cas d'urgence, votre médecin vous contacte avant. Tous les résultats et le plan d'action seront ensuite disponibles dans l'application."
+        },
+        {
+          "id": "kb_009",
+          "questions": [
+            "Où trouver mon QR code ?",
+            "Mon QR code ne fonctionne pas",
+            "Quand est disponible le QR code ?"
+          ],
+          "response": "Le QR code est sur la page d'accueil de l'application. Il est à usage unique, disponible 15 minutes avant l'heure du rendez-vous et actif pendant 45 minutes.",
+          "escalade_si": ["QR code non fonctionnel", "Problème d'accès au centre"]
+        }
+      ]
+    },
+
+    {
+      "id": "consultation_restitution",
+      "label": "Consultation de restitution",
+      "entries": [
+        {
+          "id": "kb_010",
+          "questions": [
+            "Comment planifier ma consultation de restitution ?",
+            "Dans combien de temps aurai-je ma consultation ?"
+          ],
+          "response": "La consultation se planifie dans l'application. Des créneaux avec votre médecin sont proposés 4 à 6 semaines après le check-up. Conciergerie disponible lundi–vendredi, 9h–18h."
+        },
+        {
+          "id": "kb_011",
+          "questions": [
+            "Combien de temps dure la consultation de restitution ?",
+            "Peut-elle se faire en visio ?",
+            "Comment accéder au lien de ma consultation ?"
+          ],
+          "response": "La consultation dure environ 1 heure, en présentiel au centre Vendōme ou en téléconsultation. Le lien et les infos pratiques sont dans l'email de confirmation."
+        },
+        {
+          "id": "kb_012_013",
+          "questions": [
+            "Où trouver mes résultats après la restitution ?",
+            "Mon plan d'action est disponible où ?",
+            "Je ne trouve pas mes résultats dans l'app"
+          ],
+          "response": "Résultats disponibles dans l'app : Bilan → Documents → Résultats (rapport de prévention, analyses biologiques, documents médicaux). Délai possible : 48 à 72h après la consultation. Tous les documents sont téléchargeables en PDF.\n\nNote : certains comptes rendus affichent un identifiant pseudonymisé au lieu de votre nom (voir attestation de correspondance, page 2 du rapport de check-up — Documents → Autres → Rapport de check-up)."
+        },
+        {
+          "id": "kb_014",
+          "questions": [
+            "Je ne trouve pas mes ordonnances",
+            "Quand seront disponibles mes ordonnances ?"
+          ],
+          "response": "Les ordonnances sont disponibles dans l'app (Mes Documents) dans les heures suivant la consultation, une fois finalisées par votre médecin."
+        },
+        {
+          "id": "kb_015",
+          "questions": [
+            "Mon rapport de check-up n'est pas disponible",
+            "Quand aurai-je mon rapport ?"
+          ],
+          "response": "Le rapport est disponible quelques jours après le check-up dans l'onglet Bilan de l'application."
+        }
+      ]
+    },
+
+    {
+      "id": "mon_plan_action",
+      "label": "Mon plan d'action",
+      "entries": [
+        {
+          "id": "kb_016",
+          "questions": [
+            "Où trouver mon plan d'action ?",
+            "C'est quoi le Life Journal ?"
+          ],
+          "response": "Le plan d'action est dans l'application, onglet Bilan. Les recommandations quotidiennes du médecin sont aussi accessibles dans le Life Journal."
+        },
+        {
+          "id": "kb_017_018",
+          "questions": [
+            "Quelle dose pour mes compléments alimentaires ?",
+            "Comment doser les compléments à base de champignons ?"
+          ],
+          "response": "Le dosage est indiqué sous le nom de chaque traitement dans le plan d'action.\n\nPour les compléments à base de champignons (Maïtake, Phellinus, Coriolus, Ganoderme, etc.) sans dosette fournie : 200 mg ≈ ¼ de cuillère à café."
+        },
+        {
+          "id": "kb_019",
+          "questions": [
+            "Où acheter mes compléments ?",
+            "Quelle pharmacie vend mes compléments ?"
+          ],
+          "response": "Liste des partenaires dans l'app : Bilan → Vos soins → 'Où acheter'.\n\nPharmacies partenaires :\n- Pharmacie des Ternes — 90 av. des Ternes, 75017 Paris — 01 45 74 17 43\n- Pharmacie Homéopathique Centrale — 126 rue de la Pompe, 75116 Paris — 01 47 27 99 08\n- Pharmacie de la Tour Eiffel — 24 rue de Monttessuy, 75007 Paris — 01 47 05 12 59"
+        }
+      ]
+    },
+
+    {
+      "id": "mes_resultats",
+      "label": "Mes résultats",
+      "entries": [
+        {
+          "id": "kb_020",
+          "questions": [
+            "Comment voir mes analyses biologiques ?",
+            "Où sont mes résultats d'analyses ?"
+          ],
+          "response": "Dans l'app : Bilan → Vos analyses biologiques. Cliquez sur une analyse pour le détail."
+        },
+        {
+          "id": "kb_021",
+          "questions": [
+            "Comment voir mes résultats d'examens ?"
+          ],
+          "response": "Dans l'app : Vos examens → cliquez sur l'examen souhaité."
+        },
+        {
+          "id": "kb_022_025",
+          "questions": [
+            "Comment télécharger mes résultats en PDF ?",
+            "Comment partager mes résultats par email ?",
+            "Comment envoyer mes documents à mon médecin traitant ?"
+          ],
+          "response": "Dans l'app : Bilan → Documents → bouton de partage (en haut à droite, entre '+' et la bulle de conversation) → sélectionnez les documents → bouton 'Partager' → envoyez par email ou via l'app de votre choix."
+        },
+        {
+          "id": "kb_023",
+          "questions": [
+            "Quand seront disponibles mes résultats ?",
+            "Mes résultats ne sont pas encore disponibles"
+          ],
+          "response": "Les résultats et le plan d'action sont disponibles dans les heures suivant la consultation de restitution. Certains documents (analyses, rapport complet) peuvent prendre 48 à 72h supplémentaires."
+        },
+        {
+          "id": "kb_024",
+          "questions": [
+            "Puis-je voir mes résultats avant la consultation de restitution ?"
+          ],
+          "response": "Les résultats ne sont pas partagés avant la consultation. Ils nécessitent une interprétation médicale. Votre médecin vous les présentera lors de la restitution, puis ils seront disponibles dans l'app dans les 48 à 72h suivantes."
+        },
+        {
+          "id": "kb_026",
+          "questions": [
+            "Ce n'est pas mon nom sur mes résultats",
+            "Pourquoi un identifiant à la place de mon nom ?"
+          ],
+          "response": "Pour des raisons de confidentialité, certains comptes rendus affichent un identifiant pseudonymisé. Une attestation de correspondance est disponible page 2 du rapport de check-up (Documents → Autres → Rapport de check-up)."
+        },
+        {
+          "id": "kb_027",
+          "questions": [
+            "Comment ajouter un document dans mon dossier ?"
+          ],
+          "response": "Dans l'app : Documents → '+' en haut à droite → sélectionnez le fichier depuis votre téléphone."
+        }
+      ]
+    }
+
+  ]
+}
